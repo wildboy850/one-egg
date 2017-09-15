@@ -1,0 +1,211 @@
+@charset "UTF-8";
+/*! normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css */
+html { font-family: sans-serif; -ms-text-size-adjust: 100%; -webkit-text-size-adjust: 100%; }
+
+body { margin: 0; }
+
+article, aside, details, figcaption, figure, footer, header, hgroup, main, menu, nav, section, summary { display: block; }
+
+audio, canvas, progress, video { display: inline-block; vertical-align: baseline; }
+
+audio:not([controls]) { display: none; height: 0; }
+
+[hidden], template { display: none; }
+
+a { background-color: transparent; }
+
+a:active, a:hover { outline: 0; }
+
+abbr[title] { border-bottom: 1px dotted; }
+
+b, strong { font-weight: bold; }
+
+dfn { font-style: italic; }
+
+h1 { font-size: 2em; margin: 0.67em 0; }
+
+mark { background: #ff0; color: #000; }
+
+small { font-size: 80%; }
+
+sub, sup { font-size: 75%; line-height: 0; position: relative; vertical-align: baseline; }
+
+sup { top: -0.5em; }
+
+sub { bottom: -0.25em; }
+
+img { border: 0; }
+
+svg:not(:root) { overflow: hidden; }
+
+figure { margin: 1em 40px; }
+
+hr { box-sizing: content-box; height: 0; }
+
+pre { overflow: auto; }
+
+code, kbd, pre, samp { font-family: monospace, monospace; font-size: 1em; }
+
+button, input, optgroup, select, textarea { color: inherit; font: inherit; margin: 0; }
+
+button { overflow: visible; }
+
+button, select { text-transform: none; }
+
+button, html input[type="button"], input[type="reset"], input[type="submit"] { -webkit-appearance: button; cursor: pointer; }
+
+button[disabled], html input[disabled] { cursor: default; }
+
+button::-moz-focus-inner, input::-moz-focus-inner { border: 0; padding: 0; }
+
+input { line-height: normal; }
+
+input[type="checkbox"], input[type="radio"] { box-sizing: border-box; padding: 0; }
+
+input[type="number"]::-webkit-inner-spin-button, input[type="number"]::-webkit-outer-spin-button { height: auto; }
+
+input[type="search"] { -webkit-appearance: textfield; box-sizing: content-box; }
+
+input[type="search"]::-webkit-search-cancel-button, input[type="search"]::-webkit-search-decoration { -webkit-appearance: none; }
+
+fieldset { border: 1px solid #c0c0c0; margin: 0 2px; padding: 0.35em 0.625em 0.75em; }
+
+legend { border: 0; padding: 0; }
+
+textarea { overflow: auto; }
+
+optgroup { font-weight: bold; }
+
+table { border-collapse: collapse; border-spacing: 0; }
+
+td, th { padding: 0; }
+
+body { font: 14px/1.5 arial, "微软雅黑", "Hiragino Sans GB", sans-serif; position: relative; }
+
+ul, li { list-style: none; }
+
+.fl { float: left; display: inline; }
+
+.fr { float: right; display: inline; }
+
+a, area, input { outline: none; blr: expression(this.onFocus=this.blur()); }
+
+a:focus, area:focus, input:focus { outline: none; }
+
+.tips { display: block; text-align: center; font: bold 20px/30px 'microsoft yahei'; color: #fff; margin: 0 auto; padding: 30px 0; }
+
+.loading { display: block; margin: 0 auto; padding: 30px 0; }
+
+.main { margin: 0 auto; padding: 0; width: 1000px; height: auto; position: relative; }
+
+.wraper { width: 100%; height: auto; }
+.wraper img { display: block; }
+.wraper .tit img { margin: 0 auto; }
+.wraper .con { margin: 0 auto; }
+.wraper .more { padding: 0 35px; display: block; }
+.wraper .more img { margin: 0 auto; }
+.wraper .more span { font-family: "SimHei"; }
+.wraper .wid { width: 100%; height: auto; }
+.wraper .wraper01 { height: 1234px; background-color: #fff; background-image: url("../images/bg01.jpg"); background-repeat: no-repeat; background-position: top center; }
+.wraper .wraper02 { height: 1453px; background-color: #fff; background-image: url("../images/bg02.jpg"); background-repeat: no-repeat; background-position: top center; }
+.wraper .wraper03 { height: 1429px; background-color: #fff; background-image: url("../images/bg03.jpg"); background-repeat: no-repeat; background-position: top center; }
+.wraper .wraper04 { height: 1413px; background-color: #fff; background-image: url("../images/bg04.jpg"); background-repeat: no-repeat; background-position: top center; }
+.wraper .wraper05 { height: 426px; background-color: #fff; background-image: url("../images/bg05.jpg"); background-repeat: no-repeat; background-position: top center; }
+.wraper .wraper06 { height: 846px; background-color: #fff; background-image: url("../images/bg06.jpg"); background-repeat: no-repeat; background-position: top center; }
+.wraper .wraper07 { height: 582px; background-color: #fff; background-image: url("../images/bg07.jpg"); background-repeat: no-repeat; background-position: top center; }
+
+.banner-box { width: 100%; height: auto; }
+.banner-box .banner { width: 100%; height: 104px; background-repeat: no-repeat; background-position: top center; background-color: #fff; }
+.banner-box .banner .main { height: 104px; position: relative; }
+.banner-box .banner .main a { position: absolute; display: block; cursor: pointer; }
+.banner-box .banner .main img { margin: 0 auto; display: block; }
+.banner-box .banner1 { background-image: url(../images/banner_01.jpg); }
+.banner-box .banner2 { background-image: url(../images/banner_02.jpg); }
+.banner-box .banner3 { background-image: url(../images/banner_03.jpg); }
+.banner-box .banner4 { background-image: url(../images/banner_04.jpg); }
+.banner-box .banner5 { background-image: url(../images/banner_05.jpg); }
+
+.itemthree { overflow: hidden; float: left; width: 320px; height: 357px; margin-right: 20px; margin-bottom: 20px; background: #fff; }
+.itemthree .fl { display: block; width: 320px; height: 240px; position: relative; }
+.itemthree .fl .corner { position: absolute; left: -8px; top: 17px; width: 80px; height: 39px; }
+.itemthree .fl img { display: block; width: 320px; height: 240px; }
+.itemthree .fl p { position: absolute; bottom: 0; _bottom: -1px; left: 0; width: 300px; height: 32px; line-height: 32px; padding: 36px 10px 0; font-family: "microsoft yahei", "PingFang SC", "Helvetica Neue", "Helvetica", "STHeitiSC-Light", "Arial", sans-serif; font-size: 12px; color: #fff; white-space: nowrap; text-overflow: ellipsis; -o-text-overflow: ellipsis; overflow: hidden; background: url(../images/line_bg.png) repeat-x bottom center; }
+.itemthree .fr { padding: 0 9px; float: left; width: 300px; height: 116px; border: 1px solid #e4e6ea; border-top: 0; }
+.itemthree .fr h3 { height: 40px; line-height: 20px; overflow: hidden; padding: 15px 0; }
+.itemthree .fr h3 a { font: 16px/20px "microsoft yahei", "PingFang SC", "Helvetica Neue", "Helvetica", "STHeitiSC-Light", "Arial", sans-serif; font-weight: bold; color: #5e6167; }
+.itemthree .fr h3 a:hover { color: #5e6167; }
+.itemthree .fr ul { display: none; width: 290px; padding: 0 15px; height: 26px; overflow: hidden; font-size: 16px; color: #777777; font-family: "microsoft yahei", "PingFang SC", "Helvetica Neue", "Helvetica", "STHeitiSC-Light", "Arial", sans-serif; }
+.itemthree .fr ul li { font-size: 16px; color: #777777; font-family: "microsoft yahei", "PingFang SC", "Helvetica Neue", "Helvetica", "STHeitiSC-Light", "Arial", sans-serif; }
+.itemthree .fr .clearfix { margin-top: 0; overflow: hidden; }
+.itemthree .fr .price { float: left; font-size: 24px; font-family: Impact; color: #f46687; font-weight: bold; }
+.itemthree .fr .price span { font-size: 18px; font-family: "microsoft yahei", "PingFang SC", "Helvetica Neue", "Helvetica", "STHeitiSC-Light", "Arial", sans-serif; color: #f46687; font-weight: 100; }
+.itemthree .fr .price b { font-size: 12px; font-family: "microsoft yahei", "PingFang SC", "Helvetica Neue", "Helvetica", "STHeitiSC-Light", "Arial", sans-serif; font-weight: 100; color: #f46687; margin-left: 3px; }
+.itemthree .fr em { float: left; font-style: normal; font-size: 12px; font-family: "microsoft yahei", "PingFang SC", "Helvetica Neue", "Helvetica", "STHeitiSC-Light", "Arial", sans-serif; color: #5e6167; margin-top: 13px; margin-left: 7px; }
+.itemthree .fr em s { font-family: Helvetica; }
+.itemthree .fr .reserve-btn { float: right; display: block; width: 97px; height: 29px; line-height: 29px; border-radius: 5px; color: #fff; font-family: "microsoft yahei", "PingFang SC", "Helvetica Neue", "Helvetica", "STHeitiSC-Light", "Arial", sans-serif; font-weight: 100; font-size: 14px; text-align: center; background: #f46687; margin: 0 auto; margin-top: 5px; }
+.itemthree .fr .reserve-btn:hover { background: #f46687; }
+.itemthree .fr .nobuy { background: #818181; cursor: default; }
+.itemthree .fr .nobuy:hover { background: #818181; }
+
+.hover .fr { background: #3ab2c6; border: 1px solid #3ab2c6; border-top: 0; }
+.hover .fr h3 a { color: #fff; }
+.hover .fr h3 a:hover { color: #fff; }
+.hover .fr .price { color: #fff; }
+.hover .fr .price span { color: #fff; }
+.hover .fr .price b { color: #fff; }
+.hover .fr em { color: #fff; }
+.hover .fr .reserve-btn { color: #f46687; background: #fff; }
+.hover .fr .reserve-btn:hover { background: #fff; }
+
+.itemfour { overflow: hidden; float: left; width: 235px; height: 266px; margin-right: 20px; margin-bottom: 24px; background: #fff; }
+.itemfour .fl { display: block; width: 235px; height: 177px; position: relative; }
+.itemfour .fl .corner { position: absolute; left: -8px; top: 17px; width: 80px; height: 39px; }
+.itemfour .fl img { display: block; width: 235px; height: 177px; }
+.itemfour .fl p { position: absolute; bottom: 0; right: 0; width: 215px; height: 35px; line-height: 35px; padding: 33px 10px 0; font-family: "microsoft yahei", "PingFang SC", "Helvetica Neue", "Helvetica", "STHeitiSC-Light", "Arial", sans-serif; font-size: 13px; color: #fff; white-space: nowrap; text-overflow: ellipsis; -o-text-overflow: ellipsis; overflow: hidden; background: url(../images/line_bg.png) repeat-x bottom; }
+.itemfour .fr { float: left; width: 217px; padding: 0 9px; padding-bottom: 6px; }
+.itemfour .fr h3 { *padding-top: 0px !important; *height: 44px !important; height: 44px; overflow: hidden; margin: 6px 0 0; line-height: 20px; }
+.itemfour .fr h3 a { font: 14px/20px "microsoft yahei", "PingFang SC", "Helvetica Neue", "Helvetica", "STHeitiSC-Light", "Arial", sans-serif; font-weight: bold; color: #5e6167; }
+.itemfour .fr h3 a:hover { color: #5e6167; }
+.itemfour .fr ul { display: none; height: 16px; overflow: hidden; font-size: 16px; color: #1a1218; font-family: "microsoft yahei", "PingFang SC", "Helvetica Neue", "Helvetica", "STHeitiSC-Light", "Arial", sans-serif; margin: 7px 0 27px; }
+.itemfour .fr ul li { font-size: 12px; color: #1a1218; font-family: "microsoft yahei", "PingFang SC", "Helvetica Neue", "Helvetica", "STHeitiSC-Light", "Arial", sans-serif; }
+.itemfour .fr .clearfix { margin-top: 0; overflow: hidden; }
+.itemfour .fr .price { float: left; font-size: 24px; font-family: arial; color: #e94709; font-weight: bold; }
+.itemfour .fr .price span { font-size: 18px; font-family: "microsoft yahei", "PingFang SC", "Helvetica Neue", "Helvetica", "STHeitiSC-Light", "Arial", sans-serif; }
+.itemfour .fr .price b { font-size: 12px; font-family: "microsoft yahei", "PingFang SC", "Helvetica Neue", "Helvetica", "STHeitiSC-Light", "Arial", sans-serif; font-weight: 100; color: #e94709; margin-left: 2px; }
+.itemfour .fr .reserve-btn { float: right; display: block; width: 92px; height: 30px; line-height: 30px; color: #fff; font-family: "microsoft yahei", "PingFang SC", "Helvetica Neue", "Helvetica", "STHeitiSC-Light", "Arial", sans-serif; font-size: 14px; text-align: center; background: #e94709; font-weight: 100; border-radius: 5px; margin: 3px; }
+.itemfour .fr .reserve-btn:hover { background: #f0315a; }
+.itemfour .fr .nobuy { background: #818181; cursor: default; }
+.itemfour .fr .nobuy:hover { background: #818181; }
+
+.jchdCon li { float: left; padding-right: 5px; }
+.jchdCon li a { display: block; }
+.jchdCon li img { display: block; width: 246px; height: 155px; }
+
+h1 { margin: 0; text-indent: -99999px; height: 0; overflow: hidden; }
+
+.wraper .tit { position: relative; }
+.wraper .more { padding: 0; position: absolute; right: 15px; bottom: 10px; font-size: 18px; color: #727171; }
+
+.tab { width: 100%; height: 36px; margin-bottom: 14px; background: #64c037; }
+.tab li { float: left; width: 84px; height: 27px; color: #fff; font-size: 18px; font-weight: bold; font-family: "microsoft yahei", "PingFang SC", "Helvetica Neue", "Helvetica", "STHeitiSC-Light", "Arial", sans-serif; text-align: center; margin: 0 10px 0 17px; margin-top: 5px; cursor: pointer; }
+.tab .on { background: #fff; color: #64c037; }
+
+.con01 .lj { position: absolute; top: -118px; left: 0; }
+.con01 .titcon { padding-top: 48px; }
+.con01 .titcon a, .con01 .titcon img { display: block; }
+.con01 .titcon a { float: left; margin: 0 25px 0 5px; }
+.con01 .tit { height: 178px; }
+.con01 .more { color: #c90c15; }
+
+.con02 .tit { height: 205px; }
+
+.con03 .tit { height: 158px; }
+
+.con04 .tit { height: 148px; }
+
+.con05 .tit { height: 88px; }
+.con05 .con a { display: block; height: 290px; }
+
+.con06 .tit { height: 168px; }
+
+.con07 .tit { height: 125px; }

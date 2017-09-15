@@ -1,0 +1,34 @@
+{
+    "pageconfig": [
+        {
+            "cityid": "0",
+            "contents": [
+                {
+                    "gettype": "1",
+                    "contentid": "con01",
+                    "url": "http://activity.aoyou.com/promotion/index?titleID=7245" 
+                },
+                {
+                    "gettype": "1",
+                    "contentid": "con02",
+                    "url": "http://activity.aoyou.com/promotion/index?titleID=7246" 
+                },
+                {
+                    "gettype": "1",
+                    "contentid": "con03",
+                    "url": "http://activity.aoyou.com/promotion/index?titleID=7250" 
+                },
+                {
+                    "gettype": "1",
+                    "contentid": "con04",
+                    "url": "http://activity.aoyou.com/promotion/index?titleID=7254" 
+                },
+                {
+                    "gettype": "1",
+                    "contentid": "con05",
+                    "url": "http://activity.aoyou.com/promotion/index?titleID=7258" 
+                }
+            ]
+        }
+    ]
+}

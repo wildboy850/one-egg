@@ -1,0 +1,34 @@
+{
+  "pageconfig": [
+    {
+      "cityid": "0",
+      "contents": [
+        {
+          "gettype": "1",
+          "contentid": "mscon",
+          "url": "http://activity.aoyou.com/promotion/RealTitle/?id=7592"
+        },
+        {
+          "gettype": "1",
+          "contentid": "con01",
+          "url": "http://activity.aoyou.com/promotion/index?titleID=7589"
+        },
+        {
+          "gettype": "1",
+          "contentid": "con02",
+          "url": "http://activity.aoyou.com/promotion/index?titleID=7099"
+        },
+        {
+          "gettype": "1",
+          "contentid": "con03",
+          "url": "http://activity.aoyou.com/promotion/index?titleID=7100"
+        },
+        {
+          "gettype": "1",
+          "contentid": "con04",
+          "url": "http://activity.aoyou.com/promotion/index?titleID=7101"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,132 @@
+.wraper
+  .wraper01.wid#wraper01
+    .con01
+      .main
+        .text 约惠春天福利升级：旅行套装、送机套餐、春游大礼包任性送<br>自在遨游体验升级：购买签证及线路产品，送50元当地玩乐体验券
+        a(href="#guize").guizebtn
+        .tit
+          a(href="#wraper02").btn01
+          a(href="#wraper03").btn02
+          a(href="#wraper04").btn03
+      .con
+        .con01_1
+          .main.clearfix
+            a(href='http://www.aoyou.com/domesticpackage/p31506i2', target='_blank')
+              img(src=publicsrc+"images/31506.jpg")
+            a(href='http://www.aoyou.com/domesticpackage/p37308i2', target='_blank')
+              img(src=publicsrc+"images/37308.jpg")
+            a(href='http://www.aoyou.com/domesticgroup/g107001i2', target='_blank')
+              img(src=publicsrc+"images/107001.jpg")
+            a(href='http://www.aoyou.com/domesticgroup/g47174i2', target='_blank')
+              img(src=publicsrc+"images/47174.jpg")
+        .con01_2
+          .main.clearfix
+            a(href='http://www.aoyou.com/domesticpackage/p30395i2', target='_blank')
+              img(src=publicsrc+"images/56940.jpg")
+            a(href='http://www.aoyou.com/domesticpackage/p45895i2', target='_blank')
+              img(src=publicsrc+"images/45895.jpg")
+            a(href='http://www.aoyou.com/domesticpackage/p63211i2', target='_blank')
+              img(src=publicsrc+"images/63211.jpg")
+            a(href='http://www.aoyou.com/domesticgroup/g41782i2', target='_blank')
+              img(src=publicsrc+"images/41782.jpg")
+        .con01_3
+          .main.clearfix
+            a(href='http://www.aoyou.com/domesticpackage/p112634i2', target='_blank')
+              img(src=publicsrc+"images/83559.jpg")
+            a(href='http://www.aoyou.com/domesticpackage/p91475i2', target='_blank')
+              img(src=publicsrc+"images/91475.jpg")
+            a(href='http://www.aoyou.com/domesticpackage/p43206i2', target='_blank')
+              img(src=publicsrc+"images/43206.jpg")
+            a(href='http://www.aoyou.com/domesticpackage/p88774i2', target='_blank')
+              img(src=publicsrc+"images/88774.jpg")
+        .con01_4
+          .main.clearfix
+            a(href='http://www.aoyou.com/domesticgroup/g110197i2', target='_blank')
+              img(src=publicsrc+"images/110197.jpg")
+            a(href='http://www.aoyou.com/domesticgroup/g58782i2', target='_blank')
+              img(src=publicsrc+"images/58782.jpg")
+            a(href='http://www.aoyou.com/domesticpackage/p30784i2', target='_blank')
+              img(src=publicsrc+"images/30784.jpg")
+            a(href='http://www.aoyou.com/domesticgroup/g82509i2', target='_blank')
+              img(src=publicsrc+"images/82509.jpg")
+  .wraper02.wid#wraper02
+    .main.con02
+      .tit
+        img(src=publicsrc+'images/tit02.png')
+        a.more(href='http://www.aoyou.com/search/b1/', target='_blank') 更多线路>>
+      ul.clearfix.tab.tab01
+        li.on(data-titleid="7197") 欧洲
+        li(data-titleid="7198") 美国
+        li(data-titleid="7199") 澳新
+        li(data-titleid="7200") 中东非
+        li(data-titleid="7201") 日本
+        li(data-titleid="7202") 东南亚
+        li(data-titleid="7203") 海岛
+        li(data-titleid="7204") 港澳台
+        li(data-titleid="7205") 国内
+      ul.con.clearfix#con02
+        - if (redata)
+          - if(redata.con01)
+              !=redata.con01
+  .wraper03.wid#wraper03
+    .main.con03
+      .tit
+        img(src=publicsrc+'images/tit03.png')
+        a.more(href='http://www.aoyou.com/search/b1/', target='_blank') 更多线路>>
+      ul.clearfix.tab.tab02
+        li.on(data-titleid="7206") 欧洲
+        li(data-titleid="7207") 美国
+        li(data-titleid="7208") 澳新
+        li(data-titleid="7209") 中东非
+        li(data-titleid="7210") 日本
+        li(data-titleid="7211") 东南亚
+        li(data-titleid="7212") 海岛
+        li(data-titleid="7213") 港澳台
+        li(data-titleid="7214") 国内
+      ul.con.clearfix#con03
+        - if (redata)
+          - if(redata.con02)
+              !=redata.con02
+  .wraper04.wid#wraper04
+    .main.con04
+      .tit.tit01
+        img(src=publicsrc+'images/tit044.png')
+      .con
+        
+      .tit.tit02
+        h3
+         a.more(href='http://tour.aoyou.com/', target='_blank') 点击预订>>
+         | 当地玩乐
+      ul.clearfix.tab.tab03
+        li.on(data-titleid="7215") 欧洲
+        li(data-titleid="7216") 美国
+        li(data-titleid="7217") 澳新
+        li(data-titleid="7218") 中东非
+        li(data-titleid="7219") 日本
+        li(data-titleid="7220") 东南亚
+        li(data-titleid="7221") 海岛
+        li(data-titleid="7222") 港澳台
+        li(data-titleid="7223") 国内
+      ul.con.clearfix#con04
+        - if (redata)
+          - if(redata.con04)
+              !=redata.con04
+      .tit.tit03#guize
+        h3 移动端优惠活动规则
+      .con.gz
+        h3 活动介绍：
+        p 即日起至2017年3月16日，关注遨游网微信服务号“aoyoucom”，上传合照（不限情侣、闺蜜、基友）+手机号，照片需至少有1名出行人本人出镜。上传出行人拥抱合照可获得100元立减优惠，上传出行人亲吻合照可获得200元立减优惠！（出镜人数不限）。活动期间没有在网站上下单的小伙伴，也可以获得等值优惠券哦！
+        p 我们会在4月17日至4月23日期间在服务号推送消息中公开举办照片投票评选，获得“投票”前三名者将会额外收到由遨游网送出的神秘大礼！
+
+
+        h3 活动规则
+        p 1、遨游旅行APP下订单，立减100元。发送“拥抱”旅拍到遨游网服务号（微信号：aoyoucom）中再享受100元优惠，即总计立减200元；发送“亲吻”旅拍则再享受200元优惠，即总计立减300元。以上优惠与遨游网任何线路类产品立减优惠叠加使用且仅限遨游旅行app订单可用。
+        p 2、旅拍要求本人原创照片，需至少1名出行人本人出镜，酒店、大量美食、静物、纯风景等无意义图片不计算在参赛图片内。
+        p 3、亲密照收集截止日期为3月16日前，逾期发送照片不参与此次活动。照片评选日期3月17日至3月23日。届时我们将会在遨游网微信服务号中通知开始投票与投票结果，敬请关注。
+        p 3、将参加本次活动的照片发送到遨游网微信服务号中，照片将由我们人工进行审核并会在第一时间联系您是否符合参与活动标准。
+        p 4、立减优惠将会由服务号客服人员以优惠券形式发送给您。（可用于本次出行，且与任何立减优惠叠加使用）
+        p 6、参加本次活动的旅拍仅用于中青旅遨游网评选活动，不会以任何其他形式另行公开。
+        p 7、本次活动最终解释权归中青旅遨游网所有。
+      .tit.tit04
+        h3 更多优惠活动
+      include activity

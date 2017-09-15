@@ -1,0 +1,26 @@
+doctype html
+html
+  head
+  - if(publicsrc==undefined)publicsrc = ''
+    meta(charset="utf-8")
+    meta(http-equiv="X-UA-Compatible",content="IE=edge")
+    title 上海迪士尼乐园度假区_去上海迪士尼需要多少钱_上海周边游推荐-中青旅遨游网
+    meta(name="Keywords",content="上海迪士尼门票,去上海迪士尼要多少钱,上海迪士尼攻略一日游,上海周边游推荐")
+    meta(name="Description",content="中青旅遨游网提供上海迪士尼度假区门票价格及查询服务，包含上海迪士尼度假区攻略、地址、图片、点评、附近酒店、门票团购等实用信息，海量上海周边游团购优惠。玩转上海度假区，就上中青旅遨游网!")
+    link(href='http://webresource5.aoyou.com/css/head/index.css', rel='stylesheet', type='text/css')
+    link(href=publicsrc+'css/main.css', rel='stylesheet', type='text/css')
+  body#body
+    .header
+    include citynav
+    include banner
+    include wraper
+    include sidebar
+    .foot.clearfix
+    script(src='http://webresource5.aoyou.com/js/common/jquery-1.8.3.min.js', type='text/javascript', charset='utf-8')
+    script(src='http://webresource5.aoyou.com/js/common/jquery.cookie.js', type='text/javascript', charset='utf-8')
+    script(src='http://webresource5.aoyou.com/js/common/aoyoutoolbox-min.js', type='text/javascript', charset='utf-8')
+    <!--[if IE 6]>
+    <script src="http://webresource5.aoyou.com/js/index/DD_belatedPNG_0.0.8a-min.js" type="text/javascript" charset="utf-8"></script>
+    <script type="text/javascript">DD_belatedPNG.fix('div, img, p, ul, li, a, span');</script>
+    <![endif]-->
+    script(src=publicsrc+'js/index.js', type='text/javascript', charset='utf-8')

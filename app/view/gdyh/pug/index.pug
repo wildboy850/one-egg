@@ -1,0 +1,25 @@
+doctype html
+html
+  head
+    - if(publicsrc==undefined)publicsrc = ''
+    meta(charset="utf-8")
+    meta(http-equiv="X-UA-Compatible",content="IE=edge")
+    title byebeijing 缤纷世界 刷“新”你的每一天
+    meta(name="Keywords",content="byebeijing 缤纷世界 刷“新”你的每一天")
+    meta(name="Description",content="byebeijing 缤纷世界 刷“新”你的每一天")
+    link(href='http://webresource5.aoyou.com/css/head/index.css', rel='stylesheet', type='text/css')
+    link(href=publicsrc+'css/main.css', rel='stylesheet', type='text/css')
+  body#body
+    .header
+    include banner
+    include wraper
+    include sidebar
+    .foot.clearfix
+    script(src='http://webresource5.aoyou.com/js/common/jquery-1.8.3.min.js', type='text/javascript', charset='utf-8')
+    script(src='http://webresource5.aoyou.com/js/common/jquery.cookie.js', type='text/javascript', charset='utf-8')
+    script(src='http://webresource5.aoyou.com/js/common/aoyoutoolbox-min.js', type='text/javascript', charset='utf-8')
+    <!--[if IE 6]>
+    <script src="http://webresource5.aoyou.com/js/index/DD_belatedPNG_0.0.8a-min.js" type="text/javascript" charset="utf-8"></script>
+    <script type="text/javascript">DD_belatedPNG.fix('div, img, p, ul, li, a, span');</script>
+    <![endif]-->
+    script(src=publicsrc+'js/index.js', type='text/javascript', charset='utf-8')

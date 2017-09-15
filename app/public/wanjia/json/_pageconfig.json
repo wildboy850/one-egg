@@ -1,0 +1,81 @@
+{
+    "pageconfig": [{
+        "cityid": "0",
+        "contents": [{
+            "gettype": "1",
+            "contentid": "con01",
+            "url": "http://activity.aoyou.com/promotion/index?titleID=7098"
+        }, {
+            "gettype": "1",
+            "contentid": "con02",
+            "url": "http://activity.aoyou.com/promotion/index?titleID=7099"
+        }, {
+            "gettype": "1",
+            "contentid": "con03",
+            "url": "http://activity.aoyou.com/promotion/index?titleID=7100"
+        }, {
+            "gettype": "1",
+            "contentid": "con04",
+            "url": "http://activity.aoyou.com/promotion/index?titleID=7101"
+        }, {
+            "gettype": "1",
+            "contentid": "con05",
+            "url": "http://activity.aoyou.com/promotion/index?titleID=7102"
+        }]
+    }],
+    "pageconfigExtend": [{
+            "weeknum": "0",
+            "type":"week",
+            "contents": [{
+                "gettype": "1",
+                "contentid": "mscon",
+                "url": "http://activity.aoyou.com/promotion/RealTitle/?id=7456"
+            }]
+        }, {
+            "weeknum": "1",
+            "type":"week",
+            "contents": [{
+                "gettype": "1",
+                "contentid": "mscon",
+                "url": "http://activity.aoyou.com/promotion/RealTitle/?id=7457"
+            }]
+        }, {
+            "weeknum": "2",
+            "type":"week",
+            "contents": [{
+                "gettype": "1",
+                "contentid": "mscon",
+                "url": "http://activity.aoyou.com/promotion/RealTitle/?id=7458"
+            }]
+        }, {
+            "weeknum": "3",
+            "contents": [{
+                "gettype": "1",
+                "contentid": "mscon",
+                "url": "http://activity.aoyou.com/promotion/RealTitle/?id=7459"
+            }]
+        }, {
+            "weeknum": "4",
+            "type":"week",
+            "contents": [{
+                "gettype": "1",
+                "contentid": "mscon",
+                "url": "http://activity.aoyou.com/promotion/RealTitle/?id=7460"
+            }]
+        }, {
+            "weeknum": "5",
+            "type":"week",
+            "contents": [{
+                "gettype": "1",
+                "contentid": "mscon",
+                "url": "http://activity.aoyou.com/promotion/RealTitle/?id=7461"
+            }]
+        }, {
+            "weeknum": "6",
+            "contents": [{
+                "gettype": "1",
+                "contentid": "mscon",
+                "url": "http://activity.aoyou.com/promotion/RealTitle/?id=7462"
+            }]
+        }]
+}

@@ -1,0 +1,14 @@
+{
+    "pageconfig": [{
+        "cityid": "0",
+        "contents": [{
+            "gettype": "1",
+            "contentid": "con04",
+            "url": "http://activity.aoyou.com/promotion/index?titleID=7983"
+        }, {
+            "gettype": "1",
+            "contentid": "con05â€",
+            "url": "http://activity.aoyou.com/promotion/index?titleID=7984"
+        }]
+    }]
+}

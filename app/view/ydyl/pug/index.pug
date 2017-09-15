@@ -1,0 +1,26 @@
+doctype html
+html
+  head
+    - if(publicsrc==undefined)publicsrc = ''
+    meta(charset="utf-8")
+    meta(http-equiv="X-UA-Compatible",content="IE=edge")
+    title 2017一带一路旅游旅游线路_一带一路沿线国家旅游景点_报价 - 中青旅遨游网
+    meta(name="Keywords",content="2017一带一路旅游,旅游景点,旅游线路,一带一路沿线国家,景点报价")
+    meta(name="Description",content="")
+    link(href='http://webresource5.aoyou.com/css/head/index.css', rel='stylesheet', type='text/css')
+    link(href=publicsrc+'css/main.css', rel='stylesheet', type='text/css')
+  body#body
+    .header
+    include banner
+    h1 中青旅遨游网
+    include wraper
+    include sidebar
+    .foot.clearfix
+    script(src='http://webresource5.aoyou.com/js/common/jquery-1.8.3.min.js', type='text/javascript', charset='utf-8')
+    script(src='http://webresource5.aoyou.com/js/common/jquery.cookie.js', type='text/javascript', charset='utf-8')
+    script(src='http://webresource5.aoyou.com/js/common/aoyoutoolbox-min.js', type='text/javascript', charset='utf-8')
+    <!--[if IE 6]>
+    <script src="http://webresource5.aoyou.com/js/index/DD_belatedPNG_0.0.8a-min.js" type="text/javascript" charset="utf-8"></script>
+    <script type="text/javascript">DD_belatedPNG.fix('div, img, p, ul, li, a, span');</script>
+    <![endif]-->
+    script(src=publicsrc+'js/index.js', type='text/javascript', charset='utf-8')

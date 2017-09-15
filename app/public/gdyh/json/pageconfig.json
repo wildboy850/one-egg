@@ -1,0 +1,21 @@
+{
+    "pageconfig": [
+        {
+            "cityid": "0",
+            "contents": [
+                {
+                    "gettype": "2",
+                    "contentid": "con01",
+                    "url": "http://activity.aoyou.com/Promotion/SearchProduct?param=b1-l116-ps8-p1-pr669,670,671,672-s2-sb0" ,
+                    "pagesize":"8"
+                },
+                {
+                    "gettype": "2",
+                    "contentid": "con02",
+                    "url": "http://activity.aoyou.com/Promotion/SearchProduct?param=b1-sl8,1337-p1-pr669,670,671,672-s2-sb0" ,
+                    "pagesize":"8"
+                }
+            ]
+        }
+    ]
+}

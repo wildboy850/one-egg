@@ -1,0 +1,87 @@
+.wraper
+  .wraper01.wid
+    .main.con01
+      .lj
+        img(src=publicsrc+'images/lj.png')
+      .titcon.clearfix
+        a(href='#wraper01', target='_blank')
+          img(src=publicsrc+'images/list01.png')
+        a(href='#wraper02', target='_blank')
+          img(src=publicsrc+'images/list02.png')
+        a(href='#wraper03', target='_blank')
+          img(src=publicsrc+'images/list03.png')
+        a(href='#wraper04', target='_blank')
+          img(src=publicsrc+'images/list04.png')
+        a(href='#wraper06', target='_blank',style="margin-right:0")
+          img(src=publicsrc+'images/list05.png')
+      .tit#wraper01
+        a.more(href='http://qiang.aoyou.com/lable9-ct1', target='_blank') 更多线路>>
+      ul.con.clearfix#con01
+        - if (redata)
+          - if(redata.con01)
+              !=redata.con01
+  .wraper02.wid#wraper02
+    .main.con02
+      .tit
+        a.more(href='http://www.aoyou.com/search/b1-pr688', target='_blank') 更多线路>>
+      ul.clearfix.tab.tab02
+        li.on(data-titleid="7431") 海岛
+        li(data-titleid="7432") 欧洲
+        li(data-titleid="7433") 美洲
+        li(data-titleid="7434") 澳新
+        li(data-titleid="7435") 日本
+        li(data-titleid="7436") 中东非
+      ul.con.clearfix#con02
+        - if (redata)
+          - if(redata.con02)
+              !=redata.con02
+  .wraper03.wid#wraper03
+    .main.con03
+      .tit
+        a.more(href='http://www.aoyou.com/search/b1-pr689', target='_blank') 更多线路>>
+      ul.clearfix.tab.tab03
+        li.on(data-titleid="7437") 海岛
+        li(data-titleid="7438") 国内
+        li(data-titleid="7439") 东南亚
+      ul.con.clearfix#con03
+        - if (redata)
+          - if(redata.con03)
+              !=redata.con03
+  .wraper04.wid#wraper04
+    .main.con04
+      .tit
+        a.more(href='http://www.aoyou.com/search/b1-pr690/', target='_blank') 更多线路>>
+      ul.clearfix.tab.tab04
+        li.on(data-titleid="7440") 港澳台
+        li(data-titleid="7441") 国内
+      ul.con.clearfix#con04
+        - if (redata)
+          - if(redata.con04)
+              !=redata.con04
+  .wraper05.wid#wraper05
+    .main.con05
+      .tit
+        a.more(href='http://www.aoyou.com/search/b1/', target='_blank') 点击预订>>
+      ul.con.clearfix#con05
+        a(href='http://flight.aoyou.com/', target='_blank')
+  .wraper06.wid#wraper06
+    .main.con06
+      .tit
+        a.more(href='http://www.aoyou.com/search/b1/', target='_blank') 点击预订>>
+      ul.clearfix.tab.tab06
+        li.on(data-titleid="7442") 日本
+        li(data-titleid="7443") 巴厘岛
+        li(data-titleid="7444") 新加坡
+        //li(data-titleid="7445") 中东非
+        li(data-titleid="7446") 港澳台
+        li(data-titleid="7447") 意大利
+        li(data-titleid="7448") 美国
+        li(data-titleid="7449") CLUBMED
+      ul.con.clearfix#con06
+        - if (redata)
+          - if(redata.con06)
+              !=redata.con06
+  .wraper07.wid#wraper07
+    .main.con07
+      .tit
+      include _activity

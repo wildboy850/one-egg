@@ -1,0 +1,39 @@
+.wraper
+  .wraper01.wid#wraper01
+    .main.con01
+      img(src=publicsrc+'images/hua.png',style="position: absolute;right: -70px;top: -180px;")
+      .tit
+        img(src=publicsrc+'images/tit01.png')
+      ul.con.clearfix#con01
+        - if (redata)
+          - if(redata.con01)
+              !=redata.con01     
+  .wraper02.wid#wraper02
+    .main.con02
+      .tit
+        img(src=publicsrc+'images/tit01.png')
+      ul.con.clearfix#con02
+        - if (redata)
+          - if(redata.con02)
+              !=redata.con02 
+  .wraper03.wid#wraper03
+    .main.con03
+      .tit
+        img(src=publicsrc+'images/tit03.png')
+      ul.con.clearfix#con03
+        - if (redata)
+          - if(redata.con03)
+              !=redata.con03 
+  .wraper04.wid#wraper04
+    .main.con04
+      .tit
+        img(src=publicsrc+'images/tit04.png')
+      ul.con.clearfix#con04
+        - if (redata)
+          - if(redata.con04)
+              !=redata.con04 
+  .wraper05.wid#wraper05
+    .main.con05
+      .tit
+        img(src=publicsrc+'images/tit05.png')
+      include activity

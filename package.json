@@ -1,0 +1,27 @@
+{
+  "name": "one-egg",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "egg-bin dev",
+    "debug": "egg-bin debug"
+  },
+  "author": "gai",
+  "license": "ISC",
+  "dependencies": {
+    "cheerio": "^0.22.0",
+    "del": "^2.2.2",
+    "egg": "^1.0.0-rc.2",
+    "egg-mongoose": "^2.1.0",
+    "egg-view-pug": "^1.0.0",
+    "moment": "^2.18.1",
+    "ncp": "^2.0.0",
+    "shelljs": "^0.7.8"
+  },
+  "devDependencies": {
+    "cheerio": "^0.22.0",
+    "egg-bin": "^3.1.0",
+    "node-eval": "^1.1.0"
+  }
+}

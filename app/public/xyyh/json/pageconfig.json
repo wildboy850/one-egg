@@ -1,0 +1,34 @@
+{
+    "pageconfig": [
+        {
+            "cityid": "0",
+            "contents": [
+                {
+                    "gettype": "1",
+                    "contentid": "con01",
+                    "url": "http://activity.aoyou.com/promotion/index?titleID=7071" ,
+                    "pagesize":"4",
+                    "selectstr":".itemfour"
+                },
+                {
+                    "gettype": "2",
+                    "contentid": "con02",
+                    "url": "http://activity.aoyou.com/Promotion/SearchProduct?param=b1-pf2000-pt4000-ps8-p1-pr641,642-s2-sb0" ,
+                    "pagesize":"8"
+                },
+                {
+                    "gettype": "2",
+                    "contentid": "con03",
+                    "url": "http://activity.aoyou.com/Promotion/SearchProduct?param=b1-pf4000-pt8000-ps8-p1-pr641,642-s2-sb0" ,
+                    "pagesize":"8"
+                },
+                {
+                    "gettype": "2",
+                    "contentid": "con04",
+                    "url": "http://activity.aoyou.com/Promotion/SearchProduct?param=b1-pf8000-ps8-p1-pr641,642-s2-sb0" ,
+                    "pagesize":"8"
+                }
+            ]
+        }
+    ]
+}

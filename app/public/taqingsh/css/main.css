@@ -1,0 +1,593 @@
+@charset "UTF-8";
+/*! normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css */
+html {
+  font-family: sans-serif;
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%; }
+
+body {
+  margin: 0; }
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+main,
+menu,
+nav,
+section,
+summary {
+  display: block; }
+
+audio,
+canvas,
+progress,
+video {
+  display: inline-block;
+  vertical-align: baseline; }
+
+audio:not([controls]) {
+  display: none;
+  height: 0; }
+
+[hidden],
+template {
+  display: none; }
+
+a {
+  background-color: transparent; }
+
+a:active,
+a:hover {
+  outline: 0; }
+
+abbr[title] {
+  border-bottom: 1px dotted; }
+
+b,
+strong {
+  font-weight: bold; }
+
+dfn {
+  font-style: italic; }
+
+h1 {
+  font-size: 2em;
+  margin: 0.67em 0; }
+
+mark {
+  background: #ff0;
+  color: #000; }
+
+small {
+  font-size: 80%; }
+
+sub,
+sup {
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline; }
+
+sup {
+  top: -0.5em; }
+
+sub {
+  bottom: -0.25em; }
+
+img {
+  border: 0; }
+
+svg:not(:root) {
+  overflow: hidden; }
+
+figure {
+  margin: 1em 40px; }
+
+hr {
+  box-sizing: content-box;
+  height: 0; }
+
+pre {
+  overflow: auto; }
+
+code,
+kbd,
+pre,
+samp {
+  font-family: monospace, monospace;
+  font-size: 1em; }
+
+button,
+input,
+optgroup,
+select,
+textarea {
+  color: inherit;
+  font: inherit;
+  margin: 0; }
+
+button {
+  overflow: visible; }
+
+button,
+select {
+  text-transform: none; }
+
+button,
+html input[type="button"],
+input[type="reset"],
+input[type="submit"] {
+  -webkit-appearance: button;
+  cursor: pointer; }
+
+button[disabled],
+html input[disabled] {
+  cursor: default; }
+
+button::-moz-focus-inner,
+input::-moz-focus-inner {
+  border: 0;
+  padding: 0; }
+
+input {
+  line-height: normal; }
+
+input[type="checkbox"],
+input[type="radio"] {
+  box-sizing: border-box;
+  padding: 0; }
+
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+  height: auto; }
+
+input[type="search"] {
+  -webkit-appearance: textfield;
+  box-sizing: content-box; }
+
+input[type="search"]::-webkit-search-cancel-button,
+input[type="search"]::-webkit-search-decoration {
+  -webkit-appearance: none; }
+
+fieldset {
+  border: 1px solid #c0c0c0;
+  margin: 0 2px;
+  padding: 0.35em 0.625em 0.75em; }
+
+legend {
+  border: 0;
+  padding: 0; }
+
+textarea {
+  overflow: auto; }
+
+optgroup {
+  font-weight: bold; }
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+td,
+th {
+  padding: 0; }
+
+body {
+  font: 14px/1.5 arial, "微软雅黑", "Hiragino Sans GB", sans-serif;
+  position: relative; }
+
+ul, li {
+  list-style: none; }
+
+.fl {
+  float: left;
+  display: inline; }
+
+.fr {
+  float: right;
+  display: inline; }
+
+a, area, input {
+  outline: none;
+  blr: expression(this.onFocus=this.blur()); }
+
+a:focus, area:focus, input:focus {
+  outline: none; }
+
+.tips {
+  display: block;
+  text-align: center;
+  font: bold 20px/30px 'microsoft yahei';
+  color: #000;
+  margin: 0 auto;
+  padding: 30px 0; }
+
+.loading {
+  display: block;
+  margin: 0 auto;
+  padding: 30px 0; }
+
+.main {
+  margin: 0 auto;
+  padding: 0;
+  width: 1000px;
+  height: auto;
+  position: relative; }
+
+.wraper {
+  width: 100%;
+  height: auto; }
+  .wraper img {
+    display: block; }
+  .wraper .tit img {
+    margin: 0 auto; }
+  .wraper .con {
+    margin: 0 auto; }
+  .wraper .more {
+    padding: 0 35px;
+    display: block; }
+    .wraper .more img {
+      margin: 0 auto; }
+  .wraper .wid {
+    width: 100%;
+    height: auto;
+    padding-bottom: 80px; }
+  .wraper .wraper01 {
+    height: auto;
+    background-color: #ffd3d0;
+    background-image: url("../images/bg01.jpg");
+    background-repeat: no-repeat;
+    background-position: bottom center; }
+  .wraper .wraper02 {
+    height: auto;
+    background-color: #87d7ff;
+    background-image: url("../images/bg02.jpg");
+    background-repeat: no-repeat;
+    background-position: bottom center; }
+  .wraper .wraper03 {
+    height: auto;
+    background-color: #ffd3d0;
+    background-image: url("../images/bg03.jpg");
+    background-repeat: no-repeat;
+    background-position: bottom center; }
+  .wraper .wraper04 {
+    height: auto;
+    background-color: #87d7ff;
+    background-image: url("../images/bg04.jpg");
+    background-repeat: no-repeat;
+    background-position: bottom center; }
+  .wraper .wraper05 {
+    height: auto;
+    background-color: #ffd3d0;
+    background-repeat: no-repeat;
+    background-position: top center; }
+
+.sidenav {
+  width: 137px;
+  position: absolute;
+  top: 650px;
+  right: 50%;
+  margin-right: -660px;
+  z-index: 9999; }
+  .sidenav img {
+    display: block;
+    margin: 0 auto; }
+  .sidenav ul {
+    margin: 0 auto; }
+  .sidenav li {
+    display: block;
+    width: 137px;
+    list-style: none;
+    overflow: hidden;
+    margin: 0 auto;
+    margin-bottom: 3px; }
+    .sidenav li a {
+      float: left;
+      display: inline-block;
+      width: 137px;
+      height: 32px;
+      line-height: 32px;
+      background: url("../images/sidebar_li.png");
+      font-family: "microsoft yahei", "PingFang SC", "Helvetica Neue", "Helvetica", "STHeitiSC-Light", "Arial", sans-serif;
+      font-size: 20px;
+      color: #fff;
+      text-align: center; }
+      .sidenav li a:hover {
+        color: #ffffff; }
+  .sidenav .on a {
+    color: #fff; }
+  .sidenav .ewm {
+    padding: 7px 0; }
+  .sidenav .first {
+    background: url(../images/sidebar_top.png) no-repeat top center;
+    height: 134px;
+    margin-bottom: 0; }
+  .sidenav .last {
+    height: 113px;
+    background-image: url(../images/sidebar_ewm.png); }
+  .sidenav .gotop a {
+    color: #ffff00;
+    font-weight: bold; }
+    .sidenav .gotop a:hover {
+      color: #ffff00; }
+
+.banner-box {
+  width: 100%;
+  height: auto; }
+  .banner-box .banner {
+    width: 100%;
+    height: 117px;
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-color: #ffd3d0; }
+    .banner-box .banner .main {
+      height: 117px;
+      position: relative; }
+      .banner-box .banner .main a {
+        position: absolute;
+        display: block;
+        cursor: pointer; }
+      .banner-box .banner .main img {
+        margin: 0 auto;
+        display: block; }
+  .banner-box .banner1 {
+    background-image: url(../images/banner_01.jpg); }
+  .banner-box .banner2 {
+    background-image: url(../images/banner_02.jpg); }
+  .banner-box .banner3 {
+    background-image: url(../images/banner_03.jpg); }
+  .banner-box .banner4 {
+    background-image: url(../images/banner_04.jpg); }
+  .banner-box .banner5 {
+    background-image: url(../images/banner_05.jpg); }
+
+.itemthree {
+  overflow: hidden;
+  float: left;
+  width: 324px;
+  height: 318px;
+  margin-right: 8px;
+  margin-bottom: 8px;
+  background: #fff;
+  border: 2px solid #000000;
+  border-radius: 5px; }
+  .itemthree .fl {
+    display: block;
+    width: 324px;
+    height: 218px;
+    position: relative; }
+    .itemthree .fl .corner {
+      position: absolute;
+      left: -8px;
+      top: 17px;
+      width: 80px;
+      height: 39px; }
+    .itemthree .fl img {
+      display: block;
+      width: 324px;
+      height: 218px; }
+    .itemthree .fl p {
+      position: absolute;
+      bottom: 0;
+      _bottom: -1px;
+      left: 0;
+      width: 304px;
+      height: 35px;
+      line-height: 35px;
+      padding: 0 10px;
+      font-family: "microsoft yahei", "PingFang SC", "Helvetica Neue", "Helvetica", "STHeitiSC-Light", "Arial", sans-serif;
+      font-size: 14px;
+      color: #fff;
+      white-space: nowrap;
+      text-overflow: ellipsis;
+      -o-text-overflow: ellipsis;
+      overflow: hidden;
+      background: url(../images/transparent_bg.png); }
+  .itemthree .fr {
+    float: left;
+    padding-top: 3px; }
+    .itemthree .fr h3 {
+      width: 294px;
+      height: 26px;
+      line-height: 26px;
+      overflow: hidden;
+      padding: 0 15px; }
+      .itemthree .fr h3 a {
+        font: 15px/26px "microsoft yahei", "PingFang SC", "Helvetica Neue", "Helvetica", "STHeitiSC-Light", "Arial", sans-serif;
+        font-weight: bold;
+        color: #333333; }
+        .itemthree .fr h3 a:hover {
+          color: #333333; }
+    .itemthree .fr ul {
+      width: 294px;
+      padding: 0 15px;
+      height: 19px;
+      overflow: hidden;
+      font-size: 12px;
+      color: #737373;
+      font-family: "microsoft yahei", "PingFang SC", "Helvetica Neue", "Helvetica", "STHeitiSC-Light", "Arial", sans-serif; }
+      .itemthree .fr ul li {
+        font-size: 12px;
+        color: #737373;
+        font-family: "microsoft yahei", "PingFang SC", "Helvetica Neue", "Helvetica", "STHeitiSC-Light", "Arial", sans-serif; }
+    .itemthree .fr .clearfix {
+      width: 294px;
+      margin-top: 0;
+      overflow: hidden;
+      padding: 0 15px; }
+    .itemthree .fr .price {
+      float: left;
+      font-size: 31px;
+      font-family: arial;
+      color: #e53a2d;
+      margin-top: 2px; }
+      .itemthree .fr .price span {
+        font-size: 14px;
+        font-family: "microsoft yahei", "PingFang SC", "Helvetica Neue", "Helvetica", "STHeitiSC-Light", "Arial", sans-serif;
+        color: #000;
+        font-weight: 100; }
+      .itemthree .fr .price b {
+        font-size: 14px;
+        font-family: "microsoft yahei", "PingFang SC", "Helvetica Neue", "Helvetica", "STHeitiSC-Light", "Arial", sans-serif;
+        font-weight: 100;
+        color: #000; }
+    .itemthree .fr .reserve-btn {
+      float: right;
+      display: block;
+      width: 131px;
+      height: 39px;
+      line-height: 39px;
+      border-radius: 0;
+      color: #fff;
+      font-family: "microsoft yahei", "PingFang SC", "Helvetica Neue", "Helvetica", "STHeitiSC-Light", "Arial", sans-serif;
+      font-weight: bold;
+      font-size: 20px;
+      text-align: center;
+      background: url("../images/btn01.png");
+      margin: 0 auto;
+      margin-top: 5px; }
+      .itemthree .fr .reserve-btn:hover {
+        background: url("../images/btn01.png") no-repeat 0 -38px; }
+    .itemthree .fr .nobuy {
+      background: #818181;
+      cursor: default; }
+      .itemthree .fr .nobuy:hover {
+        background: #818181; }
+
+.itemfour {
+  overflow: hidden;
+  float: left;
+  width: 240px;
+  height: 318px;
+  margin-right: 8px;
+  margin-bottom: 8px;
+  background: #fff;
+  border: 2px solid #000000;
+  border-radius: 5px; }
+  .itemfour .fl {
+    display: block;
+    width: 240px;
+    height: 218px;
+    position: relative; }
+    .itemfour .fl .corner {
+      position: absolute;
+      left: -8px;
+      top: 17px;
+      width: 80px;
+      height: 39px; }
+    .itemfour .fl img {
+      display: block;
+      width: 240px;
+      height: 218px; }
+    .itemfour .fl p {
+      position: absolute;
+      bottom: 0px;
+      right: 0;
+      width: 220px;
+      height: 35px;
+      line-height: 35px;
+      padding: 0 10px 0;
+      font-family: "microsoft yahei", "PingFang SC", "Helvetica Neue", "Helvetica", "STHeitiSC-Light", "Arial", sans-serif;
+      font-size: 13px;
+      color: #fff;
+      white-space: nowrap;
+      text-overflow: ellipsis;
+      -o-text-overflow: ellipsis;
+      overflow: hidden;
+      background: url(../images/transparent_bg.png); }
+  .itemfour .fr {
+    float: left;
+    width: 226px;
+    padding: 0 7px;
+    padding-top: 3px; }
+    .itemfour .fr h3 {
+      height: 26px;
+      line-height: 26px;
+      overflow: hidden; }
+      .itemfour .fr h3 a {
+        font: 15px/26px "microsoft yahei", "PingFang SC", "Helvetica Neue", "Helvetica", "STHeitiSC-Light", "Arial", sans-serif;
+        font-weight: bold;
+        color: #333333; }
+        .itemfour .fr h3 a:hover {
+          color: #333333; }
+    .itemfour .fr ul {
+      height: 19px;
+      overflow: hidden;
+      font-size: 12px;
+      color: #737373;
+      font-family: "microsoft yahei", "PingFang SC", "Helvetica Neue", "Helvetica", "STHeitiSC-Light", "Arial", sans-serif; }
+      .itemfour .fr ul li {
+        font-size: 12px;
+        color: #737373;
+        font-family: "microsoft yahei", "PingFang SC", "Helvetica Neue", "Helvetica", "STHeitiSC-Light", "Arial", sans-serif; }
+    .itemfour .fr .clearfix {
+      margin-top: 0;
+      overflow: hidden; }
+    .itemfour .fr .price {
+      float: left;
+      font-size: 31px;
+      font-family: arial;
+      color: #e53a2d;
+      margin-top: 2px; }
+      .itemfour .fr .price span {
+        font-size: 14px;
+        font-family: "microsoft yahei", "PingFang SC", "Helvetica Neue", "Helvetica", "STHeitiSC-Light", "Arial", sans-serif;
+        color: #000;
+        font-weight: 100; }
+      .itemfour .fr .price b {
+        font-size: 14px;
+        font-family: "microsoft yahei", "PingFang SC", "Helvetica Neue", "Helvetica", "STHeitiSC-Light", "Arial", sans-serif;
+        font-weight: 100;
+        color: #000; }
+    .itemfour .fr .reserve-btn {
+      float: right;
+      display: block;
+      width: 89px;
+      height: 40px;
+      line-height: 38px;
+      border-radius: 0;
+      color: #fff;
+      font-family: "microsoft yahei", "PingFang SC", "Helvetica Neue", "Helvetica", "STHeitiSC-Light", "Arial", sans-serif;
+      font-weight: bold;
+      font-size: 20px;
+      text-align: center;
+      background: url("../images/btn02.png");
+      margin: 0 auto;
+      margin-top: 5px; }
+      .itemfour .fr .reserve-btn:hover {
+        background: url("../images/btn02.png"); }
+    .itemfour .fr .nobuy {
+      background: #818181;
+      cursor: default; }
+      .itemfour .fr .nobuy:hover {
+        background: #818181; }
+
+.jchdCon li {
+  float: left;
+  padding-right: 32px; }
+  .jchdCon li a {
+    display: block; }
+  .jchdCon li img {
+    display: block;
+    width: 312px;
+    height: 200px; }
+
+.con01 .tit {
+  padding: 13px 0; }
+
+.con02 .tit {
+  padding: 13px 0; }
+
+.con03 .tit {
+  padding: 13px 0; }
+
+.con04 .tit {
+  padding: 13px 0; }
+
+.con05 .tit {
+  padding: 90px 0 20px 0; }

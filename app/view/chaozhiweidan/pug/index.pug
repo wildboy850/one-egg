@@ -1,0 +1,26 @@
+doctype html
+html
+  head
+    - if(publicsrc==undefined)publicsrc = ''
+    meta(charset="utf-8")
+    meta(http-equiv="X-UA-Compatible",content="IE=edge")
+    title 【2017暑假超值特价旅游】旅游尾单_特价出境游_海岛旅游_特价旅游团-中青旅遨游网
+    meta(name="Keywords",content="暑假超值特价旅游,出境游尾单,特价海岛游,旅游尾单,特价旅游团")
+    meta(name="Description",content="暑假超值特价旅游,出境游尾单,特价海岛游,旅游尾单,特价旅游团")
+    link(href='http://webresource5.aoyou.com/css/head/index.css', rel='stylesheet', type='text/css')
+    link(href=publicsrc+'css/main.css', rel='stylesheet', type='text/css')
+  body#body
+    .header
+    include _banner
+    h1 燃爆8月 超值尾单
+    include _wraper
+    include _sidebar
+    .foot.clearfix
+    script(src='http://webresource5.aoyou.com/js/common/jquery-1.8.3.min.js', type='text/javascript', charset='utf-8')
+    script(src='http://webresource5.aoyou.com/js/common/jquery.cookie.js', type='text/javascript', charset='utf-8')
+    script(src='http://webresource5.aoyou.com/js/common/aoyoutoolbox-min.js', type='text/javascript', charset='utf-8')
+    <!--[if IE 6]>
+    <script src="http://webresource5.aoyou.com/js/index/DD_belatedPNG_0.0.8a-min.js" type="text/javascript" charset="utf-8"></script>
+    <script type="text/javascript">DD_belatedPNG.fix('div, img, p, ul, li, a, span');</script>
+    <![endif]-->
+    script(src=publicsrc+'js/index.js', type='text/javascript', charset='utf-8')

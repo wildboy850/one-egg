@@ -1,0 +1,788 @@
+nohup: ignoring input
+[Fri Aug 18 2017 15:24:41 GMT+0800 (HKT)] [graceful:worker:26695:uncaughtException] throw error 1 times
+[Fri Aug 18 2017 15:24:41 GMT+0800 (HKT)] [graceful:worker:26689:uncaughtException] throw error 1 times
+[ { Error: EEXIST: file already exists, mkdir '/home/egguse/one-egg/app/public/chaozhiweidan'
+      at Error (native)
+    errno: -17,
+    code: 'EEXIST',
+    syscall: 'mkdir',
+    path: '/home/egguse/one-egg/app/public/chaozhiweidan' } ]
+undefined
+[ { Error: EEXIST: file already exists, mkdir '/home/egguse/one-egg/app/public/chaozhiweidan'
+      at Error (native)
+    errno: -17,
+    code: 'EEXIST',
+    syscall: 'mkdir',
+    path: '/home/egguse/one-egg/app/public/chaozhiweidan' } ]
+undefined
+[Fri Aug 18 2017 15:24:41 GMT+0800 (HKT)] [graceful:worker:26695] will exit after 30000ms
+[Fri Aug 18 2017 15:24:41 GMT+0800 (HKT)] [graceful:worker:26689] will exit after 30000ms
+[Fri Aug 18 2017 15:24:41 GMT+0800 (HKT)] [graceful:worker:26689] close server#0, _connections: 0
+[Fri Aug 18 2017 15:24:41 GMT+0800 (HKT)] [graceful:worker:26689] close 1 servers!
+[Fri Aug 18 2017 15:24:41 GMT+0800 (HKT)] [graceful:worker:26689] worker disconnect!
+[Fri Aug 18 2017 15:24:41 GMT+0800 (HKT)] [graceful:worker:26695] close server#0, _connections: 0
+[Fri Aug 18 2017 15:24:41 GMT+0800 (HKT)] [graceful:worker:26695] close 1 servers!
+[Fri Aug 18 2017 15:24:41 GMT+0800 (HKT)] [graceful:worker:26695] worker disconnect!
+[Fri Aug 18 2017 15:24:41 GMT+0800 (HKT)] [cfork:master:26664] worker:26689 disconnect (suicide: true, state: disconnected, isDead: false)
+[Fri Aug 18 2017 15:24:41 GMT+0800 (HKT)] [graceful:worker:26684:uncaughtException] throw error 1 times
+[Fri Aug 18 2017 15:24:41 GMT+0800 (HKT)] [cfork:master:26664] new worker:27318 fork (state: none)
+[Fri Aug 18 2017 15:24:41 GMT+0800 (HKT)] [cfork:master:26664] worker:26695 disconnect (suicide: true, state: disconnected, isDead: false)
+[ { Error: EEXIST: file already exists, mkdir '/home/egguse/one-egg/app/public/chaozhiweidan/.idea'
+      at Error (native)
+    errno: -17,
+    code: 'EEXIST',
+    syscall: 'mkdir',
+    path: '/home/egguse/one-egg/app/public/chaozhiweidan/.idea' },
+  { Error: EEXIST: file already exists, mkdir '/home/egguse/one-egg/app/public/chaozhiweidan/css'
+      at Error (native)
+    errno: -17,
+    code: 'EEXIST',
+    syscall: 'mkdir',
+    path: '/home/egguse/one-egg/app/public/chaozhiweidan/css' },
+  { Error: EEXIST: file already exists, mkdir '/home/egguse/one-egg/app/public/chaozhiweidan/images'
+      at Error (native)
+    errno: -17,
+    code: 'EEXIST',
+    syscall: 'mkdir',
+    path: '/home/egguse/one-egg/app/public/chaozhiweidan/images' },
+  { Error: EEXIST: file already exists, mkdir '/home/egguse/one-egg/app/public/chaozhiweidan/js'
+      at Error (native)
+    errno: -17,
+    code: 'EEXIST',
+    syscall: 'mkdir',
+    path: '/home/egguse/one-egg/app/public/chaozhiweidan/js' },
+  { Error: EEXIST: file already exists, mkdir '/home/egguse/one-egg/app/public/chaozhiweidan/json'
+      at Error (native)
+    errno: -17,
+    code: 'EEXIST',
+    syscall: 'mkdir',
+    path: '/home/egguse/one-egg/app/public/chaozhiweidan/json' },
+  { Error: EEXIST: file already exists, mkdir '/home/egguse/one-egg/app/public/chaozhiweidan/pug'
+      at Error (native)
+    errno: -17,
+    code: 'EEXIST',
+    syscall: 'mkdir',
+    path: '/home/egguse/one-egg/app/public/chaozhiweidan/pug' } ]
+undefined
+[Fri Aug 18 2017 15:24:41 GMT+0800 (HKT)] [graceful:worker:26684] will exit after 30000ms
+[Fri Aug 18 2017 15:24:41 GMT+0800 (HKT)] [graceful:worker:26684] close server#0, _connections: 0
+[Fri Aug 18 2017 15:24:41 GMT+0800 (HKT)] [graceful:worker:26684] close 1 servers!
+[Fri Aug 18 2017 15:24:41 GMT+0800 (HKT)] [graceful:worker:26684] worker disconnect!
+[Fri Aug 18 2017 15:24:41 GMT+0800 (HKT)] [cfork:master:26664] new worker:27324 fork (state: none)
+[Fri Aug 18 2017 15:24:41 GMT+0800 (HKT)] [cfork:master:26664] worker:26684 disconnect (suicide: true, state: disconnected, isDead: false)
+[Fri Aug 18 2017 15:24:41 GMT+0800 (HKT)] [cfork:master:26664] new worker:27330 fork (state: none)
+[Fri Aug 18 2017 15:25:11 GMT+0800 (HKT)] [graceful:worker:26695] kill timeout, exit now.
+[Fri Aug 18 2017 15:25:11 GMT+0800 (HKT)] [graceful:worker:26689] kill timeout, exit now.
+[Fri Aug 18 2017 15:25:11 GMT+0800 (HKT)] [graceful:worker:26684] kill timeout, exit now.
+[Fri Aug 18 2017 15:25:11 GMT+0800 (HKT)] [cfork:master:26664] worker:26689 exit (code: 1, suicide: true, state: dead, isDead: true, isExpected: true)
+2017-08-18 15:25:11,234 ERROR 26664 nodejs.AppWorkerDiedError: [master] App Worker#3:26689 died (code: 1, signal: 1, suicide: true, state: dead), current workers: ["1","2","4","5","6","7"]
+    at Master.onAppExit (/home/egguse/one-egg/node_modules/.npminstall/egg-cluster/1.6.1/egg-cluster/lib/master.js:280:19)
+    at emitOne (events.js:96:13)
+    at Master.emit (events.js:188:7)
+    at Messenger.sendToMaster (/home/egguse/one-egg/node_modules/.npminstall/egg-cluster/1.6.1/egg-cluster/lib/utils/messenger.js:122:17)
+    at Messenger.send (/home/egguse/one-egg/node_modules/.npminstall/egg-cluster/1.6.1/egg-cluster/lib/utils/messenger.js:87:12)
+    at EventEmitter.cluster.on (/home/egguse/one-egg/node_modules/.npminstall/egg-cluster/1.6.1/egg-cluster/lib/master.js:190:22)
+    at emitThree (events.js:121:20)
+    at EventEmitter.emit (events.js:194:7)
+    at ChildProcess.<anonymous> (cluster.js:379:15)
+    at ChildProcess.g (events.js:291:16)
+name: 'AppWorkerDiedError'
+pid: 26664
+hostname: front-app01
+
+[Fri Aug 18 2017 15:25:11 GMT+0800 (HKT)] [cfork:master:26664] worker:26684 exit (code: 1, suicide: true, state: dead, isDead: true, isExpected: true)
+2017-08-18 15:25:11,239 ERROR 26664 nodejs.AppWorkerDiedError: [master] App Worker#2:26684 died (code: 1, signal: 1, suicide: true, state: dead), current workers: ["1","4","5","6","7"]
+    at Master.onAppExit (/home/egguse/one-egg/node_modules/.npminstall/egg-cluster/1.6.1/egg-cluster/lib/master.js:280:19)
+    at emitOne (events.js:96:13)
+    at Master.emit (events.js:188:7)
+    at Messenger.sendToMaster (/home/egguse/one-egg/node_modules/.npminstall/egg-cluster/1.6.1/egg-cluster/lib/utils/messenger.js:122:17)
+    at Messenger.send (/home/egguse/one-egg/node_modules/.npminstall/egg-cluster/1.6.1/egg-cluster/lib/utils/messenger.js:87:12)
+    at EventEmitter.cluster.on (/home/egguse/one-egg/node_modules/.npminstall/egg-cluster/1.6.1/egg-cluster/lib/master.js:190:22)
+    at emitThree (events.js:121:20)
+    at EventEmitter.emit (events.js:194:7)
+    at ChildProcess.<anonymous> (cluster.js:379:15)
+    at ChildProcess.g (events.js:291:16)
+name: 'AppWorkerDiedError'
+pid: 26664
+hostname: front-app01
+
+[Fri Aug 18 2017 15:25:11 GMT+0800 (HKT)] [cfork:master:26664] worker:26695 exit (code: 1, suicide: true, state: dead, isDead: true, isExpected: true)
+2017-08-18 15:25:11,241 ERROR 26664 nodejs.AppWorkerDiedError: [master] App Worker#4:26695 died (code: 1, signal: 1, suicide: true, state: dead), current workers: ["1","5","6","7"]
+    at Master.onAppExit (/home/egguse/one-egg/node_modules/.npminstall/egg-cluster/1.6.1/egg-cluster/lib/master.js:280:19)
+    at emitOne (events.js:96:13)
+    at Master.emit (events.js:188:7)
+    at Messenger.sendToMaster (/home/egguse/one-egg/node_modules/.npminstall/egg-cluster/1.6.1/egg-cluster/lib/utils/messenger.js:122:17)
+    at Messenger.send (/home/egguse/one-egg/node_modules/.npminstall/egg-cluster/1.6.1/egg-cluster/lib/utils/messenger.js:87:12)
+    at EventEmitter.cluster.on (/home/egguse/one-egg/node_modules/.npminstall/egg-cluster/1.6.1/egg-cluster/lib/master.js:190:22)
+    at emitThree (events.js:121:20)
+    at EventEmitter.emit (events.js:194:7)
+    at ChildProcess.<anonymous> (cluster.js:379:15)
+    at ChildProcess.g (events.js:291:16)
+name: 'AppWorkerDiedError'
+pid: 26664
+hostname: front-app01
+
+This file does not exist
+This file does not exist
+This file does not exist
+This file does not exist
+[Wed Aug 23 2017 14:28:43 GMT+0800 (HKT)] [graceful:worker:27330:uncaughtException] throw error 1 times
+TypeError: Cannot read property 'waiting_path' of undefined (uncaughtException throw 1 times on pid:27330)
+    at fs.readdir (/home/egguse/one-egg/app/schedule/makepage.js:40:52)
+    at FSReqWrap.oncomplete (fs.js:123:15)
+TypeError: Cannot read property 'waiting_path' of undefined (uncaughtException throw 1 times on pid:27330)
+    at fs.readdir (/home/egguse/one-egg/app/schedule/makepage.js:40:52)
+    at FSReqWrap.oncomplete (fs.js:123:15)
+[Wed Aug 23 2017 14:28:43 GMT+0800 (HKT)] [graceful:worker:27330] will exit after 30000ms
+[Wed Aug 23 2017 14:28:43 GMT+0800 (HKT)] [graceful:worker:27330] close server#0, _connections: 1
+[Wed Aug 23 2017 14:28:43 GMT+0800 (HKT)] [graceful:worker:27330] close 1 servers!
+[Wed Aug 23 2017 14:28:43 GMT+0800 (HKT)] [graceful:worker:27330] worker disconnect!
+[Wed Aug 23 2017 14:28:43 GMT+0800 (HKT)] [cfork:master:26664] worker:27330 disconnect (suicide: true, state: disconnected, isDead: false)
+[Wed Aug 23 2017 14:28:43 GMT+0800 (HKT)] [cfork:master:26664] new worker:21201 fork (state: none)
+[Wed Aug 23 2017 14:28:43 GMT+0800 (HKT)] [graceful:worker:26682:uncaughtException] throw error 1 times
+[ { Error: ENOENT: no such file or directory, unlink '/home/egguse/one-egg/app/public/wanjia/.DS_Store'
+      at Error (native)
+    errno: -2,
+    code: 'ENOENT',
+    syscall: 'unlink',
+    path: '/home/egguse/one-egg/app/public/wanjia/.DS_Store' },
+  { Error: EEXIST: file already exists, mkdir '/home/egguse/one-egg/app/public/wanjia/pug'
+      at Error (native)
+    errno: -17,
+    code: 'EEXIST',
+    syscall: 'mkdir',
+    path: '/home/egguse/one-egg/app/public/wanjia/pug' },
+  { Error: ENOENT: no such file or directory, unlink '/home/egguse/one-egg/app/public/wanjia/css/main.css'
+      at Error (native)
+    errno: -2,
+    code: 'ENOENT',
+    syscall: 'unlink',
+    path: '/home/egguse/one-egg/app/public/wanjia/css/main.css' },
+  { Error: ENOENT: no such file or directory, unlink '/home/egguse/one-egg/app/public/wanjia/images/.DS_Store'
+      at Error (native)
+    errno: -2,
+    code: 'ENOENT',
+    syscall: 'unlink',
+    path: '/home/egguse/one-egg/app/public/wanjia/images/.DS_Store' },
+  { Error: ENOENT: no such file or directory, unlink '/home/egguse/one-egg/app/public/wanjia/images/banner_01.jpg'
+      at Error (native)
+    errno: -2,
+    code: 'ENOENT',
+    syscall: 'unlink',
+    path: '/home/egguse/one-egg/app/public/wanjia/images/banner_01.jpg' },
+  { Error: ENOENT: no such file or directory, unlink '/home/egguse/one-egg/app/public/wanjia/images/banner_02.jpg'
+      at Error (native)
+    errno: -2,
+    code: 'ENOENT',
+    syscall: 'unlink',
+    path: '/home/egguse/one-egg/app/public/wanjia/images/banner_02.jpg' },
+  { Error: ENOENT: no such file or directory, unlink '/home/egguse/one-egg/app/public/wanjia/images/banner_03.jpg'
+      at Error (native)
+    errno: -2,
+    code: 'ENOENT',
+    syscall: 'unlink',
+    path: '/home/egguse/one-egg/app/public/wanjia/images/banner_03.jpg' },
+  { Error: ENOENT: no such file or directory, unlink '/home/egguse/one-egg/app/public/wanjia/images/banner_04.jpg'
+      at Error (native)
+    errno: -2,
+    code: 'ENOENT',
+    syscall: 'unlink',
+    path: '/home/egguse/one-egg/app/public/wanjia/images/banner_04.jpg' },
+  { Error: ENOENT: no such file or directory, unlink '/home/egguse/one-egg/app/public/wanjia/js/index.js'
+      at Error (native)
+    errno: -2,
+    code: 'ENOENT',
+    syscall: 'unlink',
+    path: '/home/egguse/one-egg/app/public/wanjia/js/index.js' },
+  { Error: ENOENT: no such file or directory, unlink '/home/egguse/one-egg/app/public/wanjia/json/.DS_Store'
+      at Error (native)
+    errno: -2,
+    code: 'ENOENT',
+    syscall: 'unlink',
+    path: '/home/egguse/one-egg/app/public/wanjia/json/.DS_Store' },
+  { Error: ENOENT: no such file or directory, unlink '/home/egguse/one-egg/app/public/wanjia/images/banner_05.jpg'
+      at Error (native)
+    errno: -2,
+    code: 'ENOENT',
+    syscall: 'unlink',
+    path: '/home/egguse/one-egg/app/public/wanjia/images/banner_05.jpg' },
+  { Error: ENOENT: no such file or directory, unlink '/home/egguse/one-egg/app/public/wanjia/images/bg01.jpg'
+      at Error (native)
+    errno: -2,
+    code: 'ENOENT',
+    syscall: 'unlink',
+    path: '/home/egguse/one-egg/app/public/wanjia/images/bg01.jpg' },
+  { Error: ENOENT: no such file or directory, unlink '/home/egguse/one-egg/app/public/wanjia/images/bg02.jpg'
+      at Error (native)
+    errno: -2,
+    code: 'ENOENT',
+    syscall: 'unlink',
+    path: '/home/egguse/one-egg/app/public/wanjia/images/bg02.jpg' },
+  { Error: ENOENT: no such file or directory, unlink '/home/egguse/one-egg/app/public/wanjia/images/bg03.jpg'
+      at Error (native)
+    errno: -2,
+    code: 'ENOENT',
+    syscall: 'unlink',
+    path: '/home/egguse/one-egg/app/public/wanjia/images/bg03.jpg' },
+  { Error: ENOENT: no such file or directory, unlink '/home/egguse/one-egg/app/public/wanjia/images/bg04.jpg'
+      at Error (native)
+    errno: -2,
+    code: 'ENOENT',
+    syscall: 'unlink',
+    path: '/home/egguse/one-egg/app/public/wanjia/images/bg04.jpg' },
+  { Error: ENOENT: no such file or directory, unlink '/home/egguse/one-egg/app/public/wanjia/images/bg05.jpg'
+      at Error (native)
+    errno: -2,
+    code: 'ENOENT',
+    syscall: 'unlink',
+    path: '/home/egguse/one-egg/app/public/wanjia/images/bg05.jpg' },
+  { Error: ENOENT: no such file or directory, unlink '/home/egguse/one-egg/app/public/wanjia/images/bg06.jpg'
+      at Error (native)
+    errno: -2,
+    code: 'ENOENT',
+    syscall: 'unlink',
+    path: '/home/egguse/one-egg/app/public/wanjia/images/bg06.jpg' },
+  { Error: ENOENT: no such file or directory, unlink '/home/egguse/one-egg/app/public/wanjia/images/bg07.jpg'
+      at Error (native)
+    errno: -2,
+    code: 'ENOENT',
+    syscall: 'unlink',
+    path: '/home/egguse/one-egg/app/public/wanjia/images/bg07.jpg' },
+  { Error: ENOENT: no such file or directory, unlink '/home/egguse/one-egg/app/public/wanjia/images/bg08.jpg'
+      at Error (native)
+    errno: -2,
+    code: 'ENOENT',
+    syscall: 'unlink',
+    path: '/home/egguse/one-egg/app/public/wanjia/images/bg08.jpg' },
+  { Error: ENOENT: no such file or directory, unlink '/home/egguse/one-egg/app/public/wanjia/images/biaoqian.png'
+      at Error (native)
+    errno: -2,
+    code: 'ENOENT',
+    syscall: 'unlink',
+    path: '/home/egguse/one-egg/app/public/wanjia/images/biaoqian.png' },
+  { Error: ENOENT: no such file or directory, unlink '/home/egguse/one-egg/app/public/wanjia/images/btn.png'
+      at Error (native)
+    errno: -2,
+    code: 'ENOENT',
+    syscall: 'unlink',
+    path: '/home/egguse/one-egg/app/public/wanjia/images/btn.png' },
+  { Error: ENOENT: no such file or directory, unlink '/home/egguse/one-egg/app/public/wanjia/images/buybtn.png'
+      at Error (native)
+    errno: -2,
+    code: 'ENOENT',
+    syscall: 'unlink',
+    path: '/home/egguse/one-egg/app/public/wanjia/images/buybtn.png' },
+  { Error: ENOENT: no such file or directory, unlink '/home/egguse/one-egg/app/public/wanjia/images/data.png'
+      at Error (native)
+    errno: -2,
+    code: 'ENOENT',
+    syscall: 'unlink',
+    path: '/home/egguse/one-egg/app/public/wanjia/images/data.png' },
+  { Error: ENOENT: no such file or directory, unlink '/home/egguse/one-egg/app/public/wanjia/images/data2.png'
+      at Error (native)
+    errno: -2,
+    code: 'ENOENT',
+    syscall: 'unlink',
+    path: '/home/egguse/one-egg/app/public/wanjia/images/data2.png' },
+  { Error: ENOENT: no such file or directory, unlink '/home/egguse/one-egg/app/public/wanjia/images/loading.gif'
+      at Error (native)
+    errno: -2,
+    code: 'ENOENT',
+    syscall: 'unlink',
+    path: '/home/egguse/one-egg/app/public/wanjia/images/loading.gif' },
+  { Error: ENOENT: no such file or directory, unlink '/home/egguse/one-egg/app/public/wanjia/images/more.png'
+      at Error (native)
+    errno: -2,
+    code: 'ENOENT',
+    syscall: 'unlink',
+    path: '/home/egguse/one-egg/app/public/wanjia/images/more.png' },
+  { Error: ENOENT: no such file or directory, unlink '/home/egguse/one-egg/app/public/wanjia/images/msbg.jpg'
+      at Error (native)
+    errno: -2,
+    code: 'ENOENT',
+    syscall: 'unlink',
+    path: '/home/egguse/one-egg/app/public/wanjia/images/msbg.jpg' },
+  { Error: ENOENT: no such file or directory, unlink '/home/egguse/one-egg/app/public/wanjia/images/mscon.png'
+      at Error (native)
+    errno: -2,
+    code: 'ENOENT',
+    syscall: 'unlink',
+    path: '/home/egguse/one-egg/app/public/wanjia/images/mscon.png' } ]
+undefined
+[Wed Aug 23 2017 14:28:43 GMT+0800 (HKT)] [graceful:worker:26682] will exit after 30000ms
+[Wed Aug 23 2017 14:28:43 GMT+0800 (HKT)] [graceful:worker:26682] close server#0, _connections: 2
+[Wed Aug 23 2017 14:28:43 GMT+0800 (HKT)] [graceful:worker:26682] close 1 servers!
+[Wed Aug 23 2017 14:28:43 GMT+0800 (HKT)] [graceful:worker:26682] worker disconnect!
+[Wed Aug 23 2017 14:28:43 GMT+0800 (HKT)] [cfork:master:26664] worker:26682 disconnect (suicide: true, state: disconnected, isDead: false)
+[Wed Aug 23 2017 14:28:43 GMT+0800 (HKT)] [graceful:worker:27318:uncaughtException] throw error 1 times
+[ { Error: ENOENT: no such file or directory, unlink '/home/egguse/one-egg/app/public/wanjia/css/main.css'
+      at Error (native)
+    errno: -2,
+    code: 'ENOENT',
+    syscall: 'unlink',
+    path: '/home/egguse/one-egg/app/public/wanjia/css/main.css' },
+  { Error: ENOENT: no such file or directory, unlink '/home/egguse/one-egg/app/public/wanjia/images/.DS_Store'
+      at Error (native)
+    errno: -2,
+    code: 'ENOENT',
+    syscall: 'unlink',
+    path: '/home/egguse/one-egg/app/public/wanjia/images/.DS_Store' },
+  { Error: ENOENT: no such file or directory, unlink '/home/egguse/one-egg/app/public/wanjia/images/banner_01.jpg'
+      at Error (native)
+    errno: -2,
+    code: 'ENOENT',
+    syscall: 'unlink',
+    path: '/home/egguse/one-egg/app/public/wanjia/images/banner_01.jpg' },
+  { Error: ENOENT: no such file or directory, unlink '/home/egguse/one-egg/app/public/wanjia/images/banner_02.jpg'
+      at Error (native)
+    errno: -2,
+    code: 'ENOENT',
+    syscall: 'unlink',
+    path: '/home/egguse/one-egg/app/public/wanjia/images/banner_02.jpg' },
+  { Error: ENOENT: no such file or directory, unlink '/home/egguse/one-egg/app/public/wanjia/images/banner_03.jpg'
+      at Error (native)
+    errno: -2,
+    code: 'ENOENT',
+    syscall: 'unlink',
+    path: '/home/egguse/one-egg/app/public/wanjia/images/banner_03.jpg' },
+  { Error: ENOENT: no such file or directory, unlink '/home/egguse/one-egg/app/public/wanjia/js/index.js'
+      at Error (native)
+    errno: -2,
+    code: 'ENOENT',
+    syscall: 'unlink',
+    path: '/home/egguse/one-egg/app/public/wanjia/js/index.js' },
+  { Error: ENOENT: no such file or directory, unlink '/home/egguse/one-egg/app/public/wanjia/json/.DS_Store'
+      at Error (native)
+    errno: -2,
+    code: 'ENOENT',
+    syscall: 'unlink',
+    path: '/home/egguse/one-egg/app/public/wanjia/json/.DS_Store' },
+  { Error: ENOENT: no such file or directory, unlink '/home/egguse/one-egg/app/public/wanjia/images/banner_04.jpg'
+      at Error (native)
+    errno: -2,
+    code: 'ENOENT',
+    syscall: 'unlink',
+    path: '/home/egguse/one-egg/app/public/wanjia/images/banner_04.jpg' },
+  { Error: ENOENT: no such file or directory, unlink '/home/egguse/one-egg/app/public/wanjia/images/bg02.jpg'
+      at Error (native)
+    errno: -2,
+    code: 'ENOENT',
+    syscall: 'unlink',
+    path: '/home/egguse/one-egg/app/public/wanjia/images/bg02.jpg' },
+  { Error: ENOENT: no such file or directory, unlink '/home/egguse/one-egg/app/public/wanjia/images/bg03.jpg'
+      at Error (native)
+    errno: -2,
+    code: 'ENOENT',
+    syscall: 'unlink',
+    path: '/home/egguse/one-egg/app/public/wanjia/images/bg03.jpg' },
+  { Error: ENOENT: no such file or directory, unlink '/home/egguse/one-egg/app/public/wanjia/images/bg04.jpg'
+      at Error (native)
+    errno: -2,
+    code: 'ENOENT',
+    syscall: 'unlink',
+    path: '/home/egguse/one-egg/app/public/wanjia/images/bg04.jpg' },
+  { Error: ENOENT: no such file or directory, unlink '/home/egguse/one-egg/app/public/wanjia/images/bg05.jpg'
+      at Error (native)
+    errno: -2,
+    code: 'ENOENT',
+    syscall: 'unlink',
+    path: '/home/egguse/one-egg/app/public/wanjia/images/bg05.jpg' },
+  { Error: ENOENT: no such file or directory, unlink '/home/egguse/one-egg/app/public/wanjia/images/bg06.jpg'
+      at Error (native)
+    errno: -2,
+    code: 'ENOENT',
+    syscall: 'unlink',
+    path: '/home/egguse/one-egg/app/public/wanjia/images/bg06.jpg' },
+  { Error: ENOENT: no such file or directory, unlink '/home/egguse/one-egg/app/public/wanjia/images/bg07.jpg'
+      at Error (native)
+    errno: -2,
+    code: 'ENOENT',
+    syscall: 'unlink',
+    path: '/home/egguse/one-egg/app/public/wanjia/images/bg07.jpg' },
+  { Error: ENOENT: no such file or directory, unlink '/home/egguse/one-egg/app/public/wanjia/images/bg08.jpg'
+      at Error (native)
+    errno: -2,
+    code: 'ENOENT',
+    syscall: 'unlink',
+    path: '/home/egguse/one-egg/app/public/wanjia/images/bg08.jpg' },
+  { Error: ENOENT: no such file or directory, unlink '/home/egguse/one-egg/app/public/wanjia/images/pic-suprise2.jpg'
+      at Error (native)
+    errno: -2,
+    code: 'ENOENT',
+    syscall: 'unlink',
+    path: '/home/egguse/one-egg/app/public/wanjia/images/pic-suprise2.jpg' },
+  { Error: ENOENT: no such file or directory, unlink '/home/egguse/one-egg/app/public/wanjia/images/pic-suprise3.jpg'
+      at Error (native)
+    errno: -2,
+    code: 'ENOENT',
+    syscall: 'unlink',
+    path: '/home/egguse/one-egg/app/public/wanjia/images/pic-suprise3.jpg' },
+  { Error: ENOENT: no such file or directory, unlink '/home/egguse/one-egg/app/public/wanjia/images/sidebar_gotop.png'
+      at Error (native)
+    errno: -2,
+    code: 'ENOENT',
+    syscall: 'unlink',
+    path: '/home/egguse/one-egg/app/public/wanjia/images/sidebar_gotop.png' },
+  { Error: ENOENT: no such file or directory, unlink '/home/egguse/one-egg/app/public/wanjia/images/sidebar_top.png'
+      at Error (native)
+    errno: -2,
+    code: 'ENOENT',
+    syscall: 'unlink',
+    path: '/home/egguse/one-egg/app/public/wanjia/images/sidebar_top.png' },
+  { Error: ENOENT: no such file or directory, unlink '/home/egguse/one-egg/app/public/wanjia/images/title6.png'
+      at Error (native)
+    errno: -2,
+    code: 'ENOENT',
+    syscall: 'unlink',
+    path: '/home/egguse/one-egg/app/public/wanjia/images/title6.png' },
+  { Error: ENOENT: no such file or directory, unlink '/home/egguse/one-egg/app/public/wanjia/images/title7.png'
+      at Error (native)
+    errno: -2,
+    code: 'ENOENT',
+    syscall: 'unlink',
+    path: '/home/egguse/one-egg/app/public/wanjia/images/title7.png' },
+  { Error: ENOENT: no such file or directory, unlink '/home/egguse/one-egg/app/public/wanjia/images/title8.png'
+      at Error (native)
+    errno: -2,
+    code: 'ENOENT',
+    syscall: 'unlink',
+    path: '/home/egguse/one-egg/app/public/wanjia/images/title8.png' },
+  { Error: ENOENT: no such file or directory, unlink '/home/egguse/one-egg/app/public/wanjia/images/title9.png'
+      at Error (native)
+    errno: -2,
+    code: 'ENOENT',
+    syscall: 'unlink',
+    path: '/home/egguse/one-egg/app/public/wanjia/images/title9.png' },
+  { Error: ENOENT: no such file or directory, unlink '/home/egguse/one-egg/app/public/wanjia/images/webwxgetmsgimg.jpg'
+      at Error (native)
+    errno: -2,
+    code: 'ENOENT',
+    syscall: 'unlink',
+    path: '/home/egguse/one-egg/app/public/wanjia/images/webwxgetmsgimg.jpg' },
+  { Error: ENOENT: no such file or directory, unlink '/home/egguse/one-egg/app/public/wanjia/images/youji1.png'
+      at Error (native)
+    errno: -2,
+    code: 'ENOENT',
+    syscall: 'unlink',
+    path: '/home/egguse/one-egg/app/public/wanjia/images/youji1.png' } ]
+undefined
+[Wed Aug 23 2017 14:28:43 GMT+0800 (HKT)] [graceful:worker:27318] will exit after 30000ms
+[Wed Aug 23 2017 14:28:43 GMT+0800 (HKT)] [graceful:worker:27318] close server#0, _connections: 2
+[Wed Aug 23 2017 14:28:43 GMT+0800 (HKT)] [graceful:worker:27318] close 1 servers!
+[Wed Aug 23 2017 14:28:43 GMT+0800 (HKT)] [graceful:worker:27318] worker disconnect!
+[Wed Aug 23 2017 14:28:43 GMT+0800 (HKT)] [graceful:worker:27324:uncaughtException] throw error 1 times
+[ { Error: ENOENT: no such file or directory, unlink '/home/egguse/one-egg/app/public/wanjia/.DS_Store'
+      at Error (native)
+    errno: -2,
+    code: 'ENOENT',
+    syscall: 'unlink',
+    path: '/home/egguse/one-egg/app/public/wanjia/.DS_Store' },
+  { Error: EEXIST: file already exists, mkdir '/home/egguse/one-egg/app/public/wanjia/pug'
+      at Error (native)
+    errno: -17,
+    code: 'EEXIST',
+    syscall: 'mkdir',
+    path: '/home/egguse/one-egg/app/public/wanjia/pug' },
+  { Error: ENOENT: no such file or directory, unlink '/home/egguse/one-egg/app/public/wanjia/images/youji2.png'
+      at Error (native)
+    errno: -2,
+    code: 'ENOENT',
+    syscall: 'unlink',
+    path: '/home/egguse/one-egg/app/public/wanjia/images/youji2.png' } ]
+undefined
+[Wed Aug 23 2017 14:28:43 GMT+0800 (HKT)] [cfork:master:26664] new worker:21207 fork (state: none)
+[Wed Aug 23 2017 14:28:43 GMT+0800 (HKT)] [graceful:worker:27324] will exit after 30000ms
+[Wed Aug 23 2017 14:28:43 GMT+0800 (HKT)] [graceful:worker:27324] close server#0, _connections: 1
+[Wed Aug 23 2017 14:28:43 GMT+0800 (HKT)] [graceful:worker:27324] close 1 servers!
+[Wed Aug 23 2017 14:28:43 GMT+0800 (HKT)] [graceful:worker:27324] worker disconnect!
+[Wed Aug 23 2017 14:28:43 GMT+0800 (HKT)] [cfork:master:26664] worker:27318 disconnect (suicide: true, state: disconnected, isDead: false)
+[Wed Aug 23 2017 14:28:43 GMT+0800 (HKT)] [cfork:master:26664] new worker:21213 fork (state: none)
+[Wed Aug 23 2017 14:28:43 GMT+0800 (HKT)] [cfork:master:26664] worker:27324 disconnect (suicide: true, state: disconnected, isDead: false)
+[Wed Aug 23 2017 14:28:43 GMT+0800 (HKT)] [cfork:master:26664] new worker:21219 fork (state: none)
+[Wed Aug 23 2017 14:29:13 GMT+0800 (HKT)] [graceful:worker:27330] kill timeout, exit now.
+[Wed Aug 23 2017 14:29:13 GMT+0800 (HKT)] [cfork:master:26664] worker:27330 exit (code: 1, suicide: true, state: dead, isDead: true, isExpected: true)
+2017-08-23 14:29:13,730 ERROR 26664 nodejs.AppWorkerDiedError: [master] App Worker#7:27330 died (code: 1, signal: 1, suicide: true, state: dead), current workers: ["1","5","6","8","9","10","11"]
+    at Master.onAppExit (/home/egguse/one-egg/node_modules/.npminstall/egg-cluster/1.6.1/egg-cluster/lib/master.js:280:19)
+    at emitOne (events.js:96:13)
+    at Master.emit (events.js:188:7)
+    at Messenger.sendToMaster (/home/egguse/one-egg/node_modules/.npminstall/egg-cluster/1.6.1/egg-cluster/lib/utils/messenger.js:122:17)
+    at Messenger.send (/home/egguse/one-egg/node_modules/.npminstall/egg-cluster/1.6.1/egg-cluster/lib/utils/messenger.js:87:12)
+    at EventEmitter.cluster.on (/home/egguse/one-egg/node_modules/.npminstall/egg-cluster/1.6.1/egg-cluster/lib/master.js:190:22)
+    at emitThree (events.js:121:20)
+    at EventEmitter.emit (events.js:194:7)
+    at ChildProcess.<anonymous> (cluster.js:379:15)
+    at ChildProcess.g (events.js:291:16)
+name: 'AppWorkerDiedError'
+pid: 26664
+hostname: front-app01
+
+[Wed Aug 23 2017 14:29:13 GMT+0800 (HKT)] [graceful:worker:26682] kill timeout, exit now.
+[Wed Aug 23 2017 14:29:13 GMT+0800 (HKT)] [cfork:master:26664] worker:26682 exit (code: 1, suicide: true, state: dead, isDead: true, isExpected: true)
+2017-08-23 14:29:13,824 ERROR 26664 nodejs.AppWorkerDiedError: [master] App Worker#1:26682 died (code: 1, signal: 1, suicide: true, state: dead), current workers: ["5","6","8","9","10","11"]
+    at Master.onAppExit (/home/egguse/one-egg/node_modules/.npminstall/egg-cluster/1.6.1/egg-cluster/lib/master.js:280:19)
+    at emitOne (events.js:96:13)
+    at Master.emit (events.js:188:7)
+    at Messenger.sendToMaster (/home/egguse/one-egg/node_modules/.npminstall/egg-cluster/1.6.1/egg-cluster/lib/utils/messenger.js:122:17)
+    at Messenger.send (/home/egguse/one-egg/node_modules/.npminstall/egg-cluster/1.6.1/egg-cluster/lib/utils/messenger.js:87:12)
+    at EventEmitter.cluster.on (/home/egguse/one-egg/node_modules/.npminstall/egg-cluster/1.6.1/egg-cluster/lib/master.js:190:22)
+    at emitThree (events.js:121:20)
+    at EventEmitter.emit (events.js:194:7)
+    at ChildProcess.<anonymous> (cluster.js:379:15)
+    at ChildProcess.g (events.js:291:16)
+name: 'AppWorkerDiedError'
+pid: 26664
+hostname: front-app01
+
+[Wed Aug 23 2017 14:29:13 GMT+0800 (HKT)] [graceful:worker:27318] kill timeout, exit now.
+[Wed Aug 23 2017 14:29:13 GMT+0800 (HKT)] [graceful:worker:27324] kill timeout, exit now.
+[Wed Aug 23 2017 14:29:13 GMT+0800 (HKT)] [cfork:master:26664] worker:27318 exit (code: 1, suicide: true, state: dead, isDead: true, isExpected: true)
+2017-08-23 14:29:13,859 ERROR 26664 nodejs.AppWorkerDiedError: [master] App Worker#5:27318 died (code: 1, signal: 1, suicide: true, state: dead), current workers: ["6","8","9","10","11"]
+    at Master.onAppExit (/home/egguse/one-egg/node_modules/.npminstall/egg-cluster/1.6.1/egg-cluster/lib/master.js:280:19)
+    at emitOne (events.js:96:13)
+    at Master.emit (events.js:188:7)
+    at Messenger.sendToMaster (/home/egguse/one-egg/node_modules/.npminstall/egg-cluster/1.6.1/egg-cluster/lib/utils/messenger.js:122:17)
+    at Messenger.send (/home/egguse/one-egg/node_modules/.npminstall/egg-cluster/1.6.1/egg-cluster/lib/utils/messenger.js:87:12)
+    at EventEmitter.cluster.on (/home/egguse/one-egg/node_modules/.npminstall/egg-cluster/1.6.1/egg-cluster/lib/master.js:190:22)
+    at emitThree (events.js:121:20)
+    at EventEmitter.emit (events.js:194:7)
+    at ChildProcess.<anonymous> (cluster.js:379:15)
+    at ChildProcess.g (events.js:291:16)
+name: 'AppWorkerDiedError'
+pid: 26664
+hostname: front-app01
+
+[Wed Aug 23 2017 14:29:13 GMT+0800 (HKT)] [cfork:master:26664] worker:27324 exit (code: 1, suicide: true, state: dead, isDead: true, isExpected: true)
+2017-08-23 14:29:13,872 ERROR 26664 nodejs.AppWorkerDiedError: [master] App Worker#6:27324 died (code: 1, signal: 1, suicide: true, state: dead), current workers: ["8","9","10","11"]
+    at Master.onAppExit (/home/egguse/one-egg/node_modules/.npminstall/egg-cluster/1.6.1/egg-cluster/lib/master.js:280:19)
+    at emitOne (events.js:96:13)
+    at Master.emit (events.js:188:7)
+    at Messenger.sendToMaster (/home/egguse/one-egg/node_modules/.npminstall/egg-cluster/1.6.1/egg-cluster/lib/utils/messenger.js:122:17)
+    at Messenger.send (/home/egguse/one-egg/node_modules/.npminstall/egg-cluster/1.6.1/egg-cluster/lib/utils/messenger.js:87:12)
+    at EventEmitter.cluster.on (/home/egguse/one-egg/node_modules/.npminstall/egg-cluster/1.6.1/egg-cluster/lib/master.js:190:22)
+    at emitThree (events.js:121:20)
+    at EventEmitter.emit (events.js:194:7)
+    at ChildProcess.<anonymous> (cluster.js:379:15)
+    at ChildProcess.g (events.js:291:16)
+name: 'AppWorkerDiedError'
+pid: 26664
+hostname: front-app01
+
+[Wed Aug 23 2017 14:32:43 GMT+0800 (HKT)] [graceful:worker:21213:uncaughtException] throw error 1 times
+[ { Error: EEXIST: file already exists, mkdir '/home/egguse/one-egg/app/public/wanjia'
+      at Error (native)
+    errno: -17,
+    code: 'EEXIST',
+    syscall: 'mkdir',
+    path: '/home/egguse/one-egg/app/public/wanjia' } ]
+undefined
+[Wed Aug 23 2017 14:32:43 GMT+0800 (HKT)] [graceful:worker:21213] will exit after 30000ms
+[Wed Aug 23 2017 14:32:43 GMT+0800 (HKT)] [graceful:worker:21213] close server#0, _connections: 2
+[Wed Aug 23 2017 14:32:43 GMT+0800 (HKT)] [graceful:worker:21213] close 1 servers!
+[Wed Aug 23 2017 14:32:43 GMT+0800 (HKT)] [graceful:worker:21213] worker disconnect!
+[Wed Aug 23 2017 14:32:43 GMT+0800 (HKT)] [cfork:master:26664] worker:21213 disconnect (suicide: true, state: disconnected, isDead: false)
+[Wed Aug 23 2017 14:32:43 GMT+0800 (HKT)] [graceful:worker:21207:uncaughtException] throw error 1 times
+[Wed Aug 23 2017 14:32:43 GMT+0800 (HKT)] [graceful:worker:21219:uncaughtException] throw error 1 times
+[ { Error: EEXIST: file already exists, mkdir '/home/egguse/one-egg/app/public/wanjia/css'
+      at Error (native)
+    errno: -17,
+    code: 'EEXIST',
+    syscall: 'mkdir',
+    path: '/home/egguse/one-egg/app/public/wanjia/css' },
+  { Error: EEXIST: file already exists, mkdir '/home/egguse/one-egg/app/public/wanjia/images'
+      at Error (native)
+    errno: -17,
+    code: 'EEXIST',
+    syscall: 'mkdir',
+    path: '/home/egguse/one-egg/app/public/wanjia/images' },
+  { Error: EEXIST: file already exists, mkdir '/home/egguse/one-egg/app/public/wanjia/js'
+      at Error (native)
+    errno: -17,
+    code: 'EEXIST',
+    syscall: 'mkdir',
+    path: '/home/egguse/one-egg/app/public/wanjia/js' },
+  { Error: EEXIST: file already exists, mkdir '/home/egguse/one-egg/app/public/wanjia/json'
+      at Error (native)
+    errno: -17,
+    code: 'EEXIST',
+    syscall: 'mkdir',
+    path: '/home/egguse/one-egg/app/public/wanjia/json' },
+  { Error: EEXIST: file already exists, mkdir '/home/egguse/one-egg/app/public/wanjia/pug'
+      at Error (native)
+    errno: -17,
+    code: 'EEXIST',
+    syscall: 'mkdir',
+    path: '/home/egguse/one-egg/app/public/wanjia/pug' } ]
+undefined
+[ { Error: EEXIST: file already exists, mkdir '/home/egguse/one-egg/app/public/wanjia/css'
+      at Error (native)
+    errno: -17,
+    code: 'EEXIST',
+    syscall: 'mkdir',
+    path: '/home/egguse/one-egg/app/public/wanjia/css' },
+  { Error: EEXIST: file already exists, mkdir '/home/egguse/one-egg/app/public/wanjia/images'
+      at Error (native)
+    errno: -17,
+    code: 'EEXIST',
+    syscall: 'mkdir',
+    path: '/home/egguse/one-egg/app/public/wanjia/images' },
+  { Error: EEXIST: file already exists, mkdir '/home/egguse/one-egg/app/public/wanjia/js'
+      at Error (native)
+    errno: -17,
+    code: 'EEXIST',
+    syscall: 'mkdir',
+    path: '/home/egguse/one-egg/app/public/wanjia/js' },
+  { Error: EEXIST: file already exists, mkdir '/home/egguse/one-egg/app/public/wanjia/json'
+      at Error (native)
+    errno: -17,
+    code: 'EEXIST',
+    syscall: 'mkdir',
+    path: '/home/egguse/one-egg/app/public/wanjia/json' },
+  { Error: EEXIST: file already exists, mkdir '/home/egguse/one-egg/app/public/wanjia/pug'
+      at Error (native)
+    errno: -17,
+    code: 'EEXIST',
+    syscall: 'mkdir',
+    path: '/home/egguse/one-egg/app/public/wanjia/pug' } ]
+undefined
+[Wed Aug 23 2017 14:32:43 GMT+0800 (HKT)] [graceful:worker:21207] will exit after 30000ms
+[Wed Aug 23 2017 14:32:43 GMT+0800 (HKT)] [graceful:worker:21219] will exit after 30000ms
+[Wed Aug 23 2017 14:32:43 GMT+0800 (HKT)] [graceful:worker:21207] close server#0, _connections: 1
+[Wed Aug 23 2017 14:32:43 GMT+0800 (HKT)] [graceful:worker:21207] close 1 servers!
+[Wed Aug 23 2017 14:32:43 GMT+0800 (HKT)] [graceful:worker:21219] close server#0, _connections: 2
+[Wed Aug 23 2017 14:32:43 GMT+0800 (HKT)] [graceful:worker:21219] close 1 servers!
+[Wed Aug 23 2017 14:32:43 GMT+0800 (HKT)] [graceful:worker:21207] worker disconnect!
+[Wed Aug 23 2017 14:32:43 GMT+0800 (HKT)] [graceful:worker:21219] worker disconnect!
+[Wed Aug 23 2017 14:32:43 GMT+0800 (HKT)] [cfork:master:26664] new worker:21602 fork (state: none)
+[Wed Aug 23 2017 14:32:43 GMT+0800 (HKT)] [cfork:master:26664] worker:21207 disconnect (suicide: true, state: disconnected, isDead: false)
+[Wed Aug 23 2017 14:32:43 GMT+0800 (HKT)] [cfork:master:26664] new worker:21608 fork (state: none)
+[Wed Aug 23 2017 14:32:43 GMT+0800 (HKT)] [cfork:master:26664] worker:21219 disconnect (suicide: true, state: disconnected, isDead: false)
+[Wed Aug 23 2017 14:32:43 GMT+0800 (HKT)] [cfork:master:26664] new worker:21609 fork (state: none)
+[Wed Aug 23 2017 14:33:13 GMT+0800 (HKT)] [graceful:worker:21213] kill timeout, exit now.
+[Wed Aug 23 2017 14:33:13 GMT+0800 (HKT)] [cfork:master:26664] worker:21213 exit (code: 1, suicide: true, state: dead, isDead: true, isExpected: true)
+2017-08-23 14:33:13,749 ERROR 26664 nodejs.AppWorkerDiedError: [master] App Worker#10:21213 died (code: 1, signal: 1, suicide: true, state: dead), current workers: ["8","9","11","12","13","14"]
+    at Master.onAppExit (/home/egguse/one-egg/node_modules/.npminstall/egg-cluster/1.6.1/egg-cluster/lib/master.js:280:19)
+    at emitOne (events.js:96:13)
+    at Master.emit (events.js:188:7)
+    at Messenger.sendToMaster (/home/egguse/one-egg/node_modules/.npminstall/egg-cluster/1.6.1/egg-cluster/lib/utils/messenger.js:122:17)
+    at Messenger.send (/home/egguse/one-egg/node_modules/.npminstall/egg-cluster/1.6.1/egg-cluster/lib/utils/messenger.js:87:12)
+    at EventEmitter.cluster.on (/home/egguse/one-egg/node_modules/.npminstall/egg-cluster/1.6.1/egg-cluster/lib/master.js:190:22)
+    at emitThree (events.js:121:20)
+    at EventEmitter.emit (events.js:194:7)
+    at ChildProcess.<anonymous> (cluster.js:379:15)
+    at ChildProcess.g (events.js:291:16)
+name: 'AppWorkerDiedError'
+pid: 26664
+hostname: front-app01
+
+[Wed Aug 23 2017 14:33:13 GMT+0800 (HKT)] [graceful:worker:21207] kill timeout, exit now.
+[Wed Aug 23 2017 14:33:13 GMT+0800 (HKT)] [graceful:worker:21219] kill timeout, exit now.
+[Wed Aug 23 2017 14:33:13 GMT+0800 (HKT)] [cfork:master:26664] worker:21207 exit (code: 1, suicide: true, state: dead, isDead: true, isExpected: true)
+2017-08-23 14:33:13,764 ERROR 26664 nodejs.AppWorkerDiedError: [master] App Worker#9:21207 died (code: 1, signal: 1, suicide: true, state: dead), current workers: ["8","11","12","13","14"]
+    at Master.onAppExit (/home/egguse/one-egg/node_modules/.npminstall/egg-cluster/1.6.1/egg-cluster/lib/master.js:280:19)
+    at emitOne (events.js:96:13)
+    at Master.emit (events.js:188:7)
+    at Messenger.sendToMaster (/home/egguse/one-egg/node_modules/.npminstall/egg-cluster/1.6.1/egg-cluster/lib/utils/messenger.js:122:17)
+    at Messenger.send (/home/egguse/one-egg/node_modules/.npminstall/egg-cluster/1.6.1/egg-cluster/lib/utils/messenger.js:87:12)
+    at EventEmitter.cluster.on (/home/egguse/one-egg/node_modules/.npminstall/egg-cluster/1.6.1/egg-cluster/lib/master.js:190:22)
+    at emitThree (events.js:121:20)
+    at EventEmitter.emit (events.js:194:7)
+    at ChildProcess.<anonymous> (cluster.js:379:15)
+    at ChildProcess.g (events.js:291:16)
+name: 'AppWorkerDiedError'
+pid: 26664
+hostname: front-app01
+
+[Wed Aug 23 2017 14:33:13 GMT+0800 (HKT)] [cfork:master:26664] worker:21219 exit (code: 1, suicide: true, state: dead, isDead: true, isExpected: true)
+2017-08-23 14:33:13,766 ERROR 26664 nodejs.AppWorkerDiedError: [master] App Worker#11:21219 died (code: 1, signal: 1, suicide: true, state: dead), current workers: ["8","12","13","14"]
+    at Master.onAppExit (/home/egguse/one-egg/node_modules/.npminstall/egg-cluster/1.6.1/egg-cluster/lib/master.js:280:19)
+    at emitOne (events.js:96:13)
+    at Master.emit (events.js:188:7)
+    at Messenger.sendToMaster (/home/egguse/one-egg/node_modules/.npminstall/egg-cluster/1.6.1/egg-cluster/lib/utils/messenger.js:122:17)
+    at Messenger.send (/home/egguse/one-egg/node_modules/.npminstall/egg-cluster/1.6.1/egg-cluster/lib/utils/messenger.js:87:12)
+    at EventEmitter.cluster.on (/home/egguse/one-egg/node_modules/.npminstall/egg-cluster/1.6.1/egg-cluster/lib/master.js:190:22)
+    at emitThree (events.js:121:20)
+    at EventEmitter.emit (events.js:194:7)
+    at ChildProcess.<anonymous> (cluster.js:379:15)
+    at ChildProcess.g (events.js:291:16)
+name: 'AppWorkerDiedError'
+pid: 26664
+hostname: front-app01
+
+
+[Sat Aug 26 2017 16:13:15 GMT+0800 (HKT)][pid: 26670][Leader] ClusterClientNoResponseError: client no response in 10001ms, maybe the connection is close on other side. 
+Error Stack:
+  ClusterClientNoResponseError: client no response in 10001ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/home/egguse/one-egg/node_modules/.npminstall/cluster-client/1.3.0/cluster-client/lib/leader.js:59:23)
+    at ontimeout (timers.js:380:14)
+    at tryOnTimeout (timers.js:244:5)
+    at Timer.listOnTimeout (timers.js:214:5)
+
+
+[Sat Aug 26 2017 16:13:15 GMT+0800 (HKT)][pid: 21608][Follower] Error: read ECONNRESET (address: 127.0.0.1:47991) 
+Error Stack:
+  Error: read ECONNRESET (address: 127.0.0.1:47991)
+    at exports._errnoException (util.js:1018:11)
+    at TCP.onread (net.js:572:26)
+Error Additions:
+  code: "ECONNRESET"
+  errno: "ECONNRESET"
+  syscall: "read"
+
+
+[Sat Aug 26 2017 16:24:15 GMT+0800 (HKT)][pid: 26670][Leader] ClusterClientNoResponseError: client no response in 10002ms, maybe the connection is close on other side. 
+Error Stack:
+  ClusterClientNoResponseError: client no response in 10002ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/home/egguse/one-egg/node_modules/.npminstall/cluster-client/1.3.0/cluster-client/lib/leader.js:59:23)
+    at ontimeout (timers.js:380:14)
+    at tryOnTimeout (timers.js:244:5)
+    at Timer.listOnTimeout (timers.js:214:5)
+
+
+[Sat Aug 26 2017 16:24:15 GMT+0800 (HKT)][pid: 21201][Follower] Error: read ECONNRESET (address: 127.0.0.1:47991) 
+Error Stack:
+  Error: read ECONNRESET (address: 127.0.0.1:47991)
+    at exports._errnoException (util.js:1018:11)
+    at TCP.onread (net.js:572:26)
+Error Additions:
+  code: "ECONNRESET"
+  errno: "ECONNRESET"
+  syscall: "read"
+
+
+[Sat Aug 26 2017 16:41:25 GMT+0800 (HKT)][pid: 26670][Leader] ClusterClientNoResponseError: client no response in 10001ms, maybe the connection is close on other side. 
+Error Stack:
+  ClusterClientNoResponseError: client no response in 10001ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/home/egguse/one-egg/node_modules/.npminstall/cluster-client/1.3.0/cluster-client/lib/leader.js:59:23)
+    at ontimeout (timers.js:380:14)
+    at tryOnTimeout (timers.js:244:5)
+    at Timer.listOnTimeout (timers.js:214:5)
+
+
+[Sat Aug 26 2017 16:41:25 GMT+0800 (HKT)][pid: 21609][Follower] Error: read ECONNRESET (address: 127.0.0.1:47991) 
+Error Stack:
+  Error: read ECONNRESET (address: 127.0.0.1:47991)
+    at exports._errnoException (util.js:1018:11)
+    at TCP.onread (net.js:572:26)
+Error Additions:
+  code: "ECONNRESET"
+  errno: "ECONNRESET"
+  syscall: "read"
+
+
+[Wed Sep 06 2017 12:27:45 GMT+0800 (HKT)][pid: 26670][Leader] ClusterClientNoResponseError: client no response in 10001ms, maybe the connection is close on other side. 
+Error Stack:
+  ClusterClientNoResponseError: client no response in 10001ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/home/egguse/one-egg/node_modules/.npminstall/cluster-client/1.3.0/cluster-client/lib/leader.js:59:23)
+    at ontimeout (timers.js:380:14)
+    at tryOnTimeout (timers.js:244:5)
+    at Timer.listOnTimeout (timers.js:214:5)
+
+
+[Wed Sep 06 2017 12:30:15 GMT+0800 (HKT)][pid: 26670][Leader] ClusterClientNoResponseError: client no response in 10001ms, maybe the connection is close on other side. 
+Error Stack:
+  ClusterClientNoResponseError: client no response in 10001ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/home/egguse/one-egg/node_modules/.npminstall/cluster-client/1.3.0/cluster-client/lib/leader.js:59:23)
+    at ontimeout (timers.js:380:14)
+    at tryOnTimeout (timers.js:244:5)
+    at Timer.listOnTimeout (timers.js:214:5)
+

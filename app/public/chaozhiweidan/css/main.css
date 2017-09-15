@@ -1,0 +1,225 @@
+/*! normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css */
+html { font-family: sans-serif; -ms-text-size-adjust: 100%; -webkit-text-size-adjust: 100%; }
+
+body { margin: 0; }
+
+article, aside, details, figcaption, figure, footer, header, hgroup, main, menu, nav, section, summary { display: block; }
+
+audio, canvas, progress, video { display: inline-block; vertical-align: baseline; }
+
+audio:not([controls]) { display: none; height: 0; }
+
+[hidden], template { display: none; }
+
+a { background-color: transparent; }
+
+a:active, a:hover { outline: 0; }
+
+abbr[title] { border-bottom: 1px dotted; }
+
+b, strong { font-weight: bold; }
+
+dfn { font-style: italic; }
+
+h1 { font-size: 2em; margin: 0.67em 0; }
+
+mark { background: #ff0; color: #000; }
+
+small { font-size: 80%; }
+
+sub, sup { font-size: 75%; line-height: 0; position: relative; vertical-align: baseline; }
+
+sup { top: -0.5em; }
+
+sub { bottom: -0.25em; }
+
+img { border: 0; }
+
+svg:not(:root) { overflow: hidden; }
+
+figure { margin: 1em 40px; }
+
+hr { box-sizing: content-box; height: 0; }
+
+pre { overflow: auto; }
+
+code, kbd, pre, samp { font-family: monospace, monospace; font-size: 1em; }
+
+button, input, optgroup, select, textarea { color: inherit; font: inherit; margin: 0; }
+
+button { overflow: visible; }
+
+button, select { text-transform: none; }
+
+button, html input[type="button"], input[type="reset"], input[type="submit"] { -webkit-appearance: button; cursor: pointer; }
+
+button[disabled], html input[disabled] { cursor: default; }
+
+button::-moz-focus-inner, input::-moz-focus-inner { border: 0; padding: 0; }
+
+input { line-height: normal; }
+
+input[type="checkbox"], input[type="radio"] { box-sizing: border-box; padding: 0; }
+
+input[type="number"]::-webkit-inner-spin-button, input[type="number"]::-webkit-outer-spin-button { height: auto; }
+
+input[type="search"] { -webkit-appearance: textfield; box-sizing: content-box; }
+
+input[type="search"]::-webkit-search-cancel-button, input[type="search"]::-webkit-search-decoration { -webkit-appearance: none; }
+
+fieldset { border: 1px solid #c0c0c0; margin: 0 2px; padding: 0.35em 0.625em 0.75em; }
+
+legend { border: 0; padding: 0; }
+
+textarea { overflow: auto; }
+
+optgroup { font-weight: bold; }
+
+table { border-collapse: collapse; border-spacing: 0; }
+
+td, th { padding: 0; }
+
+body { font: 14px/1.5 Arial, "Microsoft Yahei", "Hiragino Sans GB", sans-serif; position: relative; }
+
+ul, li { list-style: none; }
+
+a, area, input { outline: none; blr: expression(this.onFocus=this.blur()); }
+
+a:focus, area:focus, input:focus { outline: none; }
+
+h1 { overflow: hidden; height: 0; text-indent: 100%; white-space: nowrap; margin: 0; }
+
+.fl { float: left; display: inline; }
+
+.fr { float: right; display: inline; }
+
+.clearfix:before, .clearfix:after { content: "."; display: block; height: 0; overflow: hidden; }
+
+.clearfix:after { clear: both; }
+
+.clearfix { zoom: 1; }
+
+.tips { display: block; line-height: 30px; font-family: "Microsoft Yahei", "PingFang SC", "Helvetica Neue", "Helvetica", "STHeitiSC-Light", Arial, sans-serif; font-weight: bold; font-size: 20px; color: #000; text-align: center; margin: 0 auto; padding: 30px 0; }
+
+.loading { display: block; margin: 0 auto; padding: 30px 0; }
+
+.main { position: relative; width: 1002px; height: auto; margin: 0 auto; padding: 0; }
+
+.wrapper { width: 100%; height: auto; }
+
+.content { width: 100%; height: auto; background: #fff no-repeat top center; }
+.content img { display: block; }
+.content .tit img { margin: 0 auto; }
+.content .tit h3 { font-family: "Microsoft Yahei", "PingFang SC", "Helvetica Neue", "Helvetica", "STHeitiSC-Light", Arial, sans-serif; font-weight: 100; font-size: 34px; color: #5047d5; text-align: center; }
+.content .tit p { font-family: "Microsoft Yahei", "PingFang SC", "Helvetica Neue", "Helvetica", "STHeitiSC-Light", Arial, sans-serif; font-size: 20px; color: #5047d5; text-align: center; }
+.content .con { margin: 0 auto; overflow: hidden; }
+.content .more { display: block; width: 234px; height: 46px; background: url("../images/more.png"); margin: 10px auto 0; }
+.content .more img { margin: 0 auto; }
+.content .more span { font-family: SimHei, sans-serif; }
+
+.wrapper01 { height: 986px; background-image: url("../images/wrapper1.jpg"); }
+
+.wrapper02 { background-color: #fffac7; height: 870px; background-image: url("../images/wrapper2.jpg"); }
+
+.wrapper03 { background-color: #fff; height: 770px; background-image: url("../images/wrapper3.jpg"); }
+
+.wrapper04 { background-color: #ccf0ff; height: 770px; background-image: url("../images/wrapper4.jpg"); }
+
+.wrapper05 { background-color: #fffac7; height: 770px; background-image: url("../images/wrapper5.jpg"); }
+
+.wrapper06 { background-color: #fff; height: 770px; background-image: url("../images/wrapper6.jpg"); }
+
+.wrapper07 { background-color: #ccf0ff; height: 770px; background-image: url("../images/wrapper7.jpg"); }
+
+.wrapper08 { background-color: #fff; height: 770px; background-image: url("../images/wrapper8.jpg"); }
+
+.wrapper09 { background-color: #fffac7; height: 770px; background-image: url("../images/wrapper9.jpg"); }
+
+.wrapper10 { background-color: #fff; height: 810px; background-image: url("../images/wrapper10.jpg"); }
+
+.wrapper11 { height: 414px; background-color: #fffac7; }
+
+.side-nav { position: absolute; top: 870px; right: 50%; width: 128px; margin-right: -660px; z-index: 9999; }
+.side-nav img { display: block; margin: 0 auto; }
+.side-nav ul { margin: 0 auto; }
+.side-nav li { display: block; overflow: hidden; height: 38px; list-style: none; background: url("../images/sidebar_li.png") no-repeat top center; }
+.side-nav li a { display: block; width: 100px; height: 38px; line-height: 38px; font-family: "Microsoft Yahei", "PingFang SC", "Helvetica Neue", "Helvetica", "STHeitiSC-Light", Arial, sans-serif; font-weight: bold; font-size: 16px; color: #000; padding-left: 13px; margin: 0 auto; }
+.side-nav li a:hover { color: #000; background: url("../images/sidebar_lihover.png") no-repeat 99px center; }
+.side-nav .li2 { height: 39px; background-image: url("../images/sidebar_li2.png"); }
+.side-nav .li2 a { height: 39px; line-height: 39px; }
+.side-nav .on a { color: #000; background: url("../images/sidebar_lihover.png") no-repeat 99px center; }
+.side-nav .ewm { height: 153px; background: url("../images/sidebar_ewm.png") no-repeat top center; margin: 0 auto; }
+.side-nav .first { height: 16px; background: url("../images/sidebar_top.png") no-repeat top center; }
+.side-nav .goTop { height: 71px; background: url("../images/sidebar_gotop.png") no-repeat top center; }
+.side-nav .goTop a:hover { background: none; }
+
+.banner-box { width: 100%; height: auto; }
+.banner-box .banner { width: 100%; background: #fff no-repeat top center; }
+.banner-box .banner .main { height: 58px; position: relative; }
+.banner-box .banner .main a { position: absolute; display: block; cursor: pointer; }
+.banner-box .banner .main img { margin: 0 auto; display: block; }
+.banner-box .banner1 { background-image: url("../images/banner_01.jpg"); height: 100px; }
+.banner-box .banner2 { background-image: url("../images/banner_02.jpg"); height: 100px; }
+.banner-box .banner3 { background-image: url("../images/banner_03.jpg"); height: 96px; }
+.banner-box .banner4 { background-image: url("../images/banner_04.jpg"); height: 100px; }
+.banner-box .banner5 { background-image: url("../images/banner_05.jpg"); height: 100px; }
+
+.itemfour { overflow: hidden; position: relative; float: left; width: 240px; height: 264px; border: 2px solid #7e4d0d; border-radius: 0 0 20px 20px; background: #fff; margin-right: 8px; margin-bottom: 12px; }
+.itemfour .fl { display: block; width: 231px; height: 125px; padding: 6px; }
+.itemfour .fl .corner { position: absolute; left: -8px; top: 17px; width: 80px; height: 39px; }
+.itemfour .fl img { display: block; width: 231px; height: 125px; }
+.itemfour .fl p { overflow: hidden; position: absolute; top: 139px; left: 0; width: 227px; line-height: 22px; font-family: "Microsoft Yahei", "PingFang SC", "Helvetica Neue", "Helvetica", "STHeitiSC-Light", Arial, sans-serif; font-size: 12px; color: #fff; white-space: nowrap; text-overflow: ellipsis; -o-text-overflow: ellipsis; background: #7e4d0d; padding: 0 8px; }
+.itemfour .fl p span { font-family: "Microsoft Yahei", "PingFang SC", "Helvetica Neue", "Helvetica", "STHeitiSC-Light", Arial, sans-serif; font-size: 12px; color: #fff; }
+.itemfour .fr { float: left; width: 228px; padding: 28px 7px 0; }
+.itemfour .fr h3 { overflow: hidden; width: 225px; height: 40px; line-height: 20px; }
+.itemfour .fr h3 a { line-height: 20px; font-family: "Microsoft Yahei", "PingFang SC", "Helvetica Neue", "Helvetica", "STHeitiSC-Light", Arial, sans-serif; font-weight: bold; font-size: 14px; color: #000000; }
+.itemfour .fr h3 a:hover { color: #000000; }
+.itemfour .fr .tese { display: none; height: 25px; line-height: 25px; font-family: "Microsoft Yahei", "PingFang SC", "Helvetica Neue", "Helvetica", "STHeitiSC-Light", Arial, sans-serif; font-size: 22px; color: #484848; border-left: 3px solid #ff6000; margin-bottom: 7px; padding-left: 13px; }
+.itemfour .fr ul { display: none; overflow: hidden; height: 26px; line-height: 24px; font-family: "Microsoft Yahei", "PingFang SC", "Helvetica Neue", "Helvetica", "STHeitiSC-Light", Arial, sans-serif; font-size: 14px; color: #555555; border-top: 1px solid #898989; padding-top: 10px; }
+.itemfour .fr ul li { line-height: 24px; font-family: "Microsoft Yahei", "PingFang SC", "Helvetica Neue", "Helvetica", "STHeitiSC-Light", Arial, sans-serif; font-size: 14px; color: #555555; }
+.itemfour .fr .clearfix { overflow: hidden; margin-top: 10px; }
+.itemfour .fr .xl { display: none; float: left; font-family: "Microsoft Yahei", "PingFang SC", "Helvetica Neue", "Helvetica", "STHeitiSC-Light", Arial, sans-serif; font-weight: bold; font-size: 15px; color: #ff6000; margin-top: 15px; }
+.itemfour .fr .price { float: left; font-family: Arial, sans-serif; font-weight: bold; font-size: 24px; color: #ff5502; }
+.itemfour .fr .price span { font-family: "Microsoft Yahei", "PingFang SC", "Helvetica Neue", "Helvetica", "STHeitiSC-Light", Arial, sans-serif; font-weight: bold; font-size: 18px; color: #ff5502; }
+.itemfour .fr .price b { font-family: "Microsoft Yahei", "PingFang SC", "Helvetica Neue", "Helvetica", "STHeitiSC-Light", Arial, sans-serif; font-weight: 100; font-size: 12px; color: #ff5502; margin-left: 2px; }
+.itemfour .fr em { display: none; position: absolute; bottom: 28px; left: 10px; font-family: "Microsoft Yahei", "PingFang SC", "Helvetica Neue", "Helvetica", "STHeitiSC-Light", Arial, sans-serif; font-style: normal; font-size: 12px; color: #5e6167; text-decoration: line-through; }
+.itemfour .fr em s { font-family: "Microsoft Yahei", "PingFang SC", "Helvetica Neue", "Helvetica", "STHeitiSC-Light", Arial, sans-serif; }
+.itemfour .fr .reserve-btn { display: block; float: right; width: 105px; height: 29px; line-height: 29px; font-family: "Microsoft Yahei", "PingFang SC", "Helvetica Neue", "Helvetica", "STHeitiSC-Light", Arial, sans-serif; font-weight: bold; font-size: 16px; color: #000000; text-align: center; border-radius: 8px; border: 2px solid #7e4d0d; background: #ff9561; margin-top: 2px; margin-right: 2px; }
+.itemfour .fr .reserve-btn:hover { background: #ff9561; }
+.itemfour .fr .nobuy { background: #818181; cursor: default; }
+.itemfour .fr .nobuy:hover { background: #818181; }
+
+.jchdCon li { float: left; padding-right: 12px; }
+.jchdCon li a { display: block; }
+.jchdCon li img { display: block; width: 326px; height: 187px; }
+
+.tab { width: 100%; }
+.tab li { float: left; width: 199px; height: 50px; line-height: 50px; font-family: "Microsoft Yahei", "PingFang SC", "Helvetica Neue", "Helvetica", "STHeitiSC-Light", Arial, sans-serif; font-size: 26px; color: #fff; text-align: center; cursor: pointer; border-right: 1px solid #fff; position: relative; }
+.tab .first { border-radius: 25px 0 0 25px; }
+.tab .last { border-radius: 0  25px 25px 0; }
+
+.tab01 { background: #7f88fa; border-radius: 25px; margin-bottom: 22px; }
+
+.tab02 { width: 910px; padding: 9px 0px 8px 88px; margin-bottom: 29px; margin-top: 22px; border-radius: 25px; background-color: #fff; border: 2px solid #966423; }
+.tab02 li { float: left; height: 44px; line-height: 44px; font-size: 24px; color: #000000; text-align: center; cursor: pointer; width: auto; padding: 0px 16px; }
+.tab02 .on { display: block; border-radius: 22px; background: #ffd34e; color: #000; }
+
+.tab03 { margin-left: 55px; margin-bottom: 33px; }
+.tab03 li { float: left; width: 210px; height: 40px; line-height: 40px; font-size: 24px; color: #5e68ef; text-align: center; cursor: pointer; border: 2px solid #5e68ef; background: #fff; border-radius: 25px; margin-left: 16px; }
+.tab03 .on { color: #fff; background: #5e68ef; }
+
+.tabCon-box { width: 1002px; height: 148px; background: #fff; border-radius: 10px; margin-bottom: 10px; overflow: hidden; }
+.tabCon-box .tabCon .fl { width: 193px; }
+.tabCon-box .tabCon .fr { width: 790px; }
+.tabCon-box .tabCon h3 { font-family: "Microsoft Yahei", "PingFang SC", "Helvetica Neue", "Helvetica", "STHeitiSC-Light", Arial, sans-serif; font-weight: 100; font-size: 24px; color: #5e68ef; margin: 15px 0; }
+.tabCon-box .tabCon p { line-height: 24px; font-family: "Microsoft Yahei", "PingFang SC", "Helvetica Neue", "Helvetica", "STHeitiSC-Light", Arial, sans-serif; font-size: 16px; color: #555555; }
+.tabCon-box .tabCon04 h3 { margin: 20px 0; }
+
+.con01 .tit { position: relative; margin-top: 10px; margin-bottom: 25px; }
+.con01 .tit .rulebtn { position: absolute; right: -143px; top: 0px; width: 283px; height: 77px; background: url("../images/rulebtn.png"); }
+.con01 .tit .rulecon { display: none; position: absolute; right: -143px; top: 90px; width: 945px; border: 3px solid #362e2b; background: #ffeeca; border-radius: 10px; z-index: 999999; }
+.con01 .tit .rulecon p { line-height: 24px; font-family: "Microsoft Yahei", "PingFang SC", "Helvetica Neue", "Helvetica", "STHeitiSC-Light", Arial, sans-serif; font-size: 16px; color: #000000; text-align: left; padding: 22px 0 22px 25px; }
+
+.con02 .tit, .con03 .tit, .con04 .tit, .con05 .tit, .con06 .tit, .con07 .tit, .con08 .tit, .con09 .tit, .con10 .tit { padding-top: 75px; padding-bottom: 25px; }
+
+.con11 .tit { padding-bottom: 37px; padding-top: 16px; }

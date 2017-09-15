@@ -1,0 +1,25 @@
+doctype html
+html
+  head
+    - if(publicsrc==undefined)publicsrc = ''
+    meta(charset="utf-8")
+    meta(http-equiv="X-UA-Compatible",content="IE=edge")
+    title 遨游4月家庭旅游节，家庭旅游最高减1000元 – 中青旅遨游网
+    meta(name="Keywords",content="4月旅游,家庭旅游,4月去哪玩,4月适合去哪玩")
+    meta(name="Description",content="遨游4月家庭旅游节，4月出游更优惠，家庭出游最高优惠1000元，一样的旅行不一样的品质，中青旅遨游网 电话：400 600 6666")
+    link(href='http://webresource5.aoyou.com/css/head/index.css', rel='stylesheet', type='text/css')
+    link(href=publicsrc+'css/main.css', rel='stylesheet', type='text/css')
+  body#body
+    .header
+    include _banner
+    h1 遨游4月家庭旅游节，家庭旅游最高减1000元
+    include _wraper
+    .foot.clearfix
+    script(src='http://webresource5.aoyou.com/js/common/jquery-1.8.3.min.js', type='text/javascript', charset='utf-8')
+    script(src='http://webresource5.aoyou.com/js/common/jquery.cookie.js', type='text/javascript', charset='utf-8')
+    script(src='http://webresource5.aoyou.com/js/common/aoyoutoolbox-min.js', type='text/javascript', charset='utf-8')
+    <!--[if IE 6]>
+    <script src="http://webresource5.aoyou.com/js/index/DD_belatedPNG_0.0.8a-min.js" type="text/javascript" charset="utf-8"></script>
+    <script type="text/javascript">DD_belatedPNG.fix('div, img, p, ul, li, a, span');</script>
+    <![endif]-->
+    script(src=publicsrc+'js/index.js', type='text/javascript', charset='utf-8')

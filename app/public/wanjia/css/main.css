@@ -1,0 +1,315 @@
+@charset "UTF-8";
+/*! normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css */
+html { font-family: sans-serif; -ms-text-size-adjust: 100%; -webkit-text-size-adjust: 100%; }
+
+body { margin: 0; }
+
+article, aside, details, figcaption, figure, footer, header, hgroup, main, menu, nav, section, summary { display: block; }
+
+audio, canvas, progress, video { display: inline-block; vertical-align: baseline; }
+
+audio:not([controls]) { display: none; height: 0; }
+
+[hidden], template { display: none; }
+
+a { background-color: transparent; }
+
+a:active, a:hover { outline: 0; }
+
+abbr[title] { border-bottom: 1px dotted; }
+
+b, strong { font-weight: bold; }
+
+dfn { font-style: italic; }
+
+h1 { font-size: 2em; margin: 0.67em 0; }
+
+mark { background: #ff0; color: #000; }
+
+small { font-size: 80%; }
+
+sub, sup { font-size: 75%; line-height: 0; position: relative; vertical-align: baseline; }
+
+sup { top: -0.5em; }
+
+sub { bottom: -0.25em; }
+
+img { border: 0; }
+
+svg:not(:root) { overflow: hidden; }
+
+figure { margin: 1em 40px; }
+
+hr { box-sizing: content-box; height: 0; }
+
+pre { overflow: auto; }
+
+code, kbd, pre, samp { font-family: monospace, monospace; font-size: 1em; }
+
+button, input, optgroup, select, textarea { color: inherit; font: inherit; margin: 0; }
+
+button { overflow: visible; }
+
+button, select { text-transform: none; }
+
+button, html input[type="button"], input[type="reset"], input[type="submit"] { -webkit-appearance: button; cursor: pointer; }
+
+button[disabled], html input[disabled] { cursor: default; }
+
+button::-moz-focus-inner, input::-moz-focus-inner { border: 0; padding: 0; }
+
+input { line-height: normal; }
+
+input[type="checkbox"], input[type="radio"] { box-sizing: border-box; padding: 0; }
+
+input[type="number"]::-webkit-inner-spin-button, input[type="number"]::-webkit-outer-spin-button { height: auto; }
+
+input[type="search"] { -webkit-appearance: textfield; box-sizing: content-box; }
+
+input[type="search"]::-webkit-search-cancel-button, input[type="search"]::-webkit-search-decoration { -webkit-appearance: none; }
+
+fieldset { border: 1px solid #c0c0c0; margin: 0 2px; padding: 0.35em 0.625em 0.75em; }
+
+legend { border: 0; padding: 0; }
+
+textarea { overflow: auto; }
+
+optgroup { font-weight: bold; }
+
+table { border-collapse: collapse; border-spacing: 0; }
+
+td, th { padding: 0; }
+
+body { font: 14px/1.5 arial, "微软雅黑", "Hiragino Sans GB", sans-serif; position: relative; }
+
+ul, li { list-style: none; }
+
+.fl { float: left; display: inline; }
+
+.fr { float: right; display: inline; }
+
+a, area, input { outline: none; blr: expression(this.onFocus=this.blur()); }
+
+a:focus, area:focus, input:focus { outline: none; }
+
+.tips { display: block; text-align: center; font: bold 20px/30px 'microsoft yahei'; color: #fff; margin: 0 auto; padding: 30px 0; }
+
+.loading { display: block; margin: 0 auto; padding: 30px 0; }
+
+.main { margin: 0 auto; padding: 0; width: 1002px; height: auto; position: relative; }
+
+.wraper { width: 100%; height: auto; }
+.wraper img { display: block; }
+.wraper .tit img { margin: 0 auto; }
+.wraper .con { margin: 0 auto; margin-top: 37px; overflow: hidden; }
+.wraper .more { padding: 0; display: block; float: right; width: 115px; height: 28px; line-height: 28px; text-align: center; font-size: 16px; color: #ffffff; font-family: "microsoft yahei", "PingFang SC", "Helvetica Neue", "Helvetica", "STHeitiSC-Light", "Arial", sans-serif; background: url("../images/more.png"); }
+.wraper .more img { margin: 0 auto; }
+.wraper .wid { width: 100%; height: auto; overflow: hidden; }
+.wraper .mswraper { height: 628px; background-image: url("../images/msbg.jpg"); background-repeat: no-repeat; background-position: top center; }
+.wraper .wraper01 { height: 754px; background-image: url("../images/bg01.jpg"); background-repeat: no-repeat; background-position: top center; }
+.wraper .wraper02 { height: 766px; background-image: url("../images/bg02.jpg"); background-repeat: no-repeat; background-position: top center; }
+.wraper .wraper03 { height: 769px; background-image: url("../images/bg03.jpg"); background-repeat: no-repeat; background-position: top center; }
+.wraper .wraper04 { height: 779px; background-image: url("../images/bg04.jpg"); background-repeat: no-repeat; background-position: top center; }
+.wraper .wraper05 { height: 986px; background-image: url("../images/bg05.jpg"); background-repeat: no-repeat; background-position: top center; }
+.wraper .wraper06 { height: 427px; background-image: url("../images/bg06.jpg"); background-repeat: no-repeat; background-position: top center; }
+.wraper .wraper07 { height: 384px; background-color: #fff; background-image: url("../images/bg07.jpg"); background-repeat: no-repeat; background-position: top center; }
+.wraper .wraper08 { height: 768px; background-image: url("../images/bg08.jpg"); background-repeat: no-repeat; background-position: top center; }
+
+.line { display: block; cursor: pointer; margin-top: 30px; }
+
+.travel { position: relative; margin-top: 30px; background: #fff; height: 263px; border-radius: 6px; overflow: hidden; }
+.travel a { display: block; cursor: pointer; }
+.travel .t1 { position: absolute; top: 0; left: 0; }
+.travel .t2 { position: absolute; top: 0; left: 270px; }
+.travel .t3 { position: absolute; top: 128px; left: 270px; }
+.travel .t4 { position: absolute; top: 0; left: 502px; }
+.travel .t5 { position: absolute; top: 0; left: 768px; }
+.travel .t6 { position: absolute; top: 136px; left: 768px; }
+.travel .t7 { position: absolute; top: 136px; left: 893px; }
+
+.yq li { float: left; margin: 14px 12px 0 0; }
+
+.text_p { text-indent: -999em; height: 0; }
+
+.sidenav { width: 96px; position: absolute; top: 743px; right: 50%; margin-right: -620px; z-index: 9999; }
+.sidenav img { display: block; margin: 0 auto; }
+.sidenav ul { margin: 0 auto; }
+.sidenav li { display: block; width: 96px; height: 40px; list-style: none; overflow: hidden; margin: 0 auto; margin-bottom: 3px; }
+.sidenav li a { float: left; display: inline-block; width: 96px; height: 20px; line-height: 20px; font-family: "microsoft yahei", "PingFang SC", "Helvetica Neue", "Helvetica", "STHeitiSC-Light", "Arial", sans-serif; font-size: 18px; color: #fff; text-align: center; border-left: 4px solid #fff; margin-top: 10px; }
+.sidenav li a:hover { color: #003466; border-left: 4px solid #003466; }
+.sidenav .on a { color: #fff; }
+.sidenav .ewm { padding: 7px 0; }
+.sidenav .first { background: url(../images/sidebar_top.png) no-repeat top center; height: 23px; margin-bottom: 0; }
+.sidenav .gotop { height: 80px; margin-top: -4px; }
+.sidenav .gotop a { background: url(../images/sidebar_gotop.png) no-repeat center; border-left: 0px solid #9de2e4; height: 70px; }
+.sidenav .gotop a:hover { border-left: 0; }
+.sidenav .last { height: 113px; background-image: url(../images/sidebar_ewm.png); }
+
+.banner-box { width: 100%; height: auto; }
+.banner-box .banner { width: 100%; height: 134px; background-repeat: no-repeat; background-position: top center; }
+.banner-box .banner .main { height: 134px; position: relative; }
+.banner-box .banner .main a { position: absolute; display: block; cursor: pointer; }
+.banner-box .banner .main img { margin: 0 auto; display: block; }
+.banner-box .banner1 { background-image: url(../images/banner_01.jpg); }
+.banner-box .banner2 { background-image: url(../images/banner_02.jpg); }
+.banner-box .banner3 { background-image: url(../images/banner_03.jpg); }
+.banner-box .banner4 { background-image: url(../images/banner_04.jpg); }
+.banner-box .banner5 { background-image: url(../images/banner_05.jpg); }
+
+.itemtwo { overflow: hidden; float: left; width: 244px; height: 249px; margin-right: 8px; margin-bottom: 8px; position: relative; }
+.itemtwo .fl { display: block; width: 244px; height: 148px; position: absolute; right: 0; top: 0; }
+.itemtwo .fl .corner { position: absolute; left: 0; top: 0; width: 244px; height: 249px; background: url(../images/zhezhao.png); }
+.itemtwo .fl img { display: block; width: 244px; height: 148px; }
+.itemtwo .fl p { width: 224px; position: absolute; top: 125px; left: 10px; height: 16px; line-height: 16px !important; font-family: "microsoft yahei", "PingFang SC", "Helvetica Neue", "Helvetica", "STHeitiSC-Light", "Arial", sans-serif; font-size: 12px !important; color: #333333; white-space: nowrap; text-overflow: ellipsis; -o-text-overflow: ellipsis; overflow: hidden; text-indent: 20px; background: url(../images/data.png) no-repeat 0 3px; border-bottom: 1px solid #d6d6d6; padding-bottom: 5px; }
+.itemtwo .fr { float: right; width: 224px; padding: 0; position: absolute; top: 147px; left: 10px; border-top: 1px solid #5c5c5c; }
+.itemtwo .fr h3 { height: 38px; overflow: hidden; margin: 6px 0; line-height: 20px; }
+.itemtwo .fr h3 a { font: 15px/1 "microsoft yahei", "PingFang SC", "Helvetica Neue", "Helvetica", "STHeitiSC-Light", "Arial", sans-serif; font-weight: bold; color: #333333; }
+.itemtwo .fr h3 a:hover { color: #333333; }
+.itemtwo .fr ul { display: none; height: 16px; overflow: hidden; font-size: 16px; color: #1a1218; font-family: "microsoft yahei", "PingFang SC", "Helvetica Neue", "Helvetica", "STHeitiSC-Light", "Arial", sans-serif; margin: 7px 0 27px; }
+.itemtwo .fr ul li { font-size: 12px; color: #1a1218; font-family: "microsoft yahei", "PingFang SC", "Helvetica Neue", "Helvetica", "STHeitiSC-Light", "Arial", sans-serif; }
+.itemtwo .fr .clearfix { overflow: hidden; margin-top: 10px; }
+.itemtwo .fr .price { float: left; font-size: 23px; font-family: arial; color: #ff6388; font-weight: bold; margin-top: 6px; }
+.itemtwo .fr .price span { font-size: 12px; font-family: "microsoft yahei", "PingFang SC", "Helvetica Neue", "Helvetica", "STHeitiSC-Light", "Arial", sans-serif; }
+.itemtwo .fr .price b { font-size: 12px; font-family: "microsoft yahei", "PingFang SC", "Helvetica Neue", "Helvetica", "STHeitiSC-Light", "Arial", sans-serif; font-weight: 100; color: #ff6388; margin-left: 5px; }
+.itemtwo .fr .reserve-btn { float: right; display: block; width: 99px; height: 29px; line-height: 29px; color: #fff; font-family: "microsoft yahei", "PingFang SC", "Helvetica Neue", "Helvetica", "STHeitiSC-Light", "Arial", sans-serif; font-size: 18px; text-align: center; background: #ff6388; font-weight: 100; border-radius: 10px; margin: 3px; border: 2px solid #ff6388; }
+.itemtwo .fr .reserve-btn:hover { background: #ff6388; }
+.itemtwo .fr .nobuy { background: #818181; cursor: default; }
+.itemtwo .fr .nobuy:hover { background: #818181; }
+
+.hover .fl p { color: #fff; background-image: url(../images/data2.png); }
+.hover .fr { border-top: 1px solid #fff; }
+.hover .fr h3 a { color: #fff; }
+.hover .fr h3 a:hover { color: #fff; }
+.hover .fr .price { color: #fff; }
+.hover .fr .price b { color: #fff; }
+.hover .fr .reserve-btn { border: 2px solid #fff; }
+
+.itemone { overflow: hidden; float: left; width: 244px; height: 249px; margin-right: 8px; margin-bottom: 8px; position: relative; }
+.itemone .fl { display: block; width: 244px; height: 148px; position: absolute; right: 0; top: 0; }
+.itemone .fl .corner { position: absolute; left: 0; top: 0; width: 244px; height: 249px; background: url(../images/zhezhao.png); }
+.itemone .fl img { display: block; width: 244px; height: 148px; }
+.itemone .fl p { width: 224px; position: absolute; top: 125px; left: 10px; height: 16px; line-height: 16px !important; font-family: "microsoft yahei", "PingFang SC", "Helvetica Neue", "Helvetica", "STHeitiSC-Light", "Arial", sans-serif; font-size: 12px !important; color: #333333; white-space: nowrap; text-overflow: ellipsis; -o-text-overflow: ellipsis; overflow: hidden; text-indent: 20px; background: url(../images/data.png) no-repeat 0 3px; border-bottom: 1px solid #d6d6d6; padding-bottom: 5px; }
+.itemone .fr { float: right; width: 224px; padding: 0; position: absolute; top: 147px; left: 10px; border-top: 1px solid #5c5c5c; }
+.itemone .fr h3 { height: 38px; overflow: hidden; margin: 6px 0; line-height: 20px; }
+.itemone .fr h3 a { font: 15px/1 "microsoft yahei", "PingFang SC", "Helvetica Neue", "Helvetica", "STHeitiSC-Light", "Arial", sans-serif; font-weight: bold; color: #333333; }
+.itemone .fr h3 a:hover { color: #333333; }
+.itemone .fr ul { display: none; height: 16px; overflow: hidden; font-size: 16px; color: #1a1218; font-family: "microsoft yahei", "PingFang SC", "Helvetica Neue", "Helvetica", "STHeitiSC-Light", "Arial", sans-serif; margin: 7px 0 27px; }
+.itemone .fr ul li { font-size: 12px; color: #1a1218; font-family: "microsoft yahei", "PingFang SC", "Helvetica Neue", "Helvetica", "STHeitiSC-Light", "Arial", sans-serif; }
+.itemone .fr .clearfix { overflow: hidden; margin-top: 10px; }
+.itemone .fr .msText { display: none; }
+.itemone .fr .price { float: left; font-size: 23px; font-family: arial; color: #ff6388; font-weight: bold; margin-top: 6px; }
+.itemone .fr .price span { font-size: 12px; font-family: "microsoft yahei", "PingFang SC", "Helvetica Neue", "Helvetica", "STHeitiSC-Light", "Arial", sans-serif; }
+.itemone .fr .price b { font-size: 12px; font-family: "microsoft yahei", "PingFang SC", "Helvetica Neue", "Helvetica", "STHeitiSC-Light", "Arial", sans-serif; font-weight: 100; color: #ff6388; margin-left: 5px; }
+.itemone .fr .reserve-btn { float: right; display: block; width: 99px; height: 29px; line-height: 29px; color: #fff; font-family: "microsoft yahei", "PingFang SC", "Helvetica Neue", "Helvetica", "STHeitiSC-Light", "Arial", sans-serif; font-size: 18px; text-align: center; background: #ff6388; font-weight: 100; border-radius: 10px; margin: 3px; border: 2px solid #ff6388; }
+.itemone .fr .reserve-btn:hover { background: #ff6388; }
+.itemone .fr .nobuy { background: #818181; cursor: default; }
+.itemone .fr .nobuy:hover { background: #818181; }
+
+.hover .fl p { color: #fff; background-image: url(../images/data2.png); }
+.hover .fr { border-top: 1px solid #fff; }
+.hover .fr h3 a { color: #fff; }
+.hover .fr h3 a:hover { color: #fff; }
+.hover .fr .price { color: #fff; }
+.hover .fr .price b { color: #fff; }
+.hover .fr .reserve-btn { border: 2px solid #fff; background: #ea2c46; }
+.hover .fr .reserve-btn:hover { background: #ea2c46; }
+.hover .fr .nobuy { background: #818181; cursor: default; }
+.hover .fr .nobuy:hover { background: #818181; }
+
+.itemthree { overflow: hidden; float: left; width: 310px; height: 317px; padding: 8px; margin-right: 12px; margin-bottom: 12px; background: #fff; }
+.itemthree .fl { display: block; width: 310px; height: 204px; position: relative; }
+.itemthree .fl .corner { position: absolute; left: -8px; top: 17px; width: 80px; height: 39px; }
+.itemthree .fl img { display: block; width: 310px; height: 204px; }
+.itemthree .fl p { position: absolute; bottom: 0; _bottom: -1px; left: 0; width: 290px; height: 35px; line-height: 35px; padding: 0 10px; font-family: "microsoft yahei", "PingFang SC", "Helvetica Neue", "Helvetica", "STHeitiSC-Light", "Arial", sans-serif; font-size: 12px; color: #fff; white-space: nowrap; text-overflow: ellipsis; -o-text-overflow: ellipsis; overflow: hidden; }
+.itemthree .fr { float: left; }
+.itemthree .fr h3 { height: 30px; margin-top: 25px; overflow: hidden; }
+.itemthree .fr h3 a { font: 24px/1.2 "microsoft yahei", "PingFang SC", "Helvetica Neue", "Helvetica", "STHeitiSC-Light", "Arial", sans-serif; font-weight: 100; color: #000; }
+.itemthree .fr h3 a:hover { color: #000; }
+.itemthree .fr ul { height: 30px; overflow: hidden; margin-top: 5px; font-size: 21px; color: #666666; font-family: "microsoft yahei", "PingFang SC", "Helvetica Neue", "Helvetica", "STHeitiSC-Light", "Arial", sans-serif; }
+.itemthree .fr ul li { font-size: 21px; color: #666666; font-family: "microsoft yahei", "PingFang SC", "Helvetica Neue", "Helvetica", "STHeitiSC-Light", "Arial", sans-serif; }
+.itemthree .fr .clearfix { display: none; margin-top: 0; overflow: hidden; }
+.itemthree .fr .price { float: left; font-size: 29px; font-family: arial; color: #00768b; font-weight: bold; }
+.itemthree .fr .price span { font-size: 18px; font-family: "microsoft yahei", "PingFang SC", "Helvetica Neue", "Helvetica", "STHeitiSC-Light", "Arial", sans-serif; color: #969696; font-weight: 100; }
+.itemthree .fr .price b { font-size: 18px; font-family: "microsoft yahei", "PingFang SC", "Helvetica Neue", "Helvetica", "STHeitiSC-Light", "Arial", sans-serif; font-weight: 100; color: #00768b; }
+.itemthree .fr .reserve-btn { float: right; display: block; width: 100px; height: 30px; line-height: 30px; border-radius: 0; color: #fff; font-family: "microsoft yahei", "PingFang SC", "Helvetica Neue", "Helvetica", "STHeitiSC-Light", "Arial", sans-serif; font-weight: 100; font-size: 20px; text-align: center; background: #0abce8; margin: 0 auto; margin-top: 5px; }
+.itemthree .fr .reserve-btn:hover { background: #ff9900; }
+.itemthree .fr .nobuy { background: #818181; cursor: default; }
+.itemthree .fr .nobuy:hover { background: #818181; }
+
+.itemfour { overflow: hidden; float: left; width: 244px; height: 249px; margin-right: 8px; margin-bottom: 8px; position: relative; }
+.itemfour .fl { display: block; width: 244px; height: 148px; position: absolute; right: 0; top: 0; }
+.itemfour .fl .corner { position: absolute; left: 0; top: 0; width: 244px; height: 249px; background: url(../images/zhezhao.png); }
+.itemfour .fl img { display: block; width: 244px; height: 148px; }
+.itemfour .fl p { width: 224px; position: absolute; top: 125px; left: 10px; height: 16px; line-height: 16px !important; font-family: "microsoft yahei", "PingFang SC", "Helvetica Neue", "Helvetica", "STHeitiSC-Light", "Arial", sans-serif; font-size: 12px !important; color: #333333; white-space: nowrap; text-overflow: ellipsis; -o-text-overflow: ellipsis; overflow: hidden; text-indent: 20px; background: url(../images/data.png) no-repeat 0 3px; border-bottom: 1px solid #d6d6d6; padding-bottom: 5px; }
+.itemfour .fr { float: right; width: 224px; padding: 0; position: absolute; top: 147px; left: 10px; border-top: 1px solid #5c5c5c; }
+.itemfour .fr h3 { height: 38px; overflow: hidden; margin: 6px 0; line-height: 20px; }
+.itemfour .fr h3 a { font: 15px/1 "microsoft yahei", "PingFang SC", "Helvetica Neue", "Helvetica", "STHeitiSC-Light", "Arial", sans-serif; font-weight: bold; color: #333333; }
+.itemfour .fr h3 a:hover { color: #333333; }
+.itemfour .fr ul { display: none; height: 16px; overflow: hidden; font-size: 16px; color: #1a1218; font-family: "microsoft yahei", "PingFang SC", "Helvetica Neue", "Helvetica", "STHeitiSC-Light", "Arial", sans-serif; margin: 7px 0 27px; }
+.itemfour .fr ul li { font-size: 12px; color: #1a1218; font-family: "microsoft yahei", "PingFang SC", "Helvetica Neue", "Helvetica", "STHeitiSC-Light", "Arial", sans-serif; }
+.itemfour .fr .clearfix { overflow: hidden; margin-top: 10px; }
+.itemfour .fr .price { float: left; font-size: 23px; font-family: arial; color: #ff6388; font-weight: bold; margin-top: 6px; }
+.itemfour .fr .price span { font-size: 12px; font-family: "microsoft yahei", "PingFang SC", "Helvetica Neue", "Helvetica", "STHeitiSC-Light", "Arial", sans-serif; }
+.itemfour .fr .price b { font-size: 12px; font-family: "microsoft yahei", "PingFang SC", "Helvetica Neue", "Helvetica", "STHeitiSC-Light", "Arial", sans-serif; font-weight: 100; color: #ff6388; margin-left: 5px; }
+.itemfour .fr .reserve-btn { float: right; display: block; width: 99px; height: 29px; line-height: 29px; color: #fff; font-family: "microsoft yahei", "PingFang SC", "Helvetica Neue", "Helvetica", "STHeitiSC-Light", "Arial", sans-serif; font-size: 18px; text-align: center; background: #ff6388; font-weight: 100; border-radius: 10px; margin: 3px; border: 2px solid #ff6388; }
+.itemfour .fr .reserve-btn:hover { background: #ff6388; }
+.itemfour .fr .nobuy { background: #818181; cursor: default; }
+.itemfour .fr .nobuy:hover { background: #818181; }
+
+.hover .fl p { color: #fff; background-image: url(../images/data2.png); }
+.hover .fr { border-top: 1px solid #fff; }
+.hover .fr h3 a { color: #fff; }
+.hover .fr h3 a:hover { color: #fff; }
+.hover .fr .price { color: #fff; }
+.hover .fr .price b { color: #fff; }
+.hover .fr .reserve-btn { border: 2px solid #fff; }
+
+.jchdCon li { float: left; padding-right: 7px; }
+.jchdCon li a { display: block; }
+.jchdCon li img { display: block; width: 329px; height: 224px; border-radius: 6px; }
+
+.biaoqian { position: absolute; left: 50%; margin-left: -262px; top: 390px; }
+
+.tips { color: #333; }
+
+.wraper .tit p { padding-left: 395px; padding-bottom: 10px; font-family: "microsoft yahei", "PingFang SC", "Helvetica Neue", "Helvetica", "STHeitiSC-Light", "Arial", sans-serif; }
+
+.ms .tit { margin-bottom: 7px; }
+.ms .con { width: 1000px; height: 514px; margin-top: 10px; }
+.ms .con .corner1 { background: url(../images/zhezhao1.png); }
+.ms #mscon { overflow: hidden; }
+.ms .datatab { margin-bottom: 10px; }
+.ms .datatab li { float: left; position: relative; width: 140px; height: 80px; line-height: 80px; background: #898989; margin-right: 4px; border-radius: 0 0 10px 10px; font-family: "microsoft yahei", "PingFang SC", "Helvetica Neue", "Helvetica", "STHeitiSC-Light", "Arial", sans-serif; font-size: 25px; text-align: center; color: #fff; cursor: default; }
+.ms .datatab li span { position: absolute; display: none; left: 50%; bottom: -6px; margin-left: -5px; width: 9px; height: 6px; background: url("../images/on.png"); }
+.ms .datatab .on { cursor: pointer; background: #ef2844; }
+.ms .datatab .on span { display: block; }
+
+.tab01 { width: 100%; margin-top: 22px; }
+.tab01 li { float: left; width: 328px; height: 48px; line-height: 48px; font-family: "microsoft yahei", "PingFang SC", "Helvetica Neue", "Helvetica", "STHeitiSC-Light", "Arial", sans-serif; font-weight: bold; font-size: 20px; color: #fff; text-align: center; margin-right: 4px; cursor: pointer; background: #005886; border: 1px solid #005886; border-radius: 5px; }
+.tab01 li span { font-size: 24px; color: #fffc00; }
+.tab01 .on { border: 1px solid #fff; }
+
+.con01 .con { height: 514px; margin-top: 17px; }
+.con01 .con .corner1 { background: url(../images/zhezhao1.png); }
+
+.con02 .con { height: 514px; }
+.con02 .con .corner1 { background: url(../images/zhezhao2.png); }
+
+.con03 .con { height: 514px; }
+.con03 .con .corner1 { background: url(../images/zhezhao3.png); }
+
+.con04 .con { height: 514px; }
+.con04 .con .corner1 { background: url(../images/zhezhao4.png); }
+
+.con05 .con { height: 514px; }
+
+.con06 .tit { padding-top: 22px; }
+.con06 .itemtwo { background: #6e68c0; border: 1px solid #402ec3; }
+
+.con07 { padding-bottom: 30px; }
+.con07 .tit { height: 105px; }
+.con07 .more { margin-top: 77px; }
+.con07 .con { margin-top: 0; }
+
+.con08 .tit { height: 130px; }
+.con08 .con { margin-top: 0; }

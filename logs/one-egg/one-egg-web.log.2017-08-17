@@ -1,0 +1,336 @@
+2017-08-17 21:41:13,722 WARN 28873 [-/121.43.157.235/-/9ms POST /login.action] missing csrf token. See https://eggjs.org/zh-cn/core/security.html#安全威胁csrf的防范
+2017-08-17 21:41:13,734 WARN 28873 [-/121.43.157.235/-/17ms POST /login.action] nodejs.ForbiddenError: missing csrf token
+    at Object.throw (/home/egguse/one-egg/node_modules/.npminstall/koa/1.2.5/koa/lib/context.js:91:23)
+    at Object.assertCsrf (/home/egguse/one-egg/node_modules/.npminstall/egg-security/1.6.0/egg-security/app/extend/context.js:104:17)
+    at Object.csrf (/home/egguse/one-egg/node_modules/.npminstall/egg-security/1.6.0/egg-security/lib/middlewares/csrf.js:30:10)
+    at next (native)
+    at Object.<anonymous> (/home/egguse/one-egg/node_modules/.npminstall/koa-compose/2.5.1/koa-compose/index.js:28:19)
+    at next (native)
+    at onFulfilled (/home/egguse/one-egg/node_modules/.npminstall/co/4.6.0/co/index.js:65:19)
+    at /home/egguse/one-egg/node_modules/.npminstall/co/4.6.0/co/index.js:54:5
+    at Object.co (/home/egguse/one-egg/node_modules/.npminstall/co/4.6.0/co/index.js:50:10)
+    at Object.toPromise (/home/egguse/one-egg/node_modules/.npminstall/co/4.6.0/co/index.js:118:63)
+    at next (/home/egguse/one-egg/node_modules/.npminstall/co/4.6.0/co/index.js:99:29)
+    at onFulfilled (/home/egguse/one-egg/node_modules/.npminstall/co/4.6.0/co/index.js:69:7)
+    at /home/egguse/one-egg/node_modules/.npminstall/co/4.6.0/co/index.js:54:5
+    at Object.co (/home/egguse/one-egg/node_modules/.npminstall/co/4.6.0/co/index.js:50:10)
+    at Object.toPromise (/home/egguse/one-egg/node_modules/.npminstall/co/4.6.0/co/index.js:118:63)
+    at next (/home/egguse/one-egg/node_modules/.npminstall/co/4.6.0/co/index.js:99:29)
+    at onFulfilled (/home/egguse/one-egg/node_modules/.npminstall/co/4.6.0/co/index.js:69:7)
+    at /home/egguse/one-egg/node_modules/.npminstall/co/4.6.0/co/index.js:54:5
+    at Object.co (/home/egguse/one-egg/node_modules/.npminstall/co/4.6.0/co/index.js:50:10)
+    at Object.toPromise (/home/egguse/one-egg/node_modules/.npminstall/co/4.6.0/co/index.js:118:63)
+    at next (/home/egguse/one-egg/node_modules/.npminstall/co/4.6.0/co/index.js:99:29)
+    at onFulfilled (/home/egguse/one-egg/node_modules/.npminstall/co/4.6.0/co/index.js:69:7)
+message: 'missing csrf token'
+pid: 28873
+hostname: front-app01
+
+2017-08-17 21:41:13,831 WARN 28872 [-/121.43.157.235/-/5ms POST /login.action] missing csrf token. See https://eggjs.org/zh-cn/core/security.html#安全威胁csrf的防范
+2017-08-17 21:41:13,841 WARN 28872 [-/121.43.157.235/-/12ms POST /login.action] nodejs.ForbiddenError: missing csrf token
+    at Object.throw (/home/egguse/one-egg/node_modules/.npminstall/koa/1.2.5/koa/lib/context.js:91:23)
+    at Object.assertCsrf (/home/egguse/one-egg/node_modules/.npminstall/egg-security/1.6.0/egg-security/app/extend/context.js:104:17)
+    at Object.csrf (/home/egguse/one-egg/node_modules/.npminstall/egg-security/1.6.0/egg-security/lib/middlewares/csrf.js:30:10)
+    at next (native)
+    at Object.<anonymous> (/home/egguse/one-egg/node_modules/.npminstall/koa-compose/2.5.1/koa-compose/index.js:28:19)
+    at next (native)
+    at onFulfilled (/home/egguse/one-egg/node_modules/.npminstall/co/4.6.0/co/index.js:65:19)
+    at /home/egguse/one-egg/node_modules/.npminstall/co/4.6.0/co/index.js:54:5
+    at Object.co (/home/egguse/one-egg/node_modules/.npminstall/co/4.6.0/co/index.js:50:10)
+    at Object.toPromise (/home/egguse/one-egg/node_modules/.npminstall/co/4.6.0/co/index.js:118:63)
+    at next (/home/egguse/one-egg/node_modules/.npminstall/co/4.6.0/co/index.js:99:29)
+    at onFulfilled (/home/egguse/one-egg/node_modules/.npminstall/co/4.6.0/co/index.js:69:7)
+    at /home/egguse/one-egg/node_modules/.npminstall/co/4.6.0/co/index.js:54:5
+    at Object.co (/home/egguse/one-egg/node_modules/.npminstall/co/4.6.0/co/index.js:50:10)
+    at Object.toPromise (/home/egguse/one-egg/node_modules/.npminstall/co/4.6.0/co/index.js:118:63)
+    at next (/home/egguse/one-egg/node_modules/.npminstall/co/4.6.0/co/index.js:99:29)
+    at onFulfilled (/home/egguse/one-egg/node_modules/.npminstall/co/4.6.0/co/index.js:69:7)
+    at /home/egguse/one-egg/node_modules/.npminstall/co/4.6.0/co/index.js:54:5
+    at Object.co (/home/egguse/one-egg/node_modules/.npminstall/co/4.6.0/co/index.js:50:10)
+    at Object.toPromise (/home/egguse/one-egg/node_modules/.npminstall/co/4.6.0/co/index.js:118:63)
+    at next (/home/egguse/one-egg/node_modules/.npminstall/co/4.6.0/co/index.js:99:29)
+    at onFulfilled (/home/egguse/one-egg/node_modules/.npminstall/co/4.6.0/co/index.js:69:7)
+message: 'missing csrf token'
+pid: 28872
+hostname: front-app01
+
+2017-08-17 21:41:13,984 WARN 28860 [-/121.43.157.235/-/48ms POST /login.action] missing csrf token. See https://eggjs.org/zh-cn/core/security.html#安全威胁csrf的防范
+2017-08-17 21:41:13,995 WARN 28860 [-/121.43.157.235/-/55ms POST /login.action] nodejs.ForbiddenError: missing csrf token
+    at Object.throw (/home/egguse/one-egg/node_modules/.npminstall/koa/1.2.5/koa/lib/context.js:91:23)
+    at Object.assertCsrf (/home/egguse/one-egg/node_modules/.npminstall/egg-security/1.6.0/egg-security/app/extend/context.js:104:17)
+    at Object.csrf (/home/egguse/one-egg/node_modules/.npminstall/egg-security/1.6.0/egg-security/lib/middlewares/csrf.js:30:10)
+    at next (native)
+    at Object.<anonymous> (/home/egguse/one-egg/node_modules/.npminstall/koa-compose/2.5.1/koa-compose/index.js:28:19)
+    at next (native)
+    at onFulfilled (/home/egguse/one-egg/node_modules/.npminstall/co/4.6.0/co/index.js:65:19)
+    at /home/egguse/one-egg/node_modules/.npminstall/co/4.6.0/co/index.js:54:5
+    at Object.co (/home/egguse/one-egg/node_modules/.npminstall/co/4.6.0/co/index.js:50:10)
+    at Object.toPromise (/home/egguse/one-egg/node_modules/.npminstall/co/4.6.0/co/index.js:118:63)
+    at next (/home/egguse/one-egg/node_modules/.npminstall/co/4.6.0/co/index.js:99:29)
+    at onFulfilled (/home/egguse/one-egg/node_modules/.npminstall/co/4.6.0/co/index.js:69:7)
+    at /home/egguse/one-egg/node_modules/.npminstall/co/4.6.0/co/index.js:54:5
+    at Object.co (/home/egguse/one-egg/node_modules/.npminstall/co/4.6.0/co/index.js:50:10)
+    at Object.toPromise (/home/egguse/one-egg/node_modules/.npminstall/co/4.6.0/co/index.js:118:63)
+    at next (/home/egguse/one-egg/node_modules/.npminstall/co/4.6.0/co/index.js:99:29)
+    at onFulfilled (/home/egguse/one-egg/node_modules/.npminstall/co/4.6.0/co/index.js:69:7)
+    at /home/egguse/one-egg/node_modules/.npminstall/co/4.6.0/co/index.js:54:5
+    at Object.co (/home/egguse/one-egg/node_modules/.npminstall/co/4.6.0/co/index.js:50:10)
+    at Object.toPromise (/home/egguse/one-egg/node_modules/.npminstall/co/4.6.0/co/index.js:118:63)
+    at next (/home/egguse/one-egg/node_modules/.npminstall/co/4.6.0/co/index.js:99:29)
+    at onFulfilled (/home/egguse/one-egg/node_modules/.npminstall/co/4.6.0/co/index.js:69:7)
+message: 'missing csrf token'
+pid: 28860
+hostname: front-app01
+
+2017-08-17 21:41:14,134 WARN 28873 [-/121.43.157.235/-/41ms POST /login.action] missing csrf token. See https://eggjs.org/zh-cn/core/security.html#安全威胁csrf的防范
+2017-08-17 21:41:14,137 WARN 28873 [-/121.43.157.235/-/42ms POST /login.action] nodejs.ForbiddenError: missing csrf token
+    at Object.throw (/home/egguse/one-egg/node_modules/.npminstall/koa/1.2.5/koa/lib/context.js:91:23)
+    at Object.assertCsrf (/home/egguse/one-egg/node_modules/.npminstall/egg-security/1.6.0/egg-security/app/extend/context.js:104:17)
+    at Object.csrf (/home/egguse/one-egg/node_modules/.npminstall/egg-security/1.6.0/egg-security/lib/middlewares/csrf.js:30:10)
+    at next (native)
+    at Object.<anonymous> (/home/egguse/one-egg/node_modules/.npminstall/koa-compose/2.5.1/koa-compose/index.js:28:19)
+    at next (native)
+    at onFulfilled (/home/egguse/one-egg/node_modules/.npminstall/co/4.6.0/co/index.js:65:19)
+    at /home/egguse/one-egg/node_modules/.npminstall/co/4.6.0/co/index.js:54:5
+    at Object.co (/home/egguse/one-egg/node_modules/.npminstall/co/4.6.0/co/index.js:50:10)
+    at Object.toPromise (/home/egguse/one-egg/node_modules/.npminstall/co/4.6.0/co/index.js:118:63)
+    at next (/home/egguse/one-egg/node_modules/.npminstall/co/4.6.0/co/index.js:99:29)
+    at onFulfilled (/home/egguse/one-egg/node_modules/.npminstall/co/4.6.0/co/index.js:69:7)
+    at /home/egguse/one-egg/node_modules/.npminstall/co/4.6.0/co/index.js:54:5
+    at Object.co (/home/egguse/one-egg/node_modules/.npminstall/co/4.6.0/co/index.js:50:10)
+    at Object.toPromise (/home/egguse/one-egg/node_modules/.npminstall/co/4.6.0/co/index.js:118:63)
+    at next (/home/egguse/one-egg/node_modules/.npminstall/co/4.6.0/co/index.js:99:29)
+    at onFulfilled (/home/egguse/one-egg/node_modules/.npminstall/co/4.6.0/co/index.js:69:7)
+    at /home/egguse/one-egg/node_modules/.npminstall/co/4.6.0/co/index.js:54:5
+    at Object.co (/home/egguse/one-egg/node_modules/.npminstall/co/4.6.0/co/index.js:50:10)
+    at Object.toPromise (/home/egguse/one-egg/node_modules/.npminstall/co/4.6.0/co/index.js:118:63)
+    at next (/home/egguse/one-egg/node_modules/.npminstall/co/4.6.0/co/index.js:99:29)
+    at onFulfilled (/home/egguse/one-egg/node_modules/.npminstall/co/4.6.0/co/index.js:69:7)
+message: 'missing csrf token'
+pid: 28873
+hostname: front-app01
+
+2017-08-17 21:41:14,275 WARN 28866 [-/121.43.157.235/-/52ms POST /login.action] missing csrf token. See https://eggjs.org/zh-cn/core/security.html#安全威胁csrf的防范
+2017-08-17 21:41:14,285 WARN 28866 [-/121.43.157.235/-/60ms POST /login.action] nodejs.ForbiddenError: missing csrf token
+    at Object.throw (/home/egguse/one-egg/node_modules/.npminstall/koa/1.2.5/koa/lib/context.js:91:23)
+    at Object.assertCsrf (/home/egguse/one-egg/node_modules/.npminstall/egg-security/1.6.0/egg-security/app/extend/context.js:104:17)
+    at Object.csrf (/home/egguse/one-egg/node_modules/.npminstall/egg-security/1.6.0/egg-security/lib/middlewares/csrf.js:30:10)
+    at next (native)
+    at Object.<anonymous> (/home/egguse/one-egg/node_modules/.npminstall/koa-compose/2.5.1/koa-compose/index.js:28:19)
+    at next (native)
+    at onFulfilled (/home/egguse/one-egg/node_modules/.npminstall/co/4.6.0/co/index.js:65:19)
+    at /home/egguse/one-egg/node_modules/.npminstall/co/4.6.0/co/index.js:54:5
+    at Object.co (/home/egguse/one-egg/node_modules/.npminstall/co/4.6.0/co/index.js:50:10)
+    at Object.toPromise (/home/egguse/one-egg/node_modules/.npminstall/co/4.6.0/co/index.js:118:63)
+    at next (/home/egguse/one-egg/node_modules/.npminstall/co/4.6.0/co/index.js:99:29)
+    at onFulfilled (/home/egguse/one-egg/node_modules/.npminstall/co/4.6.0/co/index.js:69:7)
+    at /home/egguse/one-egg/node_modules/.npminstall/co/4.6.0/co/index.js:54:5
+    at Object.co (/home/egguse/one-egg/node_modules/.npminstall/co/4.6.0/co/index.js:50:10)
+    at Object.toPromise (/home/egguse/one-egg/node_modules/.npminstall/co/4.6.0/co/index.js:118:63)
+    at next (/home/egguse/one-egg/node_modules/.npminstall/co/4.6.0/co/index.js:99:29)
+    at onFulfilled (/home/egguse/one-egg/node_modules/.npminstall/co/4.6.0/co/index.js:69:7)
+    at /home/egguse/one-egg/node_modules/.npminstall/co/4.6.0/co/index.js:54:5
+    at Object.co (/home/egguse/one-egg/node_modules/.npminstall/co/4.6.0/co/index.js:50:10)
+    at Object.toPromise (/home/egguse/one-egg/node_modules/.npminstall/co/4.6.0/co/index.js:118:63)
+    at next (/home/egguse/one-egg/node_modules/.npminstall/co/4.6.0/co/index.js:99:29)
+    at onFulfilled (/home/egguse/one-egg/node_modules/.npminstall/co/4.6.0/co/index.js:69:7)
+message: 'missing csrf token'
+pid: 28866
+hostname: front-app01
+
+2017-08-17 21:41:14,434 WARN 28872 [-/121.43.157.235/-/43ms POST /login.action] missing csrf token. See https://eggjs.org/zh-cn/core/security.html#安全威胁csrf的防范
+2017-08-17 21:41:14,438 WARN 28872 [-/121.43.157.235/-/44ms POST /login.action] nodejs.ForbiddenError: missing csrf token
+    at Object.throw (/home/egguse/one-egg/node_modules/.npminstall/koa/1.2.5/koa/lib/context.js:91:23)
+    at Object.assertCsrf (/home/egguse/one-egg/node_modules/.npminstall/egg-security/1.6.0/egg-security/app/extend/context.js:104:17)
+    at Object.csrf (/home/egguse/one-egg/node_modules/.npminstall/egg-security/1.6.0/egg-security/lib/middlewares/csrf.js:30:10)
+    at next (native)
+    at Object.<anonymous> (/home/egguse/one-egg/node_modules/.npminstall/koa-compose/2.5.1/koa-compose/index.js:28:19)
+    at next (native)
+    at onFulfilled (/home/egguse/one-egg/node_modules/.npminstall/co/4.6.0/co/index.js:65:19)
+    at /home/egguse/one-egg/node_modules/.npminstall/co/4.6.0/co/index.js:54:5
+    at Object.co (/home/egguse/one-egg/node_modules/.npminstall/co/4.6.0/co/index.js:50:10)
+    at Object.toPromise (/home/egguse/one-egg/node_modules/.npminstall/co/4.6.0/co/index.js:118:63)
+    at next (/home/egguse/one-egg/node_modules/.npminstall/co/4.6.0/co/index.js:99:29)
+    at onFulfilled (/home/egguse/one-egg/node_modules/.npminstall/co/4.6.0/co/index.js:69:7)
+    at /home/egguse/one-egg/node_modules/.npminstall/co/4.6.0/co/index.js:54:5
+    at Object.co (/home/egguse/one-egg/node_modules/.npminstall/co/4.6.0/co/index.js:50:10)
+    at Object.toPromise (/home/egguse/one-egg/node_modules/.npminstall/co/4.6.0/co/index.js:118:63)
+    at next (/home/egguse/one-egg/node_modules/.npminstall/co/4.6.0/co/index.js:99:29)
+    at onFulfilled (/home/egguse/one-egg/node_modules/.npminstall/co/4.6.0/co/index.js:69:7)
+    at /home/egguse/one-egg/node_modules/.npminstall/co/4.6.0/co/index.js:54:5
+    at Object.co (/home/egguse/one-egg/node_modules/.npminstall/co/4.6.0/co/index.js:50:10)
+    at Object.toPromise (/home/egguse/one-egg/node_modules/.npminstall/co/4.6.0/co/index.js:118:63)
+    at next (/home/egguse/one-egg/node_modules/.npminstall/co/4.6.0/co/index.js:99:29)
+    at onFulfilled (/home/egguse/one-egg/node_modules/.npminstall/co/4.6.0/co/index.js:69:7)
+message: 'missing csrf token'
+pid: 28872
+hostname: front-app01
+
+2017-08-17 22:12:50,969 WARN 28866 [-/121.43.157.235/-/5ms POST /login.action] missing csrf token. See https://eggjs.org/zh-cn/core/security.html#安全威胁csrf的防范
+2017-08-17 22:12:50,973 WARN 28866 [-/121.43.157.235/-/7ms POST /login.action] nodejs.ForbiddenError: missing csrf token
+    at Object.throw (/home/egguse/one-egg/node_modules/.npminstall/koa/1.2.5/koa/lib/context.js:91:23)
+    at Object.assertCsrf (/home/egguse/one-egg/node_modules/.npminstall/egg-security/1.6.0/egg-security/app/extend/context.js:104:17)
+    at Object.csrf (/home/egguse/one-egg/node_modules/.npminstall/egg-security/1.6.0/egg-security/lib/middlewares/csrf.js:30:10)
+    at next (native)
+    at Object.<anonymous> (/home/egguse/one-egg/node_modules/.npminstall/koa-compose/2.5.1/koa-compose/index.js:28:19)
+    at next (native)
+    at onFulfilled (/home/egguse/one-egg/node_modules/.npminstall/co/4.6.0/co/index.js:65:19)
+    at /home/egguse/one-egg/node_modules/.npminstall/co/4.6.0/co/index.js:54:5
+    at Object.co (/home/egguse/one-egg/node_modules/.npminstall/co/4.6.0/co/index.js:50:10)
+    at Object.toPromise (/home/egguse/one-egg/node_modules/.npminstall/co/4.6.0/co/index.js:118:63)
+    at next (/home/egguse/one-egg/node_modules/.npminstall/co/4.6.0/co/index.js:99:29)
+    at onFulfilled (/home/egguse/one-egg/node_modules/.npminstall/co/4.6.0/co/index.js:69:7)
+    at /home/egguse/one-egg/node_modules/.npminstall/co/4.6.0/co/index.js:54:5
+    at Object.co (/home/egguse/one-egg/node_modules/.npminstall/co/4.6.0/co/index.js:50:10)
+    at Object.toPromise (/home/egguse/one-egg/node_modules/.npminstall/co/4.6.0/co/index.js:118:63)
+    at next (/home/egguse/one-egg/node_modules/.npminstall/co/4.6.0/co/index.js:99:29)
+    at onFulfilled (/home/egguse/one-egg/node_modules/.npminstall/co/4.6.0/co/index.js:69:7)
+    at /home/egguse/one-egg/node_modules/.npminstall/co/4.6.0/co/index.js:54:5
+    at Object.co (/home/egguse/one-egg/node_modules/.npminstall/co/4.6.0/co/index.js:50:10)
+    at Object.toPromise (/home/egguse/one-egg/node_modules/.npminstall/co/4.6.0/co/index.js:118:63)
+    at next (/home/egguse/one-egg/node_modules/.npminstall/co/4.6.0/co/index.js:99:29)
+    at onFulfilled (/home/egguse/one-egg/node_modules/.npminstall/co/4.6.0/co/index.js:69:7)
+message: 'missing csrf token'
+pid: 28866
+hostname: front-app01
+
+2017-08-17 22:12:51,064 WARN 28872 [-/121.43.157.235/-/2ms POST /login.action] missing csrf token. See https://eggjs.org/zh-cn/core/security.html#安全威胁csrf的防范
+2017-08-17 22:12:51,066 WARN 28872 [-/121.43.157.235/-/3ms POST /login.action] nodejs.ForbiddenError: missing csrf token
+    at Object.throw (/home/egguse/one-egg/node_modules/.npminstall/koa/1.2.5/koa/lib/context.js:91:23)
+    at Object.assertCsrf (/home/egguse/one-egg/node_modules/.npminstall/egg-security/1.6.0/egg-security/app/extend/context.js:104:17)
+    at Object.csrf (/home/egguse/one-egg/node_modules/.npminstall/egg-security/1.6.0/egg-security/lib/middlewares/csrf.js:30:10)
+    at next (native)
+    at Object.<anonymous> (/home/egguse/one-egg/node_modules/.npminstall/koa-compose/2.5.1/koa-compose/index.js:28:19)
+    at next (native)
+    at onFulfilled (/home/egguse/one-egg/node_modules/.npminstall/co/4.6.0/co/index.js:65:19)
+    at /home/egguse/one-egg/node_modules/.npminstall/co/4.6.0/co/index.js:54:5
+    at Object.co (/home/egguse/one-egg/node_modules/.npminstall/co/4.6.0/co/index.js:50:10)
+    at Object.toPromise (/home/egguse/one-egg/node_modules/.npminstall/co/4.6.0/co/index.js:118:63)
+    at next (/home/egguse/one-egg/node_modules/.npminstall/co/4.6.0/co/index.js:99:29)
+    at onFulfilled (/home/egguse/one-egg/node_modules/.npminstall/co/4.6.0/co/index.js:69:7)
+    at /home/egguse/one-egg/node_modules/.npminstall/co/4.6.0/co/index.js:54:5
+    at Object.co (/home/egguse/one-egg/node_modules/.npminstall/co/4.6.0/co/index.js:50:10)
+    at Object.toPromise (/home/egguse/one-egg/node_modules/.npminstall/co/4.6.0/co/index.js:118:63)
+    at next (/home/egguse/one-egg/node_modules/.npminstall/co/4.6.0/co/index.js:99:29)
+    at onFulfilled (/home/egguse/one-egg/node_modules/.npminstall/co/4.6.0/co/index.js:69:7)
+    at /home/egguse/one-egg/node_modules/.npminstall/co/4.6.0/co/index.js:54:5
+    at Object.co (/home/egguse/one-egg/node_modules/.npminstall/co/4.6.0/co/index.js:50:10)
+    at Object.toPromise (/home/egguse/one-egg/node_modules/.npminstall/co/4.6.0/co/index.js:118:63)
+    at next (/home/egguse/one-egg/node_modules/.npminstall/co/4.6.0/co/index.js:99:29)
+    at onFulfilled (/home/egguse/one-egg/node_modules/.npminstall/co/4.6.0/co/index.js:69:7)
+message: 'missing csrf token'
+pid: 28872
+hostname: front-app01
+
+2017-08-17 22:12:51,185 WARN 28860 [-/121.43.157.235/-/7ms POST /login.action] missing csrf token. See https://eggjs.org/zh-cn/core/security.html#安全威胁csrf的防范
+2017-08-17 22:12:51,189 WARN 28860 [-/121.43.157.235/-/9ms POST /login.action] nodejs.ForbiddenError: missing csrf token
+    at Object.throw (/home/egguse/one-egg/node_modules/.npminstall/koa/1.2.5/koa/lib/context.js:91:23)
+    at Object.assertCsrf (/home/egguse/one-egg/node_modules/.npminstall/egg-security/1.6.0/egg-security/app/extend/context.js:104:17)
+    at Object.csrf (/home/egguse/one-egg/node_modules/.npminstall/egg-security/1.6.0/egg-security/lib/middlewares/csrf.js:30:10)
+    at next (native)
+    at Object.<anonymous> (/home/egguse/one-egg/node_modules/.npminstall/koa-compose/2.5.1/koa-compose/index.js:28:19)
+    at next (native)
+    at onFulfilled (/home/egguse/one-egg/node_modules/.npminstall/co/4.6.0/co/index.js:65:19)
+    at /home/egguse/one-egg/node_modules/.npminstall/co/4.6.0/co/index.js:54:5
+    at Object.co (/home/egguse/one-egg/node_modules/.npminstall/co/4.6.0/co/index.js:50:10)
+    at Object.toPromise (/home/egguse/one-egg/node_modules/.npminstall/co/4.6.0/co/index.js:118:63)
+    at next (/home/egguse/one-egg/node_modules/.npminstall/co/4.6.0/co/index.js:99:29)
+    at onFulfilled (/home/egguse/one-egg/node_modules/.npminstall/co/4.6.0/co/index.js:69:7)
+    at /home/egguse/one-egg/node_modules/.npminstall/co/4.6.0/co/index.js:54:5
+    at Object.co (/home/egguse/one-egg/node_modules/.npminstall/co/4.6.0/co/index.js:50:10)
+    at Object.toPromise (/home/egguse/one-egg/node_modules/.npminstall/co/4.6.0/co/index.js:118:63)
+    at next (/home/egguse/one-egg/node_modules/.npminstall/co/4.6.0/co/index.js:99:29)
+    at onFulfilled (/home/egguse/one-egg/node_modules/.npminstall/co/4.6.0/co/index.js:69:7)
+    at /home/egguse/one-egg/node_modules/.npminstall/co/4.6.0/co/index.js:54:5
+    at Object.co (/home/egguse/one-egg/node_modules/.npminstall/co/4.6.0/co/index.js:50:10)
+    at Object.toPromise (/home/egguse/one-egg/node_modules/.npminstall/co/4.6.0/co/index.js:118:63)
+    at next (/home/egguse/one-egg/node_modules/.npminstall/co/4.6.0/co/index.js:99:29)
+    at onFulfilled (/home/egguse/one-egg/node_modules/.npminstall/co/4.6.0/co/index.js:69:7)
+message: 'missing csrf token'
+pid: 28860
+hostname: front-app01
+
+2017-08-17 22:12:51,280 WARN 28873 [-/121.43.157.235/-/3ms POST /login.action] missing csrf token. See https://eggjs.org/zh-cn/core/security.html#安全威胁csrf的防范
+2017-08-17 22:12:51,281 WARN 28873 [-/121.43.157.235/-/4ms POST /login.action] nodejs.ForbiddenError: missing csrf token
+    at Object.throw (/home/egguse/one-egg/node_modules/.npminstall/koa/1.2.5/koa/lib/context.js:91:23)
+    at Object.assertCsrf (/home/egguse/one-egg/node_modules/.npminstall/egg-security/1.6.0/egg-security/app/extend/context.js:104:17)
+    at Object.csrf (/home/egguse/one-egg/node_modules/.npminstall/egg-security/1.6.0/egg-security/lib/middlewares/csrf.js:30:10)
+    at next (native)
+    at Object.<anonymous> (/home/egguse/one-egg/node_modules/.npminstall/koa-compose/2.5.1/koa-compose/index.js:28:19)
+    at next (native)
+    at onFulfilled (/home/egguse/one-egg/node_modules/.npminstall/co/4.6.0/co/index.js:65:19)
+    at /home/egguse/one-egg/node_modules/.npminstall/co/4.6.0/co/index.js:54:5
+    at Object.co (/home/egguse/one-egg/node_modules/.npminstall/co/4.6.0/co/index.js:50:10)
+    at Object.toPromise (/home/egguse/one-egg/node_modules/.npminstall/co/4.6.0/co/index.js:118:63)
+    at next (/home/egguse/one-egg/node_modules/.npminstall/co/4.6.0/co/index.js:99:29)
+    at onFulfilled (/home/egguse/one-egg/node_modules/.npminstall/co/4.6.0/co/index.js:69:7)
+    at /home/egguse/one-egg/node_modules/.npminstall/co/4.6.0/co/index.js:54:5
+    at Object.co (/home/egguse/one-egg/node_modules/.npminstall/co/4.6.0/co/index.js:50:10)
+    at Object.toPromise (/home/egguse/one-egg/node_modules/.npminstall/co/4.6.0/co/index.js:118:63)
+    at next (/home/egguse/one-egg/node_modules/.npminstall/co/4.6.0/co/index.js:99:29)
+    at onFulfilled (/home/egguse/one-egg/node_modules/.npminstall/co/4.6.0/co/index.js:69:7)
+    at /home/egguse/one-egg/node_modules/.npminstall/co/4.6.0/co/index.js:54:5
+    at Object.co (/home/egguse/one-egg/node_modules/.npminstall/co/4.6.0/co/index.js:50:10)
+    at Object.toPromise (/home/egguse/one-egg/node_modules/.npminstall/co/4.6.0/co/index.js:118:63)
+    at next (/home/egguse/one-egg/node_modules/.npminstall/co/4.6.0/co/index.js:99:29)
+    at onFulfilled (/home/egguse/one-egg/node_modules/.npminstall/co/4.6.0/co/index.js:69:7)
+message: 'missing csrf token'
+pid: 28873
+hostname: front-app01
+
+2017-08-17 22:12:51,368 WARN 28866 [-/121.43.157.235/-/4ms POST /login.action] missing csrf token. See https://eggjs.org/zh-cn/core/security.html#安全威胁csrf的防范
+2017-08-17 22:12:51,369 WARN 28866 [-/121.43.157.235/-/4ms POST /login.action] nodejs.ForbiddenError: missing csrf token
+    at Object.throw (/home/egguse/one-egg/node_modules/.npminstall/koa/1.2.5/koa/lib/context.js:91:23)
+    at Object.assertCsrf (/home/egguse/one-egg/node_modules/.npminstall/egg-security/1.6.0/egg-security/app/extend/context.js:104:17)
+    at Object.csrf (/home/egguse/one-egg/node_modules/.npminstall/egg-security/1.6.0/egg-security/lib/middlewares/csrf.js:30:10)
+    at next (native)
+    at Object.<anonymous> (/home/egguse/one-egg/node_modules/.npminstall/koa-compose/2.5.1/koa-compose/index.js:28:19)
+    at next (native)
+    at onFulfilled (/home/egguse/one-egg/node_modules/.npminstall/co/4.6.0/co/index.js:65:19)
+    at /home/egguse/one-egg/node_modules/.npminstall/co/4.6.0/co/index.js:54:5
+    at Object.co (/home/egguse/one-egg/node_modules/.npminstall/co/4.6.0/co/index.js:50:10)
+    at Object.toPromise (/home/egguse/one-egg/node_modules/.npminstall/co/4.6.0/co/index.js:118:63)
+    at next (/home/egguse/one-egg/node_modules/.npminstall/co/4.6.0/co/index.js:99:29)
+    at onFulfilled (/home/egguse/one-egg/node_modules/.npminstall/co/4.6.0/co/index.js:69:7)
+    at /home/egguse/one-egg/node_modules/.npminstall/co/4.6.0/co/index.js:54:5
+    at Object.co (/home/egguse/one-egg/node_modules/.npminstall/co/4.6.0/co/index.js:50:10)
+    at Object.toPromise (/home/egguse/one-egg/node_modules/.npminstall/co/4.6.0/co/index.js:118:63)
+    at next (/home/egguse/one-egg/node_modules/.npminstall/co/4.6.0/co/index.js:99:29)
+    at onFulfilled (/home/egguse/one-egg/node_modules/.npminstall/co/4.6.0/co/index.js:69:7)
+    at /home/egguse/one-egg/node_modules/.npminstall/co/4.6.0/co/index.js:54:5
+    at Object.co (/home/egguse/one-egg/node_modules/.npminstall/co/4.6.0/co/index.js:50:10)
+    at Object.toPromise (/home/egguse/one-egg/node_modules/.npminstall/co/4.6.0/co/index.js:118:63)
+    at next (/home/egguse/one-egg/node_modules/.npminstall/co/4.6.0/co/index.js:99:29)
+    at onFulfilled (/home/egguse/one-egg/node_modules/.npminstall/co/4.6.0/co/index.js:69:7)
+message: 'missing csrf token'
+pid: 28866
+hostname: front-app01
+
+2017-08-17 22:12:51,464 WARN 28872 [-/121.43.157.235/-/3ms POST /login.action] missing csrf token. See https://eggjs.org/zh-cn/core/security.html#安全威胁csrf的防范
+2017-08-17 22:12:51,466 WARN 28872 [-/121.43.157.235/-/4ms POST /login.action] nodejs.ForbiddenError: missing csrf token
+    at Object.throw (/home/egguse/one-egg/node_modules/.npminstall/koa/1.2.5/koa/lib/context.js:91:23)
+    at Object.assertCsrf (/home/egguse/one-egg/node_modules/.npminstall/egg-security/1.6.0/egg-security/app/extend/context.js:104:17)
+    at Object.csrf (/home/egguse/one-egg/node_modules/.npminstall/egg-security/1.6.0/egg-security/lib/middlewares/csrf.js:30:10)
+    at next (native)
+    at Object.<anonymous> (/home/egguse/one-egg/node_modules/.npminstall/koa-compose/2.5.1/koa-compose/index.js:28:19)
+    at next (native)
+    at onFulfilled (/home/egguse/one-egg/node_modules/.npminstall/co/4.6.0/co/index.js:65:19)
+    at /home/egguse/one-egg/node_modules/.npminstall/co/4.6.0/co/index.js:54:5
+    at Object.co (/home/egguse/one-egg/node_modules/.npminstall/co/4.6.0/co/index.js:50:10)
+    at Object.toPromise (/home/egguse/one-egg/node_modules/.npminstall/co/4.6.0/co/index.js:118:63)
+    at next (/home/egguse/one-egg/node_modules/.npminstall/co/4.6.0/co/index.js:99:29)
+    at onFulfilled (/home/egguse/one-egg/node_modules/.npminstall/co/4.6.0/co/index.js:69:7)
+    at /home/egguse/one-egg/node_modules/.npminstall/co/4.6.0/co/index.js:54:5
+    at Object.co (/home/egguse/one-egg/node_modules/.npminstall/co/4.6.0/co/index.js:50:10)
+    at Object.toPromise (/home/egguse/one-egg/node_modules/.npminstall/co/4.6.0/co/index.js:118:63)
+    at next (/home/egguse/one-egg/node_modules/.npminstall/co/4.6.0/co/index.js:99:29)
+    at onFulfilled (/home/egguse/one-egg/node_modules/.npminstall/co/4.6.0/co/index.js:69:7)
+    at /home/egguse/one-egg/node_modules/.npminstall/co/4.6.0/co/index.js:54:5
+    at Object.co (/home/egguse/one-egg/node_modules/.npminstall/co/4.6.0/co/index.js:50:10)
+    at Object.toPromise (/home/egguse/one-egg/node_modules/.npminstall/co/4.6.0/co/index.js:118:63)
+    at next (/home/egguse/one-egg/node_modules/.npminstall/co/4.6.0/co/index.js:99:29)
+    at onFulfilled (/home/egguse/one-egg/node_modules/.npminstall/co/4.6.0/co/index.js:69:7)
+message: 'missing csrf token'
+pid: 28872
+hostname: front-app01
+

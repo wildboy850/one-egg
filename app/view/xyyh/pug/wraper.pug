@@ -1,0 +1,223 @@
+.wraper
+  .wraper00.wid#wraper00
+    .main.con00
+      .tit
+        img(src=publicsrc+'images/tit00.png')
+      .con.clearfix
+        .fl.ly01
+          .wz
+            p.text1 <b>减</b>1000
+            p 行前优惠最高立减<span>300</span>元/人，行后消费补贴最高<span>700</span>元。
+          .ewm
+            img(src=publicsrc+'images/beijing.png')
+            p 扫码立即办卡
+        .fl.ly02
+          .wz
+            p.text1 <b>返</b>500
+            p 绑定兴业银行62开头银联信用卡，境外刷卡最高返利<span>500</span>元。
+          .ewm
+            img(src=publicsrc+'images/ewm02.png')
+            p 立即绑卡享受返利
+        .fl.ly03
+          .wz
+            p.text1 <b>惠</b>7<b>折</b>
+            p 领取优计划全球优惠券，购物在港澳、新加坡、全球DFS、韩国、巴黎、澳洲等尽享最高<span>7</span>折优惠。
+          .ewm
+            img(src=publicsrc+'images/ewm03.png')
+            p 领取全球优惠券
+  .wraper01.wid#wraper01
+    .main.citynavback-con
+      include citynavback
+    .main.con01
+      .tit
+        img(src=publicsrc+'images/tit01.png')
+      ul.con.clearfix#con01
+        - if (redata)
+          - if(redata.con01)
+              !=redata.con01
+      .page(id='con01pages')
+  .wraper02.wid#wraper02
+    .main.con02
+      .tit
+        img(src=publicsrc+'images/tit02.png')
+        a.more(href='http://www.aoyou.com/search/b1-pf2000-pt4000-pr641,642-sb2/', target='_blank') 更多精彩线路>>
+      ul.con.clearfix#con02
+        - if (redata)
+          - if(redata.con02)
+            each con02obj in redata.con02.ProductList
+                li.itemfour
+                  a.fl(href=con02obj.ProductUrl target="_blank")
+                    span.corner
+                    img(src=con02obj.MaxImageUrl+'?imageView2/2/w/244/h/183/')
+                    p 出发日期:#{con02obj.DepartDate}
+                  div.fr
+                    h3
+                      a(href=con02obj.ProductUrl target="_blank" title=con02obj.ProductName) #{con02obj.ProductName}
+                    ul #{con02obj.SubTitle}
+                    div.clearfix
+                      p.price
+                        span ￥
+                        | #{con02obj.OriginalPrice-con02obj.PromotionPrice}
+                        b 起
+                      a.reserve-btn(href=con02obj.ProductUrl target="_blank") 立即出发
+          - else
+                p.tips &#36968;&#28216;&#21531;&#27491;&#22312;&#19978;&#20135;&#21697;&#65292;&#32;&#20146;&#65292;&#32;&#35831;&#32784;&#24515;&#31561;&#24453;&#21734;&#126;&#126;&#126;
+        .page(id='con02pages')
+  .wraper03.wid#wraper03
+    .main.con03
+      .tit
+        img(src=publicsrc+'images/tit03.png')
+        a.more(href='http://www.aoyou.com/search/b1-pf4000-pt8000-pr641,642-sb2/', target='_blank') 更多精彩线路>>
+      ul.con.clearfix#con03
+        - if (redata)
+          - if(redata.con03)
+            each con03obj in redata.con03.ProductList
+                li.itemfour
+                  a.fl(href=con03obj.ProductUrl target="_blank")
+                    span.corner
+                    img(src=con03obj.MaxImageUrl+'?imageView2/2/w/244/h/183/')
+                    p 出发日期:#{con03obj.DepartDate}
+                  div.fr
+                    h3
+                      a(href=con03obj.ProductUrl target="_blank" title=con03obj.ProductName) #{con03obj.ProductName}
+                    ul #{con03obj.SubTitle}
+                    div.clearfix
+                      p.price
+                        span ￥
+                        | #{con03obj.OriginalPrice-con03obj.PromotionPrice}
+                        b 起
+                      a.reserve-btn(href=con03obj.ProductUrl target="_blank") 立即出发
+          - else
+                p.tips &#36968;&#28216;&#21531;&#27491;&#22312;&#19978;&#20135;&#21697;&#65292;&#32;&#20146;&#65292;&#32;&#35831;&#32784;&#24515;&#31561;&#24453;&#21734;&#126;&#126;&#126;
+        .page(id='con03pages')
+  .wraper04.wid#wraper04
+    .main.con04
+      .tit
+        img(src=publicsrc+'images/tit04.png')
+        a.more(href='http://www.aoyou.com/search/b1-pf8000-pr641,642-sb2/', target='_blank') 更多精彩线路>>
+      .con.clearfix#con04
+        - if (redata)
+          - if(redata.con04)
+            each con04obj in redata.con04.ProductList
+                li.itemfour
+                  a.fl(href=con04obj.ProductUrl target="_blank")
+                    span.corner
+                    img(src=con04obj.MaxImageUrl+'?imageView2/2/w/244/h/183/')
+                    p 出发日期:#{con04obj.DepartDate}
+                  div.fr
+                    h3
+                      a(href=con04obj.ProductUrl target="_blank" title=con04obj.ProductName) #{con04obj.ProductName}
+                    ul #{con04obj.SubTitle}
+                    div.clearfix
+                      p.price
+                        span ￥
+                        | #{con04obj.OriginalPrice-con04obj.PromotionPrice}
+                        b 起
+                      a.reserve-btn(href=con04obj.ProductUrl target="_blank") 立即出发
+          - else
+                p.tips &#36968;&#28216;&#21531;&#27491;&#22312;&#19978;&#20135;&#21697;&#65292;&#32;&#20146;&#65292;&#32;&#35831;&#32784;&#24515;&#31561;&#24453;&#21734;&#126;&#126;&#126;
+        .page(id='con04pages')
+  .wraper05.wid#wraper05
+    .main.con05
+      a.tit(href='http://bbs.aoyou.com/thread-140533-1-1.html', target='_blank') 兴业银行信用卡介绍 >>
+      .con.clearfix#con05
+        h3
+          span 信用卡24小时客服电话：
+          | 95561
+        a(href='http://bbs.aoyou.com/thread-140579-1-1.html', target='_blank')
+          img(src=publicsrc+'images/con05.png')
+  .wraper06.wid#wraper06
+    .main.con06
+      .tit
+        img(src=publicsrc+'images/tit06.png')
+      .con.clearfix#con06
+        h3 礼遇一：减1000<span>（行前立减优惠+出境消费达标返回馈金）</span>
+        p 1. 在活动期间，持兴业银行信用卡的持卡人(借记卡除外)报名指定活动出境产品，在中青旅遨游网PC电脑端及手机WAP页面使用兴业银行信用卡接口（支付页面选择“有优惠”和“兴业银行-信用卡”图标）并24小时内全额支付团费，方可享受最高立减300元/成人的优惠；（请参见活动标准②部分及活动细则“行前立减优惠”）
+        p 2. 在境外，使用支付团费的兴业银行信用卡刷卡达到指定消费门槛，即可享受最高700元消费达标后返回馈金。（见下表“境外刷卡达标门槛“及“行后刷卡达标补贴（元/人）”）（请参见活动标准①和③部分及活动细则“出境消费达标返回馈金”
+        p 相应的“行前立减优惠和出境消费达标返回馈金”活动标准如下：
+        table(border="1",align="center",cellpadding="0",cellspacing="0").table.table01
+          tr
+            th.w1 产品价格梯队 <br>/成人
+            th.w2 ①境外刷卡达标门槛 <br>（元/卡）
+            th.w3 ②行前立减优惠<br>（元/人）
+            th.w4 ③行后刷卡<br>达标补贴 （元/卡）
+            th.w5 优惠+返利总金额 <br>（元/人/卡）
+          tr
+            td.w1 99元
+            td.w2 2,000（含）以上
+            td.w3 20
+            td.w4 78
+            td.w5 98
+          tr
+            td.w1 2000元-4000元（含）
+            td.w2 6,000（含）以上
+            td.w3 100
+            td.w4 400
+            td.w5 500
+          tr
+            td.w1 4000元以上-8000元（含）
+            td.w2 10,000（含）以上
+            td.w3 200
+            td.w4 600
+            td.w5 800
+          tr
+            td.w1 8000元以上
+            td.w2 15,000（含）以上
+            td.w3 300
+            td.w4 700
+            td.w5 1000
+        p <b>活动细则：</b>
+        p(style="font-weight: bold;color:#000;") •行前立减优惠：
+        p 1.本活动限上述活动卡种持卡人本人或持卡人本人携伴出行，方可享受行前立减优惠；
+        p 2.每张符合活动规定的银行卡每笔订单<span>最少1成人，最多2成人</span>可享受行前立减优惠；
+        p 3.<span>报名指定旅游产品方可享受团费立减优惠，以中青旅遨游产品展示为准；</span>
+        p 4.产品行前立减名额有限，以中青旅遨游外网产品优惠标签展示为准，先到先得，满额为止。
+        p(style="font-weight: bold;color:#000;") •出境消费达标返回馈金：
+        p 1.行后刷卡补贴返利仅限客人<span>刷团费使用的、卡片状态正常的兴业银行信用卡</span>持卡客户专享；
+        p 2.行后刷卡补贴返利标准与报名产品价格梯队一一对应，两个标准同时达标后方可享受返利，<span>每个持卡人活动期间最高返回馈金700元</span>；
+        p 3.行后刷卡补贴，境外交易最晚统计时间为2017年6月30号24时前，以兴业银行信用卡系统记录的交易时间为准，晚于该时间的交易不享受活动优惠；
+        p 4.行后刷卡补贴将在活动最晚交易统计时间后的40个工作日内审核，并由中青旅遨游发送至客户报名时预留的手机号或对应的遨游网会员账户上；
+        p 5.境外交易说明:可计入消费返团费活动的有效交易是指：活动期间，成功参加活动的客户，使用本人名下兴业银行信用卡在境外成功完成线下POS刷卡及取现交易（包括银联、VISA、Mastercard卡组织）。
+        p 注：以下境外交易不作为有效交易计入本次活动：
+        p 1)境外网络或手机客户端进行的境外线上交易；
+        p 2)预授权交易；
+        p 3)发生退货、交易撤销的境外交易；
+        p 4)201７年6月30日24:00后还未入账的境外交易。
+        h3 礼遇二：返500
+        p 参与中青旅遨游境外刷卡最高返利500元活动，需在中青旅遨游网绑定兴业银行62开头银联信用卡，出境期间境外消费满5000元可返200元网上超市购物卡，满10000元可返500元网上超市购物卡。返利将在审核通过后由中青旅遨游直接短信发送至客人参与活动时所留手机号上，<span>此活动与其他优惠活动共享</span>，具体活动规则请复制链接查看：http://activity.aoyou.com/unionpay/
+        h3 礼遇三：惠7折
+        p 出境前领取中青旅遨游全球优惠券，持券在境外购物，前往港澳地区莎莎化妆品、ISA义莎时装精品、太子珠宝钟表及六福珠宝；新加坡、泰国、澳大利亚、新西兰及日韩欧美等众多品牌门店最高可享7折优惠，<span>此活动与其他优惠活动共享</span>。具体活动详情请复制链接查看：http://activity.aoyou.com/hd/youhuiquan/
+        <br>
+        p <b>其他细则：</b>
+        p •活动期间每张符合活动要求的兴业银行信用卡（借记卡除外）每自然月内仅可使用1次，活动期间可重复使用；
+        p •遨游旅行APP和中青旅门店仅支持报名和预定，须通过中青旅遨游PC电脑端或者手机WAP页面支付方可享受优惠，其他支付方式不享受该优惠；
+        p •以上优惠仅限客户出发前享受，取消、退团或是已出发等个人原因造成均不能享受；
+        p •中青旅遨游"抢游惠"频道线路都已属于特价促销，均不再享受优惠立减；
+        p •本次活动立减价格仅限于成人团费，最终成行价格将根据所选出发日期、出行人数、住宿房型、交通以及所选附加服务的不同而有所不同，以中青旅遨游公布的实时价格为准。儿童价同行不享受优惠政策（儿童价标准以中青旅遨游网具体产品线路“费用说明”中公布为准）；
+        p •此活动不与中青旅遨游其他任何优惠活动同享，不可使用积分、电子优惠券和互通卡；
+        p •兴业银行发行的VISA、Mastercard、JCB等单标信用卡，因刷卡结算问题，暂时无法参与此次活动，还请谅解，有相关问题可以联系兴业银行或中青旅遨游进行咨询；
+        p •涉及旅游产品以及服务相关的问题和投诉由中青旅遨游负责，客户服务电话：400-600-6666（早8:30点到晚23点）。涉及兴业银行信用卡相关办卡、用卡服务等事宜，咨询兴业银行信用卡24小时客户服务热线：95561；
+        p •本活动规则由中青旅遨游和兴业银行信用卡拥有最终解释权。
+
+        p.last <b>*本活动规则和优惠如有变动，请以中青旅遨游网站最新页面为准。</b>
+  .wraper07.wid#wraper07
+      .main.con07
+        .tit
+          img(src=publicsrc+'images/tit07.png')
+        .con.raiders.clearfix
+          a(href='http://bbs.aoyou.com/thread-111610-1-1.html', target='_blank')
+            img(src=publicsrc+'images/gl01.png')
+          a(href='http://bbs.aoyou.com/thread-118622-1-1.html', target='_blank')
+            img(src=publicsrc+'images/gl02.png')
+          a(href='http://bbs.aoyou.com/thread-119832-1-1.html', target='_blank', style="margin-right:0")
+            img(src=publicsrc+'images/gl03.png')
+          a(href='http://bbs.aoyou.com/thread-117629-1-1.html', target='_blank')
+            img(src=publicsrc+'images/gl04.png')
+          a(href='http://bbs.aoyou.com/thread-119826-1-1.html', target='_blank')
+            img(src=publicsrc+'images/gl05.png')
+          a(href='http://bbs.aoyou.com/thread-119879-1-1.html', target='_blank', style="margin-right:0")
+            img(src=publicsrc+'images/gl06.png')
+        .tit
+          h3 更多精彩 尽在遨游
+          h4 More Surprise
+        include activity

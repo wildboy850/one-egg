@@ -1,0 +1,115 @@
+.wraper
+  .mswraper.wid
+    .main.ms
+      .tit
+        img(src=publicsrc+"images/mstit.png")
+      .con
+        ul.clearfix#mscon
+          - if (redata)
+            - if(redata.mscon)
+                    !=redata.mscon
+  .wraper01.wid#wraper01
+    .main.con01
+      p.text_p 慵懒一族 省心之旅 我 是海岛控 十二星座最懒的宝宝 射手座  出行不用做攻略 彻底解放自己
+      .tit
+        img(src=publicsrc+"images/title1.png")
+      //ul.tab01.clearfix
+      //  li.on(data-titleid="7589") 立减<span>1000</span>元每单
+      //  li(data-titleid="7590") 立减<span>500</span>元每单
+      //  li(data-titleid="7591",style="margin-right: 0px;") 立减<span>300</span>元每单
+      ul.con.clearfix#con01
+        - if (redata)
+          - if(redata.con01)
+                    !=redata.con01
+        a.line(href="http://www.aoyou.com/domesticpackage/p91622i1",target="_blank")
+          img(src=publicsrc+"images/title9.png")
+  .wraper02.wid#wraper02
+    .main.con02
+      p.text_p 狂野酷炫 新奇之旅 我 就是狂拽酷炫 爱冒险 爱刺激  有胆量爱新鲜玩法的您们跟我走吧
+      .tit
+        img(src=publicsrc+"images/title2.png")
+      ul.con.clearfix#con02
+        - if (redata)
+          - if(redata.con02)
+                    !=redata.con02
+      a.line(href="http://www.aoyou.com/domesticpackage/p50668i1",target="_blank")
+          img(src="./images/title9.png")
+  .wraper03.wid#wraper03
+    .main.con03
+      p.text_p 会游惠玩 实惠之旅 我 刚大学毕业 同学们想来一场轰轰烈烈的毕业旅行 这些线路性价比超高 实惠棒棒的！
+      .tit
+        img(src=publicsrc+"images/title3.png")
+      ul.con.clearfix#con03
+        - if (redata)
+          - if(redata.con03)
+                    !=redata.con03
+      a.line(href="http://www.aoyou.com/domesticpackage/p30395i1",target="_blank")
+          img(src=publicsrc+"images/title9.png")
+  .wraper04.wid#wraper04
+    .main.con04
+      p.text_p 轻奢脱俗 慢品漫游  我 我是工作多年的白领一枚 小资轻奢有品味 旅行就是要慢节奏的体验途中的乐趣
+      .tit
+        img(src=publicsrc+"images/title4.png")
+      ul.con.clearfix#con04
+        - if (redata)
+          - if(redata.con04)
+                    !=redata.con04
+      a.line(href="http://www.aoyou.com/domesticpackage/p92529i1",target="_blank")
+          img(src=publicsrc+"images/title9.png")
+  //.wraper05.wid#wraper05
+  //  .main.con05
+  //    p.text_p 浓情甜蜜 私密之旅 我 和老公刚刚新婚 正在选密月行程 这些都是我们考虑的选择 够浪漫 够私密！
+  //    .tit
+  //      img(src="./images/title5.png")
+  //    ul.con.clearfix#con05
+    //        - if (redata)
+    //             - if(redata.con05)
+    //                    !=redata.con05
+  //    a.line(href="http://www.aoyou.com/domesticpackage/p11679i1",target="_blank")
+  //        img(src="./images/title9.png")
+  .wraper06.wid#wraper06
+    .main.con06
+      .tit
+        img(src=publicsrc+"images/title6.png")
+      .travel
+        a.t1(href="http://bbs.aoyou.com/thread-141727-1-1.html",target="_blank")
+            img(src=publicsrc+"images/1.jpg",style="width:263px;height:263px")
+        a.t2(href="http://bbs.aoyou.com/thread-142452-1-1.html",target="_blank")
+            img(src=publicsrc+"images/2.jpg",style="width:226px;height:129px")
+        a.t3(href="http://bbs.aoyou.com/thread-142288-1-1.html",target="_blank")
+            img(src=publicsrc+"images/3.jpg",style="width:226px;height:135px")
+        a.t4(href="http://bbs.aoyou.com/thread-141221-1-1.html",target="_blank")
+            img(src=publicsrc+"images/4.jpg",style="width:260px;height:263px")
+        a.t5(href="http://bbs.aoyou.com/thread-142414-1-1.html",target="_blank")
+            img(src=publicsrc+"images/5.jpg",style="width:234px;height:129px")
+        a.t6(href="http://bbs.aoyou.com/thread-141721-1-1.html",target="_blank")
+            img(src=publicsrc+"images/6.jpg",style="width:120px;height:135px")
+        a.t7(href="http://bbs.aoyou.com/thread-141451-1-1.html",target="_blank")
+            img(src=publicsrc+"images/7.jpg",style="width:115px;height:135px")
+  .wraper07.wid#wraper07
+    .main.con07
+      .tit
+          img(src=publicsrc+"images/title7.png")
+      include activity
+  .wraper08.wid#wraper08
+    .main.con08
+      .tit
+          img(src=publicsrc+"images/title8.png")
+      ul.yq
+          li
+            img(src=publicsrc+"images/yq1.png")
+          li
+            img(src=publicsrc+"images/yq2.png")
+          li
+            img(src=publicsrc+"images/yq3.png")
+          li(style="margin-right: 0;")
+            img(src=publicsrc+"images/yq4.png")
+          li
+            img(src=publicsrc+"images/yq5.png")
+          li
+            img(src=publicsrc+"images/yq6.png")
+          li
+            img(src=publicsrc+"images/yq7.png")
+          li(style="margin-right: 0;")
+            img(src=publicsrc+"images/yq8.png")
+
